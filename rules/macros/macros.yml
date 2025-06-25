@@ -336,28 +336,27 @@
    ]
   description: |
     Registry keys that permit setting up alternative Startup folder locations.
+
 - macro: process_matches_powershell
   list: [
-    powershell.exe,
-    pwsh.exe,
-    powershell,
-    pwsh,
+    "powershell.exe",
+    "pwsh.exe",
+    "powershell",
+    "pwsh",
     "?:\\windows\\system32\\windowspowershell\\v1.0\\powershell.exe",
     "?:\\windows\\syswow64\\windowspowershell\\v1.0\\powershell.exe",
-    "?:\\windows\\sysarm32\\windowspowershell\\v1.0\\powershell.exe",
-    powershell_ise.exe,
-    "?:\\Windows\\System32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe"
+    "?:\\windows\\sysarm32\\windowspowershell\\v1.0\\powershell.exe"
     ]
 
 - macro: process_matches_sqlps
   list: [
-    sqlps.exe,
+    "sqlps.exe",
     "?:\\tools\\binn\\sqlps.exe"
     ]
 
 - macro: process_matches_cscript
   list: [
-    cscript.exe,
+    "cscript.exe",
     "?:\\windows\\system32\\cscript.exe",
     "?:\\windows\\syswow64\\cscript.exe",
     "?:\\windows\\sysarm32\\cscript.exe"
@@ -365,7 +364,7 @@
 
 - macro: process_matches_pkgmgr
   list: [
-    pkgmgr.exe,
+    "pkgmgr.exe",
     "?:\\windows\\system32\\pkgmgr.exe",
     "?:\\windows\\syswow64\\pkgmgr.exe",
     "?:\\windows\\sysarm32\\pkgmgr.exe",
@@ -374,21 +373,21 @@
 
 - macro: process_matches_msascui
   list: [
-    msascui.exe,
+    "msascui.exe",
     "?:\\Program Files\\\\Windows Defender\\\\MSASCui.exe",
     "?:\\Program Files (x86)\\\\Windows Defender\\\\MSASCui.exe"
     ]
 
 - macro: process_matches_msascuil
   list: [
-    msascuil.exe,
+    "msascuil.exe",
     "?:\\Program Files\\\\Windows Defender\\\\MSASCuiL.exe",
     "?:\\Program Files (x86)\\\\Windows Defender\\\\MSASCuiL.exe"
     ]
 
 - macro: process_matches_mshta
   list: [
-    mshta.exe,
+    "mshta.exe",
     "?:\\windows\\system32\\mshta.exe",
     "?:\\windows\\syswow64\\mshta.exe",
     "?:\\windows\\sysarm32\\mshta.exe",
@@ -397,14 +396,14 @@
 
 - macro: process_matches_msmpeng
   list: [
-    msmpeng.exe,
+    "msmpeng.exe",
     "?:\\program files\\windows defender\\msmpeng.exe",
     "?:\\program files\\microsoft forefront\\client security\\client\\antimalware\\msmpeng.exe"
     ]
 
 - macro: process_matches_wscript
   list: [
-    wscript.exe,
+    "wscript.exe",
     "?:\\windows\\system32\\wscript.exe",
     "?:\\windows\\syswow64\\wscript.exe",
     "?:\\windows\\sysarm32\\wscript.exe",
@@ -413,7 +412,7 @@
 
 - macro: process_matches_cmd
   list: [
-    cmd.exe,
+    "cmd.exe",
     "?:\\windows\\system32\\cmd.exe",
     "?:\\windows\\syswow64\\cmd.exe",
     "?:\\windows\\sysarm32\\cmd.exe"
@@ -421,7 +420,7 @@
 
 - macro: process_matches_net
   list: [
-    net.exe,
+    "net.exe",
     "?:\\windows\\system32\\net.exe",
     "?:\\windows\\syswow64\\net.exe",
     "?:\\windows\\sysarm32\\net.exe"
@@ -429,14 +428,14 @@
 
 - macro: process_matches_conhost
   list: [
-    conhost.exe,
+    "conhost.exe",
     "?:\\windows\\system32\\conhost.exe"
     ]
 
 - macro: process_matches_excel
   list: [
-    excel.exe,
-    microsoft excel,
+    "excel.exe",
+    "microsoft excel",
     "?:\\microsoft office\\office14\\excel.exe",
     "?:\\microsoft office\\office15\\excel.exe",
     "?:\\microsoft office\\office16\\excel.exe",
@@ -447,9 +446,9 @@
 
 - macro: process_matches_winword
   list: [
-    winword.exe,
-    winwordc.exe,
-    microsoft word,
+    "winword.exe",
+    "winwordc.exe",
+    "microsoft word",
     "?:\\microsoft office\\office12\\winword.exe",
     "?:\\microsoft office\\office14\\winword.exe",
     "?:\\microsoft office\\office15\\winword.exe",
@@ -462,8 +461,8 @@
 
 - macro: process_matches_powerpoint
   list: [
-    powerpnt.exe,
-    microsoft powerpoint,
+    "powerpnt.exe",
+    "microsoft powerpoint",
     "?:\\microsoft office\\office14\\powerpnt.exe",
     "?:\\microsoft office\\root\\office16\\powerpnt.exe",
     "?:\\microsoft office\\office15\\powerpnt.exe",
@@ -472,20 +471,20 @@
 
 - macro: process_matches_visio
   list: [
-    visio.exe,
+    "visio.exe",
     "?:\\microsoft office\\office15\\visio.exe",
     "?:\\microsoft office\\office16\\visio.exe"
     ]
 
 - macro: process_matches_onenote
   list: [
-    onenote.exe,
+    "onenote.exe",
     "?:\\microsoft office\\office15\\onenote.exe"
     ]
 
 - macro: process_matches_appcmd
   list: [
-    appcmd.exe,
+    "appcmd.exe",
     "?:\\windows\\system32\\inetsrv\\appcmd.exe",
     "?:\\windows\\syswow64\\inetsrv\\appcmd.exe",
     "?:\\windows\\sysarm32\\inetsrv\\appcmd.exe",
@@ -494,7 +493,7 @@
 
 - macro: process_matches_regsvr32
   list: [
-    regsvr32.exe,
+    "regsvr32.exe",
     "?:\\windows\\system32\\regsvr32.exe",
     "?:\\windows\\syswow64\\regsvr32.exe",
     "?:\\windows\\sysarm32\\regsvr32.exe"
@@ -502,7 +501,7 @@
 
 - macro: process_matches_atbroker
   list: [
-    atbroker.exe,
+    "atbroker.exe",
     "?:\\windows\\system32\\atbroker.exe",
     "?:\\windows\\syswow64\\atbroker.exe",
     "?:\\windows\\sysarm32\\atbroker.exe"
@@ -510,7 +509,7 @@
 
 - macro: process_matches_bitsadmin
   list: [
-    bitsadmin.exe,
+    "bitsadmin.exe",
     "?:\\windows\\system32\\bitsadmin.exe",
     "?:\\windows\\syswow64\\bitsadmin.exe",
     "?:\\windows\\sysarm32\\bitsadmin.exe"
@@ -518,7 +517,7 @@
 
 - macro: process_matches_certutil
   list: [
-    certutil.exe,
+    "certutil.exe",
     "?:\\windows\\system32\\certutil.exe",
     "?:\\windows\\syswow64\\certutil.exe",
     "?:\\windows\\sysarm32\\certutil.exe"
@@ -526,7 +525,7 @@
 
 - macro: process_matches_cmdkey
   list: [
-    cmdkey.exe,
+    "cmdkey.exe",
     "?:\\windows\\system32\\cmdkey.exe",
     "?:\\windows\\syswow64\\cmdkey.exe",
     "?:\\windows\\sysarm32\\cmdkey.exe"
@@ -534,7 +533,7 @@
 
 - macro: process_matches_cmstp
   list: [
-    cmstp.exe,
+    "cmstp.exe",
     "?:\\windows\\system32\\cmstp.exe",
     "?:\\windows\\syswow64\\cmstp.exe",
     "?:\\windows\\sysarm32\\cmstp.exe"
@@ -542,7 +541,7 @@
 
 - macro: process_matches_control
   list: [
-    control.exe,
+    "control.exe",
     "?:\\windows\\system32\\control.exe",
     "?:\\windows\\syswow64\\control.exe",
     "?:\\windows\\sysarm32\\control.exe"
@@ -550,22 +549,22 @@
 
 - macro: process_matches_csc
   list: [
-    csc.exe
+    "csc.exe"
     ]
 
 - macro: process_matches_dfsvc
   list: [
-    dfsvc.exe
+    "dfsvc.exe"
     ]
 
 - macro: process_matches_cvtres
   list: [
-    cvtres.exe
+    "cvtres.exe"
     ]
 
 - macro: process_matches_diantz
   list: [
-    diantz.exe,
+    "diantz.exe",
     "?:\\windows\\system32\\diantz.exe",
     "?:\\windows\\syswow64\\diantz.exe",
     "?:\\windows\\sysarm32\\diantz.exe"
@@ -573,7 +572,7 @@
 
 - macro: process_matches_diskshadow
   list: [
-    diskshadow.exe,
+    "diskshadow.exe",
     "?:\\windows\\system32\\diskshadow.exe",
     "?:\\windows\\syswow64\\diskshadow.exe",
     "?:\\windows\\sysarm32\\diskshadow.exe"
@@ -581,7 +580,7 @@
 
 - macro: process_matches_dnscmd
   list: [
-    dnscmd.exe,
+    "dnscmd.exe",
     "?:\\windows\\system32\\dnscmd.exe",
     "?:\\windows\\syswow64\\dnscmd.exe",
     "?:\\windows\\sysarm32\\dnscmd.exe"
@@ -589,7 +588,7 @@
 
 - macro: process_matches_esentutl
   list: [
-    esentutl.exe,
+    "esentutl.exe",
     "?:\\windows\\system32\\esentutl.exe",
     "?:\\windows\\syswow64\\esentutl.exe",
     "?:\\windows\\sysarm32\\esentutl.exe"
@@ -597,7 +596,7 @@
 
 - macro: process_matches_expand
   list: [
-    expand.exe,
+    "expand.exe",
     "?:\\windows\\system32\\expand.exe",
     "?:\\windows\\syswow64\\expand.exe",
     "?:\\windows\\sysarm32\\expand.exe"
@@ -605,14 +604,14 @@
 
 - macro: process_matches_extexport
   list: [
-    extexport.exe,
+    "extexport.exe",
     "?:\\program files\\internet explorer\\extexport.exe",
     "?:\\program files\\internet explorer(x86)\\extexport.exe"
     ]
 
 - macro: process_matches_extrac32
   list: [
-    extrac32.exe,
+    "extrac32.exe",
     "?:\\windows\\system32\\extrac32.exe",
     "?:\\windows\\syswow64\\extrac32.exe",
     "?:\\windows\\sysarm32\\extrac32.exe"
@@ -620,7 +619,7 @@
 
 - macro: process_matches_findstr
   list: [
-    findstr.exe,
+    "findstr.exe",
     "?:\\windows\\system32\\findstr.exe",
     "?:\\windows\\syswow64\\findstr.exe",
     "?:\\windows\\sysarm32\\findstr.exe"
@@ -628,7 +627,7 @@
 
 - macro: process_matches_forfiles
   list: [
-    forfiles.exe,
+    "forfiles.exe",
     "?:\\windows\\system32\\forfiles.exe",
     "?:\\windows\\syswow64\\forfiles.exe",
     "?:\\windows\\sysarm32\\forfiles.exe"
@@ -636,7 +635,7 @@
 
 - macro: process_matches_hh
   list: [
-    hh.exe,
+    "hh.exe",
     "?:\\windows\\hh.exe",
     "?:\\windows\\syswow64\\hh.exe",
     "?:\\windows\\sysarm32\\hh.exe"
@@ -644,7 +643,7 @@
 
 - macro: process_matches_ie4uinit
   list: [
-    ie4uinit.exe,
+    "ie4uinit.exe",
     "?:\\windows\\system32\\ie4uinit.exe",
     "?:\\windows\\syswow64\\ie4uinit.exe",
     "?:\\windows\\sysarm32\\ie4uinit.exe",
@@ -653,12 +652,12 @@
 
 - macro: process_matches_ieexec
   list: [
-    ieexec.exe
+    "ieexec.exe"
     ]
 
 - macro: process_matches_infdefaultinstall
   list: [
-    infdefaultinstall.exe,
+    "infdefaultinstall.exe",
     "?:\\windows\\system32\\infdefaultinstall.exe",
     "?:\\windows\\syswow64\\infdefaultinstall.exe",
     "?:\\windows\\sysarm32\\infdefaultinstall.exe"
@@ -666,12 +665,12 @@
 
 - macro: process_matches_installutil
   list: [
-    installutil.exe
+    "installutil.exe"
     ]
 
 - macro: process_matches_makecab
   list: [
-    makecab.exe,
+    "makecab.exe",
     "?:\\windows\\system32\\makecab.exe",
     "?:\\windows\\syswow64\\makecab.exe",
     "?:\\windows\\sysarm32\\makecab.exe"
@@ -679,24 +678,24 @@
 
 - macro: process_matches_mavinject
   list: [
-    mavinject.exe,
-    mavinject32.exe,
-    mavinject64.exe
+    "mavinject.exe",
+    "mavinject32.exe",
+    "mavinject64.exe"
     ]
 
 - macro: process_matches_microsoft.workflow.compiler
   list: [
-    microsoft.workflow.compiler.exe
+    "microsoft.workflow.compiler.exe"
     ]
 
 - macro: process_matches_msbuild
   list: [
-    msbuild.exe
+    "msbuild.exe"
     ]
 
 - macro: process_matches_odbcconf
   list: [
-    odbcconf.exe,
+    "odbcconf.exe",
     "?:\\windows\\system32\\odbcconf.exe",
     "?:\\windows\\syswow64\\odbcconf.exe",
     "?:\\windows\\sysarm32\\odbcconf.exe"
@@ -704,13 +703,13 @@
 
 - macro: process_matches_pcalua
   list: [
-    pcalua.exe,
+    "pcalua.exe",
     "?:\\windows\\system32\\pcalua.exe"
     ]
 
 - macro: process_matches_reg
   list: [
-    reg.exe,
+    "reg.exe",
     "?:\\windows\\system32\\reg.exe",
     "?:\\windows\\syswow64\\reg.exe",
     "?:\\windows\\sysarm32\\reg.exe"
@@ -718,22 +717,22 @@
 
 - macro: process_matches_regasm
   list: [
-    regasm.exe
+    "regasm.exe"
     ]
 
 - macro: process_matches_regedit
   list: [
-    regedit.exe
+    "regedit.exe"
     ]
 
 - macro: process_matches_regsvcs
   list: [
-    regsvcs.exe
+    "regsvcs.exe"
     ]
 
 - macro: process_matches_runas
   list: [
-    runas.exe,
+    "runas.exe",
     "?:\\windows\\system32\\runas.exe",
     "?:\\windows\\syswow64\\runas.exe",
     "?:\\windows\\sysarm32\\runas.exe"
@@ -741,7 +740,7 @@
 
 - macro: process_matches_rundll32
   list: [
-    rundll32.exe,
+    "rundll32.exe",
     "?:\\windows\\system32\\rundll32.exe",
     "?:\\windows\\syswow64\\rundll32.exe",
     "?:\\windows\\sysarm32\\rundll32.exe",
@@ -751,13 +750,13 @@
 
 - macro: process_matches_sc
   list: [
-    sc.exe,
+    "sc.exe",
     "?:\\windows\\system32\\sc.exe"
     ]
 
 - macro: process_matches_schtasks
   list: [
-    schtasks.exe,
+    "schtasks.exe",
     "?:\\windows\\system32\\schtasks.exe",
     "?:\\windows\\syswow64\\schtasks.exe",
     "?:\\windows\\sysarm32\\schtasks.exe"
@@ -765,13 +764,13 @@
 
 - macro: process_matches_slui
   list: [
-    slui.exe,
+    "slui.exe",
     "?:\\windows\\system32\\slui.exe"
     ]
 
 - macro: process_matches_syncappvpublishingserver
   list: [
-    syncappvpublishingserver.exe,
+    "syncappvpublishingserver.exe",
     "?:\\windows\\system32\\syncappvpublishingserver.exe",
     "?:\\windows\\syswow64\\syncappvpublishingserver.exe",
     "?:\\windows\\sysarm32\\syncappvpublishingserver.exe"
@@ -779,7 +778,7 @@
 
 - macro: process_matches_wmic
   list: [
-    wmic.exe,
+    "wmic.exe",
     "?:\\windows\\system32\\wbem\\wmic.exe",
     "?:\\windows\\syswow64\\wbem\\wmic.exe",
     "?:\\windows\\sysarm32\\wbem\\wmic.exe",
@@ -788,57 +787,57 @@
 
 - macro: process_matches_bginfo
   list: [
-    bginfo.exe,
-    bginfo64.exe
+    "bginfo.exe",
+    "bginfo64.exe"
     ]
 
 - macro: process_matches_sethc
   list: [
-    sethc.exe,
+    "sethc.exe",
     "?:\\windows\\system32\\sethc.exe"
     ]
 
 - macro: process_matches_cdb
   list: [
-    cdb.exe
+    "cdb.exe"
     ]
 
 - macro: process_matches_dbgsrv
   list: [
-    dbgsrv.exe,
+    "dbgsrv.exe",
     "?:\\windows kits\\10\\debuggers\\x64\\dbgsrv.exe"
     ]
 
 - macro: process_matches_csi
   list: [
-    csi.exe
+    "csi.exe"
     ]
 
 - macro: process_matches_dnx
   list: [
-    dnx.exe
+    "dnx.exe"
     ]
 
 - macro: process_matches_msxsl
   list: [
-    msxsl.exe
+    "msxsl.exe"
     ]
 
 - macro: process_matches_utilman
   list: [
-    utilman.exe,
+    "utilman.exe",
     "?:\\windows\\system32\\utilman.exe"
     ]
 
 - macro: process_matches_equation editor
   list: [
-    eqnedt32.exe
+    "eqnedt32.exe"
     ]
 
 - macro: process_matches_magnify
   list: [
-    magnify.exe,
-    ScreenMagnifier.exe,
+    "magnify.exe",
+    "ScreenMagnifier.exe",
     "?:\\windows\\system32\\magnify.exe",
     "?:\\windows\\syswow64\\magnify.exe",
     "?:\\windows\\system32\\ScreenMagnifier.exe"
@@ -846,84 +845,84 @@
 
 - macro: process_matches_oleview
   list: [
-    oleview.exe,
+    "oleview.exe",
     "?:\\windows\\system32\\oleview.exe"
     ]
 
 - macro: process_matches_gflags
   list: [
-    gflags.exe,
+    "gflags.exe",
     "?:\\windows\\system32\\gflags.exe"
     ]
 
 - macro: process_matches_customshellhost
   list: [
-    CustomShellHost.exe,
+    "CustomShellHost.exe",
     "?:\\windows\\system32\\CustomShellHost.exe"
     ]
 
 - macro: process_matches_deviceenroller
   list: [
-    DeviceEnroller.exe,
+    "DeviceEnroller.exe",
     "?:\\windows\\system32\\DeviceEnroller.exe",
     "?:\\landesk\\ldclient\\sdmcache\\ldshares\\ldpackages\\microsoft\\intune\\deviceenroller.exe"
     ]
 
 - macro: process_matches_igfxsdk
   list: [
-    igfxSDK.exe
+    "igfxSDK.exe"
     ]
 
 - macro: process_matches_netdom
   list: [
-    netdom.exe,
+    "netdom.exe",
     "?:\\windows\\system32\\netdom.exe",
     "?:\\windows\\syswow64\\netdom.exe"
     ]
 
 - macro: process_matches_dtdump
   list: [
-    dtdump.exe,
+    "dtdump.exe",
     "?:\\windows\\syswow64\\dtdump.exe"
     ]
 
 - macro: process_matches_psexec
   list: [
-    psexec.exe,
-    psexec64.exe
+    "psexec.exe",
+    "psexec64.exe"
     ]
 
 - macro: process_matches_psexec service
   list: [
-    psexesvc.exe
+    "psexesvc.exe"
     ]
 
 - macro: process_matches_procdump
   list: [
-    procdump.exe,
-    procdump64.exe
+    "procdump.exe",
+    "procdump64.exe"
     ]
 
 - macro: process_matches_process explorer
   list: [
-    procexp.exe,
-    procexp64.exe
+    "procexp.exe",
+    "procexp64.exe"
     ]
 
 - macro: process_matches_paexec
   list: [
-    paexec.exe
+    "paexec.exe"
     ]
 
 - macro: process_matches_adexplorer
   list: [
-    adexplorer.exe,
-    adexplorer64.exe
+    "adexplorer.exe",
+    "adexplorer64.exe"
     ]
 
 - macro: process_matches_fltmc
   list: [
-    fltmc.exe,
+    "fltmc.exe",
     "?:\\windows\\system32\\fltmc.exe",
     "?:\\windows\\syswow64\\fltmc.exe",
     "?:\\windows\\sysarm32\\fltmc.exe"
@@ -931,7 +930,7 @@
 
 - macro: process_matches_xcopy
   list: [
-    xcopy.exe,
+    "xcopy.exe",
     "?:\\windows\\system32\\xcopy.exe",
     "?:\\windows\\syswow64\\xcopy.exe",
     "?:\\windows\\sysarm32\\xcopy.exe"
@@ -939,7 +938,7 @@
 
 - macro: process_matches_robocopy
   list: [
-    robocopy.exe,
+    "robocopy.exe",
     "?:\\windows\\system32\\robocopy.exe",
     "?:\\windows\\syswow64\\robocopy.exe",
     "?:\\windows\\sysarm32\\robocopy.exe"
@@ -947,33 +946,33 @@
 
 - macro: process_matches_explorer
   list: [
-    explorer.exe,
+    "explorer.exe",
     "?:\\windows\\explorer.exe"
     ]
 
 - macro: process_matches_iexplore
   list: [
-    iexplore.exe,
+    "iexplore.exe",
     "?:\\program files\\internet explorer\\iexplore.exe",
     "?:\\program files (x86)\\internet explorer\\iexplore.exe"
     ]
 
 - macro: process_matches_dwm
   list: [
-    dwm.exe,
+    "dwm.exe",
     "?:\\windows\\system32\\dwm.exe"
     ]
 
 - macro: process_matches_spoolsv
   list: [
-    spoolsv.exe,
+    "spoolsv.exe",
     "?:\\windows\\system32\\spoolsv.exe",
     "?:\\winnt\\system32\\spoolsv.exe"
     ]
 
 - macro: process_matches_wmiprvse
   list: [
-    wmiprvse.exe,
+    "wmiprvse.exe",
     "?:\\windows\\system32\\wmiprvse.exe",
     "?:\\windows\\syswow64\\wmiprvse.exe",
     "?:\\windows\\sysarm32\\wmiprvse.exe",
@@ -984,50 +983,50 @@
 
 - macro: process_matches_taskhost
   list: [
-    taskhost.exe,
+    "taskhost.exe",
     "?:\\windows\\system32\\taskhost.exe"
     ]
 
 - macro: process_matches_lsm
   list: [
-    lsm.exe,
+    "lsm.exe",
     "?:\\windows\\system32\\lsm.exe"
     ]
 
 - macro: process_matches_services
   list: [
-    services.exe,
+    "services.exe",
     "?:\\windows\\system32\\services.exe"
     ]
 
 - macro: process_matches_winlogon
   list: [
-    winlogon.exe,
+    "winlogon.exe",
     "?:\\windows\\system32\\winlogon.exe"
     ]
 
 - macro: process_matches_lsass
   list: [
-    lsass.exe,
+    "lsass.exe",
     "?:\\windows\\system32\\lsass.exe",
     "?:\\winnt\\system32\\lsass.exe"
     ]
 
 - macro: process_matches_wininit
   list: [
-    wininit.exe,
+    "wininit.exe",
     "?:\\windows\\system32\\wininit.exe"
     ]
 
 - macro: process_matches_smss
   list: [
-    smss.exe,
+    "smss.exe",
     "?:\\windows\\system32\\smss.exe"
     ]
 
 - macro: process_matches_svchost
   list: [
-    svchost.exe,
+    "svchost.exe",
     "?:\\windows\\system32\\svchost.exe",
     "?:\\windows\\syswow64\\svchost.exe",
     "?:\\windows\\sysarm32\\svchost.exe",
@@ -1037,68 +1036,68 @@
 
 - macro: process_matches_certmgr
   list: [
-    certmgr.exe,
+    "certmgr.exe",
     "?:\\windows\\system32\\certmgr.exe"
     ]
 
 - macro: process_matches_at
   list: [
-    at.exe,
+    "at.exe",
     "?:\\windows\\system32\\at.exe"
     ]
 
 - macro: process_matches_sdclt
   list: [
-    sdclt.exe,
+    "sdclt.exe",
     "?:\\windows\\system32\\sdclt.exe"
     ]
 
 - macro: process_matches_mmc
   list: [
-    mmc.exe,
+    "mmc.exe",
     "?:\\windows\\system32\\mmc.exe"
     ]
 
 - macro: process_matches_ntdsutil
   list: [
-    ntdsutil.exe,
+    "ntdsutil.exe",
     "?:\\windows\\system32\\ntdsutil.exe"
     ]
 
 - macro: process_matches_vssadmin
   list: [
-    vssadmin.exe,
+    "vssadmin.exe",
     "?:\\windows\\system32\\vssadmin.exe"
     ]
 
 - macro: process_matches_jsc
   list: [
-    jsc.exe
+    "jsc.exe"
     ]
 
 - macro: process_matches_jjs
   list: [
-    jjs.exe
+    "jjs.exe"
     ]
 
 - macro: process_matches_googleupdate
   list: [
-    googleupdate.exe
+    "googleupdate.exe"
     ]
 
 - macro: process_matches_bloodhound
   list: [
-    bloodhound.exe
+    "bloodhound.exe"
     ]
 
 - macro: process_matches_sharphound
   list: [
-    sharphound.exe
+    "sharphound.exe"
     ]
 
 - macro: process_matches_wevtutil
   list: [
-    wevtutil.exe,
+    "wevtutil.exe",
     "?:\\windows\\system32\\wevtutil.exe",
     "?:\\windows\\syswow64\\wevtutil.exe",
     "?:\\windows\\sysarm32\\wevtutil.exe"
@@ -1106,7 +1105,7 @@
 
 - macro: process_matches_wmiapsrv
   list: [
-    wmiapsrv.exe,
+    "wmiapsrv.exe",
     "?:\\windows\\system32\\wbem\\wmiapsrv.exe",
     "?:\\windows\\syswow64\\wbem\\wmiapsrv.exe",
     "?:\\winnt\\system32\\wbem\\wmiapsrv.exe"
@@ -1114,31 +1113,31 @@
 
 - macro: process_matches_adfind
   list: [
-    adfind.exe
+    "adfind.exe"
     ]
 
 - macro: process_matches_7zip
   list: [
-    7zip.exe,
-    7z.exe,
-    7za.exe,
-    7zr.exe,
-    7zip-windows-9.20.exe,
-    7z-64.exe,
-    7z64.exe,
-    7za64.exe,
-    kzip.exe
+    "7zip.exe",
+    "7z.exe",
+    "7za.exe",
+    "7zr.exe",
+    "7zip-windows-9.20.exe",
+    "7z-64.exe",
+    "7z64.exe",
+    "7za64.exe",
+    "kzip.exe"
     ]
 
 - macro: process_matches_winrar
   list: [
-    winrar.exe,
-    rar.exe
+    "winrar.exe",
+    "rar.exe"
     ]
 
 - macro: process_matches_werfault
   list: [
-    werfault.exe,
+    "werfault.exe",
     "?:\\windows\\system32\\werfault.exe",
     "?:\\windows\\syswow64\\werfault.exe",
     "?:\\windows\\sysarm32\\werfault.exe"
@@ -1146,7 +1145,7 @@
 
 - macro: process_matches_notepad
   list: [
-    notepad.exe,
+    "notepad.exe",
     "?:\\windows\\system32\\notepad.exe",
     "?:\\windows\\syswow64\\notepad.exe",
     "?:\\windows\\sysarm32\\notepad.exe"
@@ -1154,7 +1153,7 @@
 
 - macro: process_matches_dllhost
   list: [
-    dllhost.exe,
+    "dllhost.exe",
     "?:\\windows\\system32\\dllhost.exe",
     "?:\\windows\\syswow64\\dllhost.exe",
     "?:\\windows\\sysarm32\\dllhost.exe"
@@ -1162,46 +1161,46 @@
 
 - macro: process_matches_autoit
   list: [
-    AutoItRun.exe,
-    autoit3.exe,
-    autoit2.exe,
-    autoit.exe,
-    autoitrun64.exe,
-    AutoIt3_x64.exe
+    "AutoItRun.exe",
+    "autoit3.exe",
+    "autoit2.exe",
+    "autoit.exe",
+    "autoitrun64.exe",
+    "AutoIt3_x64.exe"
     ]
 
 - macro: process_matches_autohotkey
   list: [
-    autohotkey.exe,
-    autohotkey64.exe,
-    autohotkeyu64,
-    AHKv1.exe,
-    InternalAHK.exe,
-    AH.exe,
+    "autohotkey.exe",
+    "autohotkey64.exe",
+    "autohotkeyu64",
+    "AHKv1.exe",
+    "InternalAHK.exe",
+    "AH.exe",
     "?:\\program files\\autohotkey\\autohotkey.exe",
     "?:\\program files(x86)\\autohotkey\\autohotkey.exe"
     ]
 
 - macro: process_matches_msiexec
   list: [
-    msiexec.exe
+    "msiexec.exe"
     ]
 
 - macro: process_matches_openwith
   list: [
-    openwith.exe,
+    "openwith.exe",
     "?:\\windows\\system32\\openwith.exe"
     ]
 
 - macro: process_matches_curl
   list: [
-    curl.exe,
+    "curl.exe",
     "?:\\windows\\system32\\curl.exe"
     ]
 
 - macro: process_matches_vbc
   list: [
-    vbc.exe,
+    "vbc.exe",
     "?:\\msbuild\\12.0\\bin\\vbc.exe",
     "?:\\msbuild\\14.0\\bin\\vbc.exe",
     "?:\\roslyn\\vbc.exe",
@@ -1210,7 +1209,7 @@
 
 - macro: process_matches_userinit
   list: [
-    userinit.exe,
+    "userinit.exe",
     "?:\\windows\\system32\\userinit.exe",
     "?:\\windows\\syswow64\\userinit.exe",
     "?:\\windows\\sysarm32\\userinit.exe",
@@ -1220,7 +1219,7 @@
 
 - macro: process_matches_ntoskrnl
   list: [
-    ntoskrnl.exe,
+    "ntoskrnl.exe",
     "?:\\windows\\system32\\ntoskrnl.exe",
     "?:\\windows\\syswow64\\ntoskrnl.exe",
     "?:\\windows\\sysarm32\\ntoskrnl.exe"
@@ -1228,7 +1227,7 @@
 
 - macro: process_matches_csrss
   list: [
-    csrss.exe,
+    "csrss.exe",
     "?:\\windows\\system32\\csrss.exe",
     "?:\\windows\\syswow64\\csrss.exe",
     "?:\\windows\\sysarm32\\csrss.exe",
@@ -1238,7 +1237,7 @@
 
 - macro: process_matches_mstsc
   list: [
-    mstsc.exe,
+    "mstsc.exe",
     "?:\\windows\\system32\\mstsc.exe",
     "?:\\windows\\syswow64\\mstsc.exe",
     "?:\\windows\\sysarm32\\mstsc.exe",
@@ -1247,14 +1246,14 @@
 
 - macro: process_matches_dbghost
   list: [
-    dbghost.exe,
+    "dbghost.exe",
     "?:\\program files\\debugdiag\\x86support\\dbghost.exe",
     "?:\\program files\\debugdiag\\dbghost.exe"
     ]
 
 - macro: process_matches_taskmgr
   list: [
-    taskmgr.exe,
+    "taskmgr.exe",
     "?:\\windows\\system32\\taskmgr.exe",
     "?:\\windows\\syswow64\\taskmgr.exe",
     "?:\\windows\\sysarm32\\taskmgr.exe"
@@ -1262,79 +1261,79 @@
 
 - macro: process_matches_syntpenh
   list: [
-    syntpenh.exe,
+    "syntpenh.exe",
     "?:\\program files\\synaptics\\syntp\\syntpenh.exe",
     "?:\\program files\\dell\\touchpad\\syntpenh.exe"
     ]
 
 - macro: process_matches_fsi
   list: [
-    fsi.exe,
+    "fsi.exe",
     "?:\\program files(x86)\\microsoft sdks\\f#\\3.1\\framework\\v4.0\\fsi.exe"
     ]
 
 - macro: process_matches_rasautou
   list: [
-    rasautou.exe,
+    "rasautou.exe",
     "?:\\windows\\system32\\rasautou.exe"
     ]
 
 - macro: process_matches_scrcons
   list: [
-    scrcons.exe,
+    "scrcons.exe",
     "?:\\windows\\system32\\wbem\\scrcons.exe"
     ]
 
 - macro: process_matches_ntkd
   list: [
-    ntkd.exe
+    "ntkd.exe"
     ]
 
 - macro: process_matches_filehistory
   list: [
-    filehistory.exe,
+    "filehistory.exe",
     "?:\\windows\\system32\\filehistory.exe"
     ]
 
 - macro: process_matches_stordiag
   list: [
-    stordiag.exe,
+    "stordiag.exe",
     "?:\\windows\\system32\\stordiag.exe"
     ]
 
 - macro: process_matches_tzsync
   list: [
-    tzsync.exe,
+    "tzsync.exe",
     "?:\\windows\\system32\\tzsync.exe"
     ]
 
 - macro: process_matches_uevagentpolicygenerator
   list: [
-    uevagentpolicygenerator.exe,
+    "uevagentpolicygenerator.exe",
     "?:\\windows\\system32\\uevagentpolicygenerator.exe"
     ]
 
 - macro: process_matches_uevappmonitor
   list: [
-    uevappmonitor.exe,
+    "uevappmonitor.exe",
     "?:\\windows\\system32\\uevappmonitor.exe"
     ]
 
 - macro: process_matches_uevtemplatebaselinegenerator
   list: [
-    uevtemplatebaselinegenerator.exe,
+    "uevtemplatebaselinegenerator.exe",
     "?:\\windows\\system32\\uevtemplatebaselinegenerator.exe"
     ]
 
 - macro: process_matches_uevtemplateconfigitemgenerator
   list: [
-    uevtemplateconfigitemgenerator.exe,
+    "uevtemplateconfigitemgenerator.exe",
     "?:\\windows\\system32\\uevtemplateconfigitemgenerator.exe"
     ]
 
 - macro: process_matches_scriptrunner
   list: [
-    scriptrunner.exe,
+    "scriptrunner.exe",
     "?:\\windows\\system32\\scriptrunner.exe",
     "?:\\program files\\retain web corporate 6\\retservers\\retain server1\\scriptrunner.exe",
     "?:\\program files (x86)\\retain corporate 5\\server\\scriptrunner.exe",
@@ -1343,13 +1342,13 @@
 
 - macro: process_matches_uevsynccontroller
   list: [
-    microsoft.uev.synccontroller.exe,
+    "microsoft.uev.synccontroller.exe",
     "?:\\windows\\system32\\microsoft.uev.synccontroller.exe"
     ]
 
 - macro: process_matches_unregmp2
   list: [
-    unregmp2.exe,
+    "unregmp2.exe",
     "?:\\windows\\system32\\unregmp2.exe",
     "?:\\windows\\syswow64\\unregmp2.exe",
     "?:\\windows\\sysarm32\\unregmp2.exe",
@@ -1359,31 +1358,31 @@
 
 - macro: process_matches_lockscreencontentserver
   list: [
-    lockscreencontentserver.exe,
+    "lockscreencontentserver.exe",
     "?:\\windows\\system32\\lockscreencontentserver.exe"
     ]
 
 - macro: process_matches_sigverif
   list: [
-    sigverif.exe,
+    "sigverif.exe",
     "?:\\windows\\system32\\sigverif.exe"
     ]
 
 - macro: process_matches_phoneactivate
   list: [
-    phoneactivate.exe,
+    "phoneactivate.exe",
     "?:\\windows\\system32\\phoneactivate.exe"
     ]
 
 - macro: process_matches_fxscover
   list: [
-    fxscover.exe,
+    "fxscover.exe",
     "?:\\windows\\system32\\fxscover.exe"
     ]
 
 - macro: process_matches_wermgr
   list: [
-    wermgr.exe,
+    "wermgr.exe",
     "?:\\windows\\system32\\wermgr.exe",
     "?:\\windows\\syswow64\\wermgr.exe",
     "?:\\windows\\sysarm32\\wermgr.exe"
@@ -1391,13 +1390,13 @@
 
 - macro: process_matches_wbengine
   list: [
-    wbengine.exe,
+    "wbengine.exe",
     "?:\\windows\\system32\\wbengine.exe"
     ]
 
 - macro: process_matches_presentationhost
   list: [
-    presentationhost.exe,
+    "presentationhost.exe",
     "?:\\windows\\system32\\presentationhost.exe",
     "?:\\windows\\syswow64\\presentationhost.exe",
     "?:\\windows\\sysarm32\\presentationhost.exe"
@@ -1405,31 +1404,31 @@
 
 - macro: process_matches_musnotifyicon
   list: [
-    musnotifyicon.exe,
+    "musnotifyicon.exe",
     "?:\\windows\\system32\\musnotifyicon.exe"
     ]
 
 - macro: process_matches_wextract
   list: [
-    wextract.exe,
+    "wextract.exe",
     "?:\\windows\\system32\\wextract.exe"
     ]
 
 - macro: process_matches_scw
   list: [
-    scw.exe,
+    "scw.exe",
     "?:\\windows\\system32\\scw.exe"
     ]
 
 - macro: process_matches_soundrecorder
   list: [
-    soundrecorder.exe,
+    "soundrecorder.exe",
     "?:\\windows\\system32\\soundrecorder.exe"
     ]
 
 - macro: process_matches_sndvol
   list: [
-    sndvol.exe,
+    "sndvol.exe",
     "?:\\windows\\system32\\sndvol.exe",
     "?:\\windows\\syswow64\\sndvol.exe",
     "?:\\windows\\sysarm32\\sndvol.exe"
@@ -1437,31 +1436,31 @@
 
 - macro: process_matches_scwviewer
   list: [
-    scwviewer.exe,
+    "scwviewer.exe",
     "?:\\windows\\system32\\scwviewer.exe"
     ]
 
 - macro: process_matches_tcmsetup
   list: [
-    tcmsetup.exe,
+    "tcmsetup.exe",
     "?:\\windows\\system32\\tcmsetup.exe"
     ]
 
 - macro: process_matches_rsopprov
   list: [
-    rsopprov.exe,
+    "rsopprov.exe",
     "?:\\windows\\system32\\rsopprov.exe"
     ]
 
 - macro: process_matches_irftp
   list: [
-    irftp.exe,
+    "irftp.exe",
     "?:\\windows\\system32\\irftp.exe"
     ]
 
 - macro: process_matches_camerasettingsuihost
   list: [
-    camerasettingsuihost.exe,
+    "camerasettingsuihost.exe",
     "?:\\windows\\system32\\camerasettingsuihost.exe",
     "?:\\windows\\syswow64\\camerasettingsuihost.exe",
     "?:\\windows\\sysarm32\\camerasettingsuihost.exe"
@@ -1469,7 +1468,7 @@
 
 - macro: process_matches_bcdedit
   list: [
-    bcdedit.exe,
+    "bcdedit.exe",
     "?:\\windows\\system32\\bcdedit.exe",
     "?:\\windows\\syswow64\\bcdedit.exe",
     "?:\\windows\\sysarm32\\bcdedit.exe"
@@ -1477,119 +1476,119 @@
 
 - macro: process_matches_mblctr
   list: [
-    mblctr.exe,
+    "mblctr.exe",
     "?:\\windows\\system32\\mblctr.exe"
     ]
 
 - macro: process_matches_pwdump
   list: [
-    pwdump64.exe,
-    pwdump.exe
+    "pwdump64.exe",
+    "pwdump.exe"
     ]
 
 - macro: process_matches_iepv
   list: [
-    iepv.exe
+    "iepv.exe"
     ]
 
 - macro: process_matches_edgecookiesview
   list: [
-    EdgeCookiesView.exe
+    "EdgeCookiesView.exe"
     ]
 
 - macro: process_matches_chromecookiesview
   list: [
-    ChromeCookiesView.exe
+    "ChromeCookiesView.exe"
     ]
 
 - macro: process_matches_webbrowserpassview
   list: [
-    webbrowserpassview.exe
+    "webbrowserpassview.exe"
     ]
 
 - macro: process_matches_passwordfox
   list: [
-    passwordfox.exe
+    "passwordfox.exe"
     ]
 
 - macro: process_matches_chromepass
   list: [
-    chromepass.exe
+    "chromepass.exe"
     ]
 
 - macro: process_matches_rdpv
   list: [
-    rdpv.exe
+    "rdpv.exe"
     ]
 
 - macro: process_matches_operapassview
   list: [
-    operapassview.exe
+    "operapassview.exe"
     ]
 
 - macro: process_matches_lsasecretsview
   list: [
-    lsasecretsview.exe
+    "lsasecretsview.exe"
     ]
 
 - macro: process_matches_lsasecretsdump
   list: [
-    lsasecretsdump.exe
+    "lsasecretsdump.exe"
     ]
 
 - macro: process_matches_pcanypass
   list: [
-    pcanypass.exe
+    "pcanypass.exe"
     ]
 
 - macro: process_matches_accesspv
   list: [
-    accesspv.exe
+    "accesspv.exe"
     ]
 
 - macro: process_matches_win9xpv
   list: [
-    win9xpv.exe
+    "win9xpv.exe"
     ]
 
 - macro: process_matches_conadvpass
   list: [
-    conadvpass.exe
+    "conadvpass.exe"
     ]
 
 - macro: process_matches_empv
   list: [
-    empv.exe
+    "empv.exe"
     ]
 
 - macro: process_matches_vncpassview
   list: [
-    vncpassview.exe
+    "vncpassview.exe"
     ]
 
 - macro: process_matches_dialupass
   list: [
-    dialupass.exe
+    "dialupass.exe"
     ]
 
 - macro: process_matches_mspass
   list: [
-    mspass.exe
+    "mspass.exe"
     ]
 
 - macro: process_matches_asterie
   list: [
-    asterie.exe
+    "asterie.exe"
     ]
 
 - macro: process_matches_carrot
   list: [
-    carrot.exe
+    "carrot.exe"
     ]
 
 - macro: process_matches_wusa
   list: [
-    wusa.exe,
+    "wusa.exe",
     "?:\\windows\\system32\\wusa.exe",
     "?:\\windows\\syswow64\\wusa.exe",
     "?:\\windows\\sysarm32\\wusa.exe"
@@ -1597,7 +1596,7 @@
 
 - macro: process_matches_searchprotocolhost
   list: [
-    SearchProtocolHost.exe,
+    "SearchProtocolHost.exe",
     "?:\\windows\\system32\\SearchProtocolHost.exe",
     "?:\\windows\\syswow64\\SearchProtocolHost.exe",
     "?:\\windows\\sysarm32\\SearchProtocolHost.exe"
@@ -1605,7 +1604,7 @@
 
 - macro: process_matches_mofcomp
   list: [
-    mofcomp.exe,
+    "mofcomp.exe",
     "?:\\windows\\system32\\wbem\\mofcomp.exe",
     "?:\\windows\\syswow64\\wbem\\mofcomp.exe",
     "?:\\windows\\sysarm32\\wbem\\mofcomp.exe"
@@ -1613,12 +1612,12 @@
 
 - macro: process_matches_blubster
   list: [
-    blubster.exe
+    "blubster.exe"
     ]
 
 - macro: process_matches_gpupdate
   list: [
-    gpupdate.exe,
+    "gpupdate.exe",
     "?:\\windows\\system32\\gpudate.exe",
     "?:\\windows\\syswow64\\gpupdate.exe",
     "?:\\windows\\sysarm32\\gpupdate.exe"
@@ -1626,24 +1625,24 @@
 
 - macro: process_matches_narrator
   list: [
-    Narrator.exe,
+    "Narrator.exe",
     "?:\\windows\\system32\\Narrator.exe"
     ]
 
 - macro: process_matches_tswpfwrp
   list: [
-    tswpfwrp.exe,
+    "tswpfwrp.exe",
     "?:\\winnt\\system32\\tswpfwrp.exe"
     ]
 
 - macro: process_matches_vmconnect
   list: [
-    vmconnect.exe
+    "vmconnect.exe"
     ]
 
 - macro: process_matches_vmnat
   list: [
-    vmnat.exe,
+    "vmnat.exe",
     "?:\\windows\\system32\\vmnat.exe",
     "?:\\windows\\syswow64\\vmnat.exe",
     "?:\\windows\\sysarm32\\vmnat.exe",
@@ -1652,83 +1651,83 @@
 
 - macro: process_matches_addinprocess
   list: [
-    addinprocess.exe
+    "addinprocess.exe"
     ]
 
 - macro: process_matches_addinprocess32
   list: [
-    addinprocess32.exe
+    "addinprocess32.exe"
     ]
 
 - macro: process_matches_addinutil
   list: [
-    addinutil.exe
+    "addinutil.exe"
     ]
 
 - macro: process_matches_aspnet_regbrowsers
   list: [
-    aspnet_regbrowsers.exe
+    "aspnet_regbrowsers.exe"
     ]
 
 - macro: process_matches_aspnet_compiler
   list: [
-    aspnet_compiler.exe
+    "aspnet_compiler.exe"
     ]
 
 - macro: process_matches_aspnet_regiis
   list: [
-    aspnet_regiis.exe
+    "aspnet_regiis.exe"
     ]
 
 - macro: process_matches_aspnet_regsql
   list: [
-    aspnet_regsql.exe
+    "aspnet_regsql.exe"
     ]
 
 - macro: process_matches_caspol
   list: [
-    caspol.exe
+    "caspol.exe"
     ]
 
 - macro: process_matches_comsvcconfig
   list: [
-    comsvcconfig.exe
+    "comsvcconfig.exe"
     ]
 
 - macro: process_matches_datasvcutil
   list: [
-    datasvcutil.exe
+    "datasvcutil.exe"
     ]
 
 - macro: process_matches_ngentask
   list: [
-    ngentask.exe
+    "ngentask.exe"
     ]
 
 - macro: process_matches_edmgen
   list: [
-    edmgen.exe
+    "edmgen.exe"
     ]
 
 - macro: process_matches_smsvchost
   list: [
-    smsvchost.exe
+    "smsvchost.exe"
     ]
 
 - macro: process_matches_wsatconfig
   list: [
-    wsatconfig.exe
+    "wsatconfig.exe"
     ]
 
 - macro: process_matches_pickerhost
   list: [
-    pickerhost.exe,
+    "pickerhost.exe",
     "?:\\windows\\system32\\pickerhost.exe"
     ]
 
 - macro: process_matches_tasklist
   list: [
-    tasklist.exe,
+    "tasklist.exe",
     "?:\\windows\\system32\\tasklist.exe",
     "?:\\windows\\syswow64\\tasklist.exe",
     "?:\\windows\\sysarm32\\tasklist.exe",
@@ -1738,7 +1737,7 @@
 
 - macro: process_matches_winsat
   list: [
-    winsat.exe,
+    "winsat.exe",
     "?:\\windows\\system32\\winsat.exe",
     "?:\\windows\\syswow64\\winsat.exe",
     "?:\\windows\\sysarm32\\winsat.exe",
@@ -1748,50 +1747,50 @@
 
 - macro: process_matches_desktopimgdownldr
   list: [
-    desktopimgdownldr.exe,
+    "desktopimgdownldr.exe",
     "?:\\windows\\system32\\desktopimgdownldr.exe"
     ]
 
 - macro: process_matches_osk
   list: [
-    osk.exe,
+    "osk.exe",
     "?:\\windows\\system32\\osk.exe",
     "?:\\windows\\syswow64\\osk.exe"
     ]
 
 - macro: process_matches_displayswitch
   list: [
-    displayswitch.exe,
+    "displayswitch.exe",
     "?:\\windows\\system32\\displayswitch.exe"
     ]
 
 - macro: process_matches_taskhostw
   list: [
-    taskhostw.exe,
+    "taskhostw.exe",
     "?:\\windows\\system32\\taskhostw.exe"
     ]
 
 - macro: process_matches_lsaiso
   list: [
-    lsaiso.exe,
+    "lsaiso.exe",
     "?:\\windows\\system32\\lsaiso.exe"
     ]
 
 - macro: process_matches_apsdaemon
   list: [
-    apsdaemon.exe,
+    "apsdaemon.exe",
     "?:\\common files\\apple\\apple application support\\apsdaemon.exe"
     ]
 
 - macro: process_matches_presentationsettings
   list: [
-    presentationsettings.exe,
+    "presentationsettings.exe",
     "?:\\windows\\system32\\presentationsettings.exe"
     ]
 
 - macro: process_matches_isoburn
   list: [
-    isoburn.exe,
+    "isoburn.exe",
     "?:\\windows\\system32\\isoburn.exe",
     "?:\\windows\\syswow64\\isoburn.exe",
     "?:\\windows\\sysarm32\\isoburn.exe"
@@ -1799,19 +1798,19 @@
 
 - macro: process_matches_bdeuisrv
   list: [
-    bdeuisrv.exe,
+    "bdeuisrv.exe",
     "?:\\windows\\system32\\bdeuisrv.exe"
     ]
 
 - macro: process_matches_dxgiadaptercache
   list: [
-    dxgiadaptercache.exe,
+    "dxgiadaptercache.exe",
     "?:\\windows\\system32\\dxgiadaptercache.exe"
     ]
 
 - macro: process_matches_dxcap
   list: [
-    dxcap.exe,
+    "dxcap.exe",
     "?:\\windows\\system32\\dxcap.exe",
     "?:\\windows\\syswow64\\dxcap.exe",
     "?:\\windows\\sysarm32\\dxcap.exe"
@@ -1819,121 +1818,121 @@
 
 - macro: process_matches_mdmappinstaller
   list: [
-    mdmappinstaller.exe,
+    "mdmappinstaller.exe",
     "?:\\windows\\system32\\mdmappinstaller.exe"
     ]
 
 - macro: process_matches_applysettingstemplatecatalog
   list: [
-    applysettingstemplatecatalog.exe,
+    "applysettingstemplatecatalog.exe",
     "?:\\windows\\system32\\applysettingstemplatecatalog.exe",
     "?:\\program files\\microsoft user experience virtualization\\agent\\x64\\applysettingstemplatecatalog.exe"
     ]
 
 - macro: process_matches_rdvghelper
   list: [
-    rdvghelper.exe,
+    "rdvghelper.exe",
     "?:\\windows\\system32\\rdvghelper.exe"
     ]
 
 - macro: process_matches_eudcedit
   list: [
-    eudcedit.exe,
+    "eudcedit.exe",
     "?:\\windows\\system32\\eudcedit.exe",
     "?:\\windows\\syswow64\\eudcedit.exe"
     ]
 
 - macro: process_matches_systemsettingsadminflows
   list: [
-    systemsettingsadminflows.exe,
+    "systemsettingsadminflows.exe",
     "?:\\windows\\system32\\systemsettingsadminflows.exe"
     ]
 
 - macro: process_matches_rdpclip
   list: [
-    rdpclip.exe,
+    "rdpclip.exe",
     "?:\\windows\\system32\\rdpclip.exe",
     "?:\\winnt\\system32\\rdpclip.exe"
     ]
 
 - macro: process_matches_windowsactiondialog
   list: [
-    windowsactiondialog.exe,
+    "windowsactiondialog.exe",
     "?:\\windows\\system32\\windowsactiondialog.exe"
     ]
 
 - macro: process_matches_printfilterpipelinesvc
   list: [
-    printfilterpipelinesvc.exe,
+    "printfilterpipelinesvc.exe",
     "?:\\windows\\system32\\printfilterpipelinesvc.exe",
     "?:\\system32\\spool\\prtprocs\\w32x86\\printfilterpipelinesvc.exe"
     ]
 
 - macro: process_matches_pythonw
   list: [
-    pythonw.exe,
-    pythonw
+    "pythonw.exe",
+    "pythonw"
     ]
 
 - macro: process_matches_python
   list: [
-    python.exe,
-    python,
-    python2,
-    python2.exe,
-    python2.7.exe,
-    python3,
-    python3.exe,
-    python3.8.exe,
-    python3.9.exe,
-    python3.10.exe,
-    python3.11.exe,
-    python3.12.exe,
-    python3.13.exe
+    "python.exe",
+    "python",
+    "python2",
+    "python2.exe",
+    "python2.7.exe",
+    "python3",
+    "python3.exe",
+    "python3.8.exe",
+    "python3.9.exe",
+    "python3.10.exe",
+    "python3.11.exe",
+    "python3.12.exe",
+    "python3.13.exe"
     ]
 
 - macro: process_matches_pwmtower
   list: [
-    PwmTower.exe,
+    "PwmTower.exe",
     "?:\\Trend Micro\\TMIDS\\tower\\PwmTower.exe",
     "?:\\Trend Micro\\PasswordManager\\tower\\PwmTower.exe"
     ]
 
 - macro: process_matches_ehstorauthn
   list: [
-    ehstorauthn.exe,
+    "ehstorauthn.exe",
     "?:\\windows\\system32\\ehstorauthn.exe",
     "?:\\windows\\syswow64\\ehstorauthn.exe"
     ]
 
 - macro: process_matches_shrpubw
   list: [
-    shrpubw.exe,
+    "shrpubw.exe",
     "?:\\windows\\system32\\shrpubw.exe"
     ]
 
 - macro: process_matches_bitlockerwizard
   list: [
-    bitlockerwizard.exe,
+    "bitlockerwizard.exe",
     "?:\\windows\\system32\\bitlockerwizard.exe",
     "?:\\windows\\system32\\bitlockerwizardelev.exe"
     ]
 
 - macro: process_matches_recdisc
   list: [
-    recdisc.exe,
+    "recdisc.exe",
     "?:\\windows\\system32\\recdisc.exe"
     ]
 
 - macro: process_matches_genvalobj
   list: [
-    genvalobj.exe,
+    "genvalobj.exe",
     "?:\\windows\\system32\\genvalobj.exe"
     ]
 
 - macro: process_matches_rdrleakdiag
   list: [
-    rdrleakdiag.exe,
+    "rdrleakdiag.exe",
     "?:\\windows\\system32\\rdrleakdiag.exe",
     "?:\\windows\\syswow64\\rdrleakdiag.exe",
     "?:\\windows\\sysarm32\\rdrleakdiag.exe"
@@ -1941,13 +1940,13 @@
 
 - macro: process_matches_wsqmcons
   list: [
-    wsqmcons.exe,
+    "wsqmcons.exe",
     "?:\\windows\\system32\\wsqmcons.exe"
     ]
 
 - macro: process_matches_backgroundtaskhost
   list: [
-    backgroundtaskhost.exe,
+    "backgroundtaskhost.exe",
     "?:\\windows\\system32\\backgroundtaskhost.exe",
     "?:\\windows\\syswow64\\backgroundtaskhost.exe",
     "?:\\windows\\sysarm32\\backgroundtaskhost.exe"
@@ -1955,13 +1954,13 @@
 
 - macro: process_matches_runtimebroker
   list: [
-    runtimebroker.exe,
+    "runtimebroker.exe",
     "?:\\windows\\system32\\runtimebroker.exe"
     ]
 
 - macro: process_matches_dism
   list: [
-    dism.exe,
+    "dism.exe",
     "?:\\windows\\system32\\dism.exe",
     "?:\\windows\\syswow64\\dism.exe",
     "?:\\windows\\sysarm32\\dism.exe"
@@ -1969,7 +1968,7 @@
 
 - macro: process_matches_agentservice
   list: [
-    agentservice.exe,
+    "agentservice.exe",
     "?:\\windows\\system32\\agentservice.exe",
     "?:\\windows\\syswow64\\agentservice.exe",
     "?:\\windows\\sysarm32\\agentservice.exe"
@@ -1977,7 +1976,7 @@
 
 - macro: process_matches_alg
   list: [
-    alg.exe,
+    "alg.exe",
     "?:\\windows\\system32\\alg.exe",
     "?:\\windows\\syswow64\\alg.exe",
     "?:\\windows\\sysarm32\\alg.exe",
@@ -1986,7 +1985,7 @@
 
 - macro: process_matches_apphostregistrationverifier
   list: [
-    apphostregistrationverifier.exe,
+    "apphostregistrationverifier.exe",
     "?:\\windows\\system32\\apphostregistrationverifier.exe",
     "?:\\windows\\syswow64\\apphostregistrationverifier.exe",
     "?:\\windows\\sysarm32\\apphostregistrationverifier.exe"
@@ -1994,7 +1993,7 @@
 
 - macro: process_matches_appidcertstorecheck
   list: [
-    appidcertstorecheck.exe,
+    "appidcertstorecheck.exe",
     "?:\\windows\\system32\\appidcertstorecheck.exe",
     "?:\\windows\\syswow64\\appidcertstorecheck.exe",
     "?:\\windows\\sysarm32\\appidcertstorecheck.exe"
@@ -2002,7 +2001,7 @@
 
 - macro: process_matches_appidpolicyconverter
   list: [
-    appidpolicyconverter.exe,
+    "appidpolicyconverter.exe",
     "?:\\windows\\system32\\appidpolicyconverter.exe",
     "?:\\windows\\syswow64\\appidpolicyconverter.exe",
     "?:\\windows\\sysarm32\\appidpolicyconverter.exe"
@@ -2010,7 +2009,7 @@
 
 - macro: process_matches_applicationframehost
   list: [
-    applicationframehost.exe,
+    "applicationframehost.exe",
     "?:\\windows\\system32\\applicationframehost.exe",
     "?:\\windows\\syswow64\\applicationframehost.exe",
     "?:\\windows\\sysarm32\\applicationframehost.exe"
@@ -2018,7 +2017,7 @@
 
 - macro: process_matches_applytrustoffline
   list: [
-    applytrustoffline.exe,
+    "applytrustoffline.exe",
     "?:\\windows\\system32\\applytrustoffline.exe",
     "?:\\windows\\syswow64\\applytrustoffline.exe",
     "?:\\windows\\sysarm32\\applytrustoffline.exe"
@@ -2026,7 +2025,7 @@
 
 - macro: process_matches_approvechildrequest
   list: [
-    approvechildrequest.exe,
+    "approvechildrequest.exe",
     "?:\\windows\\system32\\approvechildrequest.exe",
     "?:\\windows\\syswow64\\approvechildrequest.exe",
     "?:\\windows\\sysarm32\\approvechildrequest.exe"
@@ -2034,7 +2033,7 @@
 
 - macro: process_matches_appvclient
   list: [
-    appvclient.exe,
+    "appvclient.exe",
     "?:\\windows\\system32\\appvclient.exe",
     "?:\\windows\\syswow64\\appvclient.exe",
     "?:\\windows\\sysarm32\\appvclient.exe",
@@ -2044,7 +2043,7 @@
 
 - macro: process_matches_appvnice
   list: [
-    appvnice.exe,
+    "appvnice.exe",
     "?:\\windows\\system32\\appvnice.exe",
     "?:\\windows\\syswow64\\appvnice.exe",
     "?:\\windows\\sysarm32\\appvnice.exe"
@@ -2052,7 +2051,7 @@
 
 - macro: process_matches_appvshnotify
   list: [
-    appvshnotify.exe,
+    "appvshnotify.exe",
     "?:\\windows\\system32\\appvshnotify.exe",
     "?:\\windows\\syswow64\\appvshnotify.exe",
     "?:\\windows\\sysarm32\\appvshnotify.exe"
@@ -2060,7 +2059,7 @@
 
 - macro: process_matches_arp
   list: [
-    arp.exe,
+    "arp.exe",
     "?:\\windows\\system32\\arp.exe",
     "?:\\windows\\syswow64\\arp.exe",
     "?:\\windows\\sysarm32\\arp.exe",
@@ -2070,7 +2069,7 @@
 
 - macro: process_matches_attrib
   list: [
-    attrib.exe,
+    "attrib.exe",
     "?:\\windows\\system32\\attrib.exe",
     "?:\\windows\\syswow64\\attrib.exe",
     "?:\\windows\\sysarm32\\attrib.exe",
@@ -2079,7 +2078,7 @@
 
 - macro: process_matches_audiodg
   list: [
-    audiodg.exe,
+    "audiodg.exe",
     "?:\\windows\\system32\\audiodg.exe",
     "?:\\windows\\syswow64\\audiodg.exe",
     "?:\\windows\\sysarm32\\audiodg.exe"
@@ -2087,7 +2086,7 @@
 
 - macro: process_matches_auditpol
   list: [
-    auditpol.exe,
+    "auditpol.exe",
     "?:\\windows\\system32\\auditpol.exe",
     "?:\\windows\\syswow64\\auditpol.exe",
     "?:\\windows\\sysarm32\\auditpol.exe"
@@ -2095,7 +2094,7 @@
 
 - macro: process_matches_authhost
   list: [
-    authhost.exe,
+    "authhost.exe",
     "?:\\windows\\system32\\authhost.exe",
     "?:\\windows\\syswow64\\authhost.exe",
     "?:\\windows\\sysarm32\\authhost.exe"
@@ -2103,7 +2102,7 @@
 
 - macro: process_matches_autochk
   list: [
-    autochk.exe,
+    "autochk.exe",
     "?:\\windows\\system32\\autochk.exe",
     "?:\\windows\\syswow64\\autochk.exe",
     "?:\\windows\\sysarm32\\autochk.exe",
@@ -2112,7 +2111,7 @@
 
 - macro: process_matches_autoconv
   list: [
-    autoconv.exe,
+    "autoconv.exe",
     "?:\\windows\\system32\\autoconv.exe",
     "?:\\windows\\syswow64\\autoconv.exe",
     "?:\\windows\\sysarm32\\autoconv.exe"
@@ -2120,7 +2119,7 @@
 
 - macro: process_matches_autofmt
   list: [
-    autofmt.exe,
+    "autofmt.exe",
     "?:\\windows\\system32\\autofmt.exe",
     "?:\\windows\\syswow64\\autofmt.exe",
     "?:\\windows\\sysarm32\\autofmt.exe"
@@ -2128,7 +2127,7 @@
 
 - macro: process_matches_axinstui
   list: [
-    axinstui.exe,
+    "axinstui.exe",
     "?:\\windows\\system32\\axinstui.exe",
     "?:\\windows\\syswow64\\axinstui.exe",
     "?:\\windows\\sysarm32\\axinstui.exe"
@@ -2136,7 +2135,7 @@
 
 - macro: process_matches_baaupdate
   list: [
-    baaupdate.exe,
+    "baaupdate.exe",
     "?:\\windows\\system32\\baaupdate.exe",
     "?:\\windows\\syswow64\\baaupdate.exe",
     "?:\\windows\\sysarm32\\baaupdate.exe"
@@ -2144,7 +2143,7 @@
 
 - macro: process_matches_backgroundtransferhost
   list: [
-    backgroundtransferhost.exe,
+    "backgroundtransferhost.exe",
     "?:\\windows\\system32\\backgroundtransferhost.exe",
     "?:\\windows\\syswow64\\backgroundtransferhost.exe",
     "?:\\windows\\sysarm32\\backgroundtransferhost.exe"
@@ -2152,7 +2151,7 @@
 
 - macro: process_matches_bash
   list: [
-    bash.exe,
+    "bash.exe",
     "?:\\windows\\system32\\bash.exe",
     "?:\\windows\\syswow64\\bash.exe",
     "?:\\windows\\sysarm32\\bash.exe"
@@ -2160,7 +2159,7 @@
 
 - macro: process_matches_bcdboot
   list: [
-    bcdboot.exe,
+    "bcdboot.exe",
     "?:\\windows\\system32\\bcdboot.exe",
     "?:\\windows\\syswow64\\bcdboot.exe",
     "?:\\windows\\sysarm32\\bcdboot.exe",
@@ -2169,7 +2168,7 @@
 
 - macro: process_matches_bdechangepin
   list: [
-    bdechangepin.exe,
+    "bdechangepin.exe",
     "?:\\windows\\system32\\bdechangepin.exe",
     "?:\\windows\\syswow64\\bdechangepin.exe",
     "?:\\windows\\sysarm32\\bdechangepin.exe"
@@ -2177,7 +2176,7 @@
 
 - macro: process_matches_bdehdcfg
   list: [
-    bdehdcfg.exe,
+    "bdehdcfg.exe",
     "?:\\windows\\system32\\bdehdcfg.exe",
     "?:\\windows\\syswow64\\bdehdcfg.exe",
     "?:\\windows\\sysarm32\\bdehdcfg.exe"
@@ -2185,7 +2184,7 @@
 
 - macro: process_matches_bdeunlock
   list: [
-    bdeunlock.exe,
+    "bdeunlock.exe",
     "?:\\windows\\system32\\bdeunlock.exe",
     "?:\\windows\\syswow64\\bdeunlock.exe",
     "?:\\windows\\sysarm32\\bdeunlock.exe"
@@ -2193,7 +2192,7 @@
 
 - macro: process_matches_bioiso
   list: [
-    bioiso.exe,
+    "bioiso.exe",
     "?:\\windows\\system32\\bioiso.exe",
     "?:\\windows\\syswow64\\bioiso.exe",
     "?:\\windows\\sysarm32\\bioiso.exe"
@@ -2201,7 +2200,7 @@
 
 - macro: process_matches_bitlockerdeviceencryption
   list: [
-    bitlockerdeviceencryption.exe,
+    "bitlockerdeviceencryption.exe",
     "?:\\windows\\system32\\bitlockerdeviceencryption.exe",
     "?:\\windows\\syswow64\\bitlockerdeviceencryption.exe",
     "?:\\windows\\sysarm32\\bitlockerdeviceencryption.exe"
@@ -2209,7 +2208,7 @@
 
 - macro: process_matches_bitlockerwizardelev
   list: [
-    bitlockerwizardelev.exe,
+    "bitlockerwizardelev.exe",
     "?:\\windows\\system32\\bitlockerwizardelev.exe",
     "?:\\windows\\syswow64\\bitlockerwizardelev.exe",
     "?:\\windows\\sysarm32\\bitlockerwizardelev.exe"
@@ -2217,7 +2216,7 @@
 
 - macro: process_matches_bootcfg
   list: [
-    bootcfg.exe,
+    "bootcfg.exe",
     "?:\\windows\\system32\\bootcfg.exe",
     "?:\\windows\\syswow64\\bootcfg.exe",
     "?:\\windows\\sysarm32\\bootcfg.exe"
@@ -2225,7 +2224,7 @@
 
 - macro: process_matches_bootim
   list: [
-    bootim.exe,
+    "bootim.exe",
     "?:\\windows\\system32\\bootim.exe",
     "?:\\windows\\syswow64\\bootim.exe",
     "?:\\windows\\sysarm32\\bootim.exe"
@@ -2233,7 +2232,7 @@
 
 - macro: process_matches_bootsect
   list: [
-    bootsect.exe,
+    "bootsect.exe",
     "?:\\windows\\system32\\bootsect.exe",
     "?:\\windows\\syswow64\\bootsect.exe",
     "?:\\windows\\sysarm32\\bootsect.exe"
@@ -2241,7 +2240,7 @@
 
 - macro: process_matches_bridgeunattend
   list: [
-    bridgeunattend.exe,
+    "bridgeunattend.exe",
     "?:\\windows\\system32\\bridgeunattend.exe",
     "?:\\windows\\syswow64\\bridgeunattend.exe",
     "?:\\windows\\sysarm32\\bridgeunattend.exe"
@@ -2249,7 +2248,7 @@
 
 - macro: process_matches_browserexport
   list: [
-    browserexport.exe,
+    "browserexport.exe",
     "?:\\windows\\system32\\browserexport.exe",
     "?:\\windows\\syswow64\\browserexport.exe",
     "?:\\windows\\sysarm32\\browserexport.exe"
@@ -2257,7 +2256,7 @@
 
 - macro: process_matches_browser_broker
   list: [
-    browser_broker.exe,
+    "browser_broker.exe",
     "?:\\windows\\system32\\browser_broker.exe",
     "?:\\windows\\syswow64\\browser_broker.exe",
     "?:\\windows\\sysarm32\\browser_broker.exe"
@@ -2265,7 +2264,7 @@
 
 - macro: process_matches_bthudtask
   list: [
-    bthudtask.exe,
+    "bthudtask.exe",
     "?:\\windows\\system32\\bthudtask.exe",
     "?:\\windows\\syswow64\\bthudtask.exe",
     "?:\\windows\\sysarm32\\bthudtask.exe"
@@ -2273,7 +2272,7 @@
 
 - macro: process_matches_bytecodegenerator
   list: [
-    bytecodegenerator.exe,
+    "bytecodegenerator.exe",
     "?:\\windows\\system32\\bytecodegenerator.exe",
     "?:\\windows\\syswow64\\bytecodegenerator.exe",
     "?:\\windows\\sysarm32\\bytecodegenerator.exe"
@@ -2281,7 +2280,7 @@
 
 - macro: process_matches_cacls
   list: [
-    cacls.exe,
+    "cacls.exe",
     "?:\\windows\\system32\\cacls.exe",
     "?:\\windows\\syswow64\\cacls.exe",
     "?:\\windows\\sysarm32\\cacls.exe"
@@ -2289,7 +2288,7 @@
 
 - macro: process_matches_calc
   list: [
-    calc.exe,
+    "calc.exe",
     "?:\\windows\\system32\\calc.exe",
     "?:\\windows\\syswow64\\calc.exe",
     "?:\\windows\\sysarm32\\calc.exe"
@@ -2297,7 +2296,7 @@
 
 - macro: process_matches_castsrv
   list: [
-    castsrv.exe,
+    "castsrv.exe",
     "?:\\windows\\system32\\castsrv.exe",
     "?:\\windows\\syswow64\\castsrv.exe",
     "?:\\windows\\sysarm32\\castsrv.exe"
@@ -2305,7 +2304,7 @@
 
 - macro: process_matches_certenrollctrl
   list: [
-    certenrollctrl.exe,
+    "certenrollctrl.exe",
     "?:\\windows\\system32\\certenrollctrl.exe",
     "?:\\windows\\syswow64\\certenrollctrl.exe",
     "?:\\windows\\sysarm32\\certenrollctrl.exe"
@@ -2313,7 +2312,7 @@
 
 - macro: process_matches_certreq
   list: [
-    certreq.exe,
+    "certreq.exe",
     "?:\\windows\\system32\\certreq.exe",
     "?:\\windows\\syswow64\\certreq.exe",
     "?:\\windows\\sysarm32\\certreq.exe"
@@ -2321,7 +2320,7 @@
 
 - macro: process_matches_change
   list: [
-    change.exe,
+    "change.exe",
     "?:\\windows\\system32\\change.exe",
     "?:\\windows\\syswow64\\change.exe",
     "?:\\windows\\sysarm32\\change.exe"
@@ -2329,7 +2328,7 @@
 
 - macro: process_matches_changepk
   list: [
-    changepk.exe,
+    "changepk.exe",
     "?:\\windows\\system32\\changepk.exe",
     "?:\\windows\\syswow64\\changepk.exe",
     "?:\\windows\\sysarm32\\changepk.exe"
@@ -2337,7 +2336,7 @@
 
 - macro: process_matches_charmap
   list: [
-    charmap.exe,
+    "charmap.exe",
     "?:\\windows\\system32\\charmap.exe",
     "?:\\windows\\syswow64\\charmap.exe",
     "?:\\windows\\sysarm32\\charmap.exe"
@@ -2345,7 +2344,7 @@
 
 - macro: process_matches_checknetisolation
   list: [
-    checknetisolation.exe,
+    "checknetisolation.exe",
     "?:\\windows\\system32\\checknetisolation.exe",
     "?:\\windows\\syswow64\\checknetisolation.exe",
     "?:\\windows\\sysarm32\\checknetisolation.exe"
@@ -2353,7 +2352,7 @@
 
 - macro: process_matches_chglogon
   list: [
-    chglogon.exe,
+    "chglogon.exe",
     "?:\\windows\\system32\\chglogon.exe",
     "?:\\windows\\syswow64\\chglogon.exe",
     "?:\\windows\\sysarm32\\chglogon.exe"
@@ -2361,7 +2360,7 @@
 
 - macro: process_matches_chgport
   list: [
-    chgport.exe,
+    "chgport.exe",
     "?:\\windows\\system32\\chgport.exe",
     "?:\\windows\\syswow64\\chgport.exe",
     "?:\\windows\\sysarm32\\chgport.exe"
@@ -2369,7 +2368,7 @@
 
 - macro: process_matches_chgusr
   list: [
-    chgusr.exe,
+    "chgusr.exe",
     "?:\\windows\\system32\\chgusr.exe",
     "?:\\windows\\syswow64\\chgusr.exe",
     "?:\\windows\\sysarm32\\chgusr.exe",
@@ -2378,7 +2377,7 @@
 
 - macro: process_matches_chkdsk
   list: [
-    chkdsk.exe,
+    "chkdsk.exe",
     "?:\\windows\\system32\\chkdsk.exe",
     "?:\\windows\\syswow64\\chkdsk.exe",
     "?:\\windows\\sysarm32\\chkdsk.exe",
@@ -2387,7 +2386,7 @@
 
 - macro: process_matches_chkntfs
   list: [
-    chkntfs.exe,
+    "chkntfs.exe",
     "?:\\windows\\system32\\chkntfs.exe",
     "?:\\windows\\syswow64\\chkntfs.exe",
     "?:\\windows\\sysarm32\\chkntfs.exe"
@@ -2395,7 +2394,7 @@
 
 - macro: process_matches_choice
   list: [
-    choice.exe,
+    "choice.exe",
     "?:\\windows\\system32\\choice.exe",
     "?:\\windows\\syswow64\\choice.exe",
     "?:\\windows\\sysarm32\\choice.exe"
@@ -2403,7 +2402,7 @@
 
 - macro: process_matches_cidiag
   list: [
-    cidiag.exe,
+    "cidiag.exe",
     "?:\\windows\\system32\\cidiag.exe",
     "?:\\windows\\syswow64\\cidiag.exe",
     "?:\\windows\\sysarm32\\cidiag.exe"
@@ -2411,7 +2410,7 @@
 
 - macro: process_matches_cipher
   list: [
-    cipher.exe,
+    "cipher.exe",
     "?:\\windows\\system32\\cipher.exe",
     "?:\\windows\\syswow64\\cipher.exe",
     "?:\\windows\\sysarm32\\cipher.exe"
@@ -2419,7 +2418,7 @@
 
 - macro: process_matches_cleanmgr
   list: [
-    cleanmgr.exe,
+    "cleanmgr.exe",
     "?:\\windows\\system32\\cleanmgr.exe",
     "?:\\windows\\syswow64\\cleanmgr.exe",
     "?:\\windows\\sysarm32\\cleanmgr.exe",
@@ -2428,7 +2427,7 @@
 
 - macro: process_matches_cliconfg
   list: [
-    cliconfg.exe,
+    "cliconfg.exe",
     "?:\\windows\\system32\\cliconfg.exe",
     "?:\\windows\\syswow64\\cliconfg.exe",
     "?:\\windows\\sysarm32\\cliconfg.exe"
@@ -2436,7 +2435,7 @@
 
 - macro: process_matches_clip
   list: [
-    clip.exe,
+    "clip.exe",
     "?:\\windows\\system32\\clip.exe",
     "?:\\windows\\syswow64\\clip.exe",
     "?:\\windows\\sysarm32\\clip.exe"
@@ -2444,7 +2443,7 @@
 
 - macro: process_matches_cliprenew
   list: [
-    cliprenew.exe,
+    "cliprenew.exe",
     "?:\\windows\\system32\\cliprenew.exe",
     "?:\\windows\\syswow64\\cliprenew.exe",
     "?:\\windows\\sysarm32\\cliprenew.exe"
@@ -2452,7 +2451,7 @@
 
 - macro: process_matches_clipup
   list: [
-    clipup.exe,
+    "clipup.exe",
     "?:\\windows\\system32\\clipup.exe",
     "?:\\windows\\syswow64\\clipup.exe",
     "?:\\windows\\sysarm32\\clipup.exe"
@@ -2460,7 +2459,7 @@
 
 - macro: process_matches_cloudexperiencehostbroker
   list: [
-    cloudexperiencehostbroker.exe,
+    "cloudexperiencehostbroker.exe",
     "?:\\windows\\system32\\cloudexperiencehostbroker.exe",
     "?:\\windows\\syswow64\\cloudexperiencehostbroker.exe",
     "?:\\windows\\sysarm32\\cloudexperiencehostbroker.exe"
@@ -2468,7 +2467,7 @@
 
 - macro: process_matches_cloudnotifications
   list: [
-    cloudnotifications.exe,
+    "cloudnotifications.exe",
     "?:\\windows\\system32\\cloudnotifications.exe",
     "?:\\windows\\syswow64\\cloudnotifications.exe",
     "?:\\windows\\sysarm32\\cloudnotifications.exe"
@@ -2476,7 +2475,7 @@
 
 - macro: process_matches_cmdl32
   list: [
-    cmdl32.exe,
+    "cmdl32.exe",
     "?:\\windows\\system32\\cmdl32.exe",
     "?:\\windows\\syswow64\\cmdl32.exe",
     "?:\\windows\\sysarm32\\cmdl32.exe"
@@ -2484,7 +2483,7 @@
 
 - macro: process_matches_cmmon32
   list: [
-    cmmon32.exe,
+    "cmmon32.exe",
     "?:\\windows\\system32\\cmmon32.exe",
     "?:\\windows\\syswow64\\cmmon32.exe",
     "?:\\windows\\sysarm32\\cmmon32.exe"
@@ -2492,7 +2491,7 @@
 
 - macro: process_matches_cofire
   list: [
-    cofire.exe,
+    "cofire.exe",
     "?:\\windows\\system32\\cofire.exe",
     "?:\\windows\\syswow64\\cofire.exe",
     "?:\\windows\\sysarm32\\cofire.exe"
@@ -2500,7 +2499,7 @@
 
 - macro: process_matches_colorcpl
   list: [
-    colorcpl.exe,
+    "colorcpl.exe",
     "?:\\windows\\system32\\colorcpl.exe",
     "?:\\windows\\syswow64\\colorcpl.exe",
     "?:\\windows\\sysarm32\\colorcpl.exe"
@@ -2508,7 +2507,7 @@
 
 - macro: process_matches_comp
   list: [
-    comp.exe,
+    "comp.exe",
     "?:\\windows\\system32\\comp.exe",
     "?:\\windows\\syswow64\\comp.exe",
     "?:\\windows\\sysarm32\\comp.exe"
@@ -2516,7 +2515,7 @@
 
 - macro: process_matches_compact
   list: [
-    compact.exe,
+    "compact.exe",
     "?:\\windows\\system32\\compact.exe",
     "?:\\windows\\syswow64\\compact.exe",
     "?:\\windows\\sysarm32\\compact.exe"
@@ -2524,7 +2523,7 @@
 
 - macro: process_matches_compattelrunner
   list: [
-    compattelrunner.exe,
+    "compattelrunner.exe",
     "?:\\windows\\system32\\compattelrunner.exe",
     "?:\\windows\\syswow64\\compattelrunner.exe",
     "?:\\windows\\sysarm32\\compattelrunner.exe"
@@ -2532,7 +2531,7 @@
 
 - macro: process_matches_compmgmtlauncher
   list: [
-    compmgmtlauncher.exe,
+    "compmgmtlauncher.exe",
     "?:\\windows\\system32\\compmgmtlauncher.exe",
     "?:\\windows\\syswow64\\compmgmtlauncher.exe",
     "?:\\windows\\sysarm32\\compmgmtlauncher.exe"
@@ -2540,7 +2539,7 @@
 
 - macro: process_matches_comppkgsrv
   list: [
-    comppkgsrv.exe,
+    "comppkgsrv.exe",
     "?:\\windows\\system32\\comppkgsrv.exe",
     "?:\\windows\\syswow64\\comppkgsrv.exe",
     "?:\\windows\\sysarm32\\comppkgsrv.exe"
@@ -2548,7 +2547,7 @@
 
 - macro: process_matches_computerdefaults
   list: [
-    computerdefaults.exe,
+    "computerdefaults.exe",
     "?:\\windows\\system32\\computerdefaults.exe",
     "?:\\windows\\syswow64\\computerdefaults.exe",
     "?:\\windows\\sysarm32\\computerdefaults.exe"
@@ -2556,7 +2555,7 @@
 
 - macro: process_matches_consent
   list: [
-    consent.exe,
+    "consent.exe",
     "?:\\windows\\system32\\consent.exe",
     "?:\\windows\\syswow64\\consent.exe",
     "?:\\windows\\sysarm32\\consent.exe"
@@ -2564,7 +2563,7 @@
 
 - macro: process_matches_convert
   list: [
-    convert.exe,
+    "convert.exe",
     "?:\\windows\\system32\\convert.exe",
     "?:\\windows\\syswow64\\convert.exe",
     "?:\\windows\\sysarm32\\convert.exe"
@@ -2572,7 +2571,7 @@
 
 - macro: process_matches_convertvhd
   list: [
-    convertvhd.exe,
+    "convertvhd.exe",
     "?:\\windows\\system32\\convertvhd.exe",
     "?:\\windows\\syswow64\\convertvhd.exe",
     "?:\\windows\\sysarm32\\convertvhd.exe"
@@ -2580,7 +2579,7 @@
 
 - macro: process_matches_coredpussvr
   list: [
-    coredpussvr.exe,
+    "coredpussvr.exe",
     "?:\\windows\\system32\\coredpussvr.exe",
     "?:\\windows\\syswow64\\coredpussvr.exe",
     "?:\\windows\\sysarm32\\coredpussvr.exe"
@@ -2588,7 +2587,7 @@
 
 - macro: process_matches_credentialenrollmentmanager
   list: [
-    credentialenrollmentmanager.exe,
+    "credentialenrollmentmanager.exe",
     "?:\\windows\\system32\\credentialenrollmentmanager.exe",
     "?:\\windows\\syswow64\\credentialenrollmentmanager.exe",
     "?:\\windows\\sysarm32\\credentialenrollmentmanager.exe"
@@ -2596,7 +2595,7 @@
 
 - macro: process_matches_credentialuibroker
   list: [
-    credentialuibroker.exe,
+    "credentialuibroker.exe",
     "?:\\windows\\system32\\credentialuibroker.exe",
     "?:\\windows\\syswow64\\credentialuibroker.exe",
     "?:\\windows\\sysarm32\\credentialuibroker.exe"
@@ -2604,7 +2603,7 @@
 
 - macro: process_matches_credwiz
   list: [
-    credwiz.exe,
+    "credwiz.exe",
     "?:\\windows\\system32\\credwiz.exe",
     "?:\\windows\\syswow64\\credwiz.exe",
     "?:\\windows\\sysarm32\\credwiz.exe"
@@ -2612,12 +2611,12 @@
 
 - macro: process_matches_ciscocollabhost
   list: [
-    ciscocollabhost.exe
+    "ciscocollabhost.exe"
     ]
 
 - macro: process_matches_ctfmon
   list: [
-    ctfmon.exe,
+    "ctfmon.exe",
     "?:\\windows\\system32\\ctfmon.exe",
     "?:\\windows\\syswow64\\ctfmon.exe",
     "?:\\windows\\sysarm32\\ctfmon.exe",
@@ -2627,7 +2626,7 @@
 
 - macro: process_matches_cttune
   list: [
-    cttune.exe,
+    "cttune.exe",
     "?:\\windows\\system32\\cttune.exe",
     "?:\\windows\\syswow64\\cttune.exe",
     "?:\\windows\\sysarm32\\cttune.exe"
@@ -2635,7 +2634,7 @@
 
 - macro: process_matches_cttunesvr
   list: [
-    cttunesvr.exe,
+    "cttunesvr.exe",
     "?:\\windows\\system32\\cttunesvr.exe",
     "?:\\windows\\syswow64\\cttunesvr.exe",
     "?:\\windows\\sysarm32\\cttunesvr.exe"
@@ -2643,7 +2642,7 @@
 
 - macro: process_matches_custominstallexec
   list: [
-    custominstallexec.exe,
+    "custominstallexec.exe",
     "?:\\windows\\system32\\custominstallexec.exe",
     "?:\\windows\\syswow64\\custominstallexec.exe",
     "?:\\windows\\sysarm32\\custominstallexec.exe"
@@ -2651,7 +2650,7 @@
 
 - macro: process_matches_dashost
   list: [
-    dashost.exe,
+    "dashost.exe",
     "?:\\windows\\system32\\dashost.exe",
     "?:\\windows\\syswow64\\dashost.exe",
     "?:\\windows\\sysarm32\\dashost.exe"
@@ -2659,7 +2658,7 @@
 
 - macro: process_matches_dataexchangehost
   list: [
-    dataexchangehost.exe,
+    "dataexchangehost.exe",
     "?:\\windows\\system32\\dataexchangehost.exe",
     "?:\\windows\\syswow64\\dataexchangehost.exe",
     "?:\\windows\\sysarm32\\dataexchangehost.exe"
@@ -2667,7 +2666,7 @@
 
 - macro: process_matches_datausagelivetiletask
   list: [
-    datausagelivetiletask.exe,
+    "datausagelivetiletask.exe",
     "?:\\windows\\system32\\datausagelivetiletask.exe",
     "?:\\windows\\syswow64\\datausagelivetiletask.exe",
     "?:\\windows\\sysarm32\\datausagelivetiletask.exe"
@@ -2675,7 +2674,7 @@
 
 - macro: process_matches_dccw
   list: [
-    dccw.exe,
+    "dccw.exe",
     "?:\\windows\\system32\\dccw.exe",
     "?:\\windows\\syswow64\\dccw.exe",
     "?:\\windows\\sysarm32\\dccw.exe"
@@ -2683,7 +2682,7 @@
 
 - macro: process_matches_dcomcnfg
   list: [
-    dcomcnfg.exe,
+    "dcomcnfg.exe",
     "?:\\windows\\system32\\dcomcnfg.exe",
     "?:\\windows\\syswow64\\dcomcnfg.exe",
     "?:\\windows\\sysarm32\\dcomcnfg.exe",
@@ -2692,7 +2691,7 @@
 
 - macro: process_matches_ddodiag
   list: [
-    ddodiag.exe,
+    "ddodiag.exe",
     "?:\\windows\\system32\\ddodiag.exe",
     "?:\\windows\\syswow64\\ddodiag.exe",
     "?:\\windows\\sysarm32\\ddodiag.exe"
@@ -2700,7 +2699,7 @@
 
 - macro: process_matches_defrag
   list: [
-    defrag.exe,
+    "defrag.exe",
     "?:\\windows\\system32\\defrag.exe",
     "?:\\windows\\syswow64\\defrag.exe",
     "?:\\windows\\sysarm32\\defrag.exe",
@@ -2710,7 +2709,7 @@
 
 - macro: process_matches_devicecensus
   list: [
-    devicecensus.exe,
+    "devicecensus.exe",
     "?:\\windows\\system32\\devicecensus.exe",
     "?:\\windows\\syswow64\\devicecensus.exe",
     "?:\\windows\\sysarm32\\devicecensus.exe"
@@ -2718,7 +2717,7 @@
 
 - macro: process_matches_devicecredentialdeployment
   list: [
-    devicecredentialdeployment.exe,
+    "devicecredentialdeployment.exe",
     "?:\\windows\\system32\\devicecredentialdeployment.exe",
     "?:\\windows\\syswow64\\devicecredentialdeployment.exe",
     "?:\\windows\\sysarm32\\devicecredentialdeployment.exe"
@@ -2726,7 +2725,7 @@
 
 - macro: process_matches_deviceeject
   list: [
-    deviceeject.exe,
+    "deviceeject.exe",
     "?:\\windows\\system32\\deviceeject.exe",
     "?:\\windows\\syswow64\\deviceeject.exe",
     "?:\\windows\\sysarm32\\deviceeject.exe"
@@ -2734,7 +2733,7 @@
 
 - macro: process_matches_devicepairingwizard
   list: [
-    devicepairingwizard.exe,
+    "devicepairingwizard.exe",
     "?:\\windows\\system32\\devicepairingwizard.exe",
     "?:\\windows\\syswow64\\devicepairingwizard.exe",
     "?:\\windows\\sysarm32\\devicepairingwizard.exe"
@@ -2742,7 +2741,7 @@
 
 - macro: process_matches_deviceproperties
   list: [
-    deviceproperties.exe,
+    "deviceproperties.exe",
     "?:\\windows\\system32\\deviceproperties.exe",
     "?:\\windows\\syswow64\\deviceproperties.exe",
     "?:\\windows\\sysarm32\\deviceproperties.exe"
@@ -2750,7 +2749,7 @@
 
 - macro: process_matches_dfdwiz
   list: [
-    dfdwiz.exe,
+    "dfdwiz.exe",
     "?:\\windows\\system32\\dfdwiz.exe",
     "?:\\windows\\syswow64\\dfdwiz.exe",
     "?:\\windows\\sysarm32\\dfdwiz.exe"
@@ -2758,7 +2757,7 @@
 
 - macro: process_matches_dfrgui
   list: [
-    dfrgui.exe,
+    "dfrgui.exe",
     "?:\\windows\\system32\\dfrgui.exe",
     "?:\\windows\\syswow64\\dfrgui.exe",
     "?:\\windows\\sysarm32\\dfrgui.exe"
@@ -2766,7 +2765,7 @@
 
 - macro: process_matches_dialer
   list: [
-    dialer.exe,
+    "dialer.exe",
     "?:\\windows\\system32\\dialer.exe",
     "?:\\windows\\syswow64\\dialer.exe",
     "?:\\windows\\sysarm32\\dialer.exe"
@@ -2774,7 +2773,7 @@
 
 - macro: process_matches_directxdatabaseupdater
   list: [
-    directxdatabaseupdater.exe,
+    "directxdatabaseupdater.exe",
     "?:\\windows\\system32\\directxdatabaseupdater.exe",
     "?:\\windows\\syswow64\\directxdatabaseupdater.exe",
     "?:\\windows\\sysarm32\\directxdatabaseupdater.exe"
@@ -2782,7 +2781,7 @@
 
 - macro: process_matches_diskpart
   list: [
-    diskpart.exe,
+    "diskpart.exe",
     "?:\\windows\\system32\\diskpart.exe",
     "?:\\windows\\syswow64\\diskpart.exe",
     "?:\\windows\\sysarm32\\diskpart.exe",
@@ -2791,7 +2790,7 @@
 
 - macro: process_matches_diskperf
   list: [
-    diskperf.exe,
+    "diskperf.exe",
     "?:\\windows\\system32\\diskperf.exe",
     "?:\\windows\\syswow64\\diskperf.exe",
     "?:\\windows\\sysarm32\\diskperf.exe"
@@ -2799,7 +2798,7 @@
 
 - macro: process_matches_diskraid
   list: [
-    diskraid.exe,
+    "diskraid.exe",
     "?:\\windows\\system32\\diskraid.exe",
     "?:\\windows\\syswow64\\diskraid.exe",
     "?:\\windows\\sysarm32\\diskraid.exe"
@@ -2807,7 +2806,7 @@
 
 - macro: process_matches_disksnapshot
   list: [
-    disksnapshot.exe,
+    "disksnapshot.exe",
     "?:\\windows\\system32\\disksnapshot.exe",
     "?:\\windows\\syswow64\\disksnapshot.exe",
     "?:\\windows\\sysarm32\\disksnapshot.exe"
@@ -2815,7 +2814,7 @@
 
 - macro: process_matches_dispdiag
   list: [
-    dispdiag.exe,
+    "dispdiag.exe",
     "?:\\windows\\system32\\dispdiag.exe",
     "?:\\windows\\syswow64\\dispdiag.exe",
     "?:\\windows\\sysarm32\\dispdiag.exe"
@@ -2823,7 +2822,7 @@
 
 - macro: process_matches_djoin
   list: [
-    djoin.exe,
+    "djoin.exe",
     "?:\\windows\\system32\\djoin.exe",
     "?:\\windows\\syswow64\\djoin.exe",
     "?:\\windows\\sysarm32\\djoin.exe"
@@ -2831,7 +2830,7 @@
 
 - macro: process_matches_dllhst3g
   list: [
-    dllhst3g.exe,
+    "dllhst3g.exe",
     "?:\\windows\\system32\\dllhst3g.exe",
     "?:\\windows\\syswow64\\dllhst3g.exe",
     "?:\\windows\\sysarm32\\dllhst3g.exe"
@@ -2839,7 +2838,7 @@
 
 - macro: process_matches_dmcertinst
   list: [
-    dmcertinst.exe,
+    "dmcertinst.exe",
     "?:\\windows\\system32\\dmcertinst.exe",
     "?:\\windows\\syswow64\\dmcertinst.exe",
     "?:\\windows\\sysarm32\\dmcertinst.exe"
@@ -2847,7 +2846,7 @@
 
 - macro: process_matches_dmcfghost
   list: [
-    dmcfghost.exe,
+    "dmcfghost.exe",
     "?:\\windows\\system32\\dmcfghost.exe",
     "?:\\windows\\syswow64\\dmcfghost.exe",
     "?:\\windows\\sysarm32\\dmcfghost.exe"
@@ -2855,7 +2854,7 @@
 
 - macro: process_matches_dmclient
   list: [
-    dmclient.exe,
+    "dmclient.exe",
     "?:\\windows\\system32\\dmclient.exe",
     "?:\\windows\\syswow64\\dmclient.exe",
     "?:\\windows\\sysarm32\\dmclient.exe",
@@ -2864,7 +2863,7 @@
 
 - macro: process_matches_dmnotificationbroker
   list: [
-    dmnotificationbroker.exe,
+    "dmnotificationbroker.exe",
     "?:\\windows\\system32\\dmnotificationbroker.exe",
     "?:\\windows\\syswow64\\dmnotificationbroker.exe",
     "?:\\windows\\sysarm32\\dmnotificationbroker.exe"
@@ -2872,7 +2871,7 @@
 
 - macro: process_matches_dmomacpmo
   list: [
-    dmomacpmo.exe,
+    "dmomacpmo.exe",
     "?:\\windows\\system32\\dmomacpmo.exe",
     "?:\\windows\\syswow64\\dmomacpmo.exe",
     "?:\\windows\\sysarm32\\dmomacpmo.exe"
@@ -2880,7 +2879,7 @@
 
 - macro: process_matches_dnscacheugc
   list: [
-    dnscacheugc.exe,
+    "dnscacheugc.exe",
     "?:\\windows\\system32\\dnscacheugc.exe",
     "?:\\windows\\syswow64\\dnscacheugc.exe",
     "?:\\windows\\sysarm32\\dnscacheugc.exe"
@@ -2888,7 +2887,7 @@
 
 - macro: process_matches_doskey
   list: [
-    doskey.exe,
+    "doskey.exe",
     "?:\\windows\\system32\\doskey.exe",
     "?:\\windows\\syswow64\\doskey.exe",
     "?:\\windows\\sysarm32\\doskey.exe"
@@ -2896,7 +2895,7 @@
 
 - macro: process_matches_dpapimig
   list: [
-    dpapimig.exe,
+    "dpapimig.exe",
     "?:\\windows\\system32\\dpapimig.exe",
     "?:\\windows\\syswow64\\dpapimig.exe",
     "?:\\windows\\sysarm32\\dpapimig.exe"
@@ -2904,7 +2903,7 @@
 
 - macro: process_matches_dpiscaling
   list: [
-    dpiscaling.exe,
+    "dpiscaling.exe",
     "?:\\windows\\system32\\dpiscaling.exe",
     "?:\\windows\\syswow64\\dpiscaling.exe",
     "?:\\windows\\sysarm32\\dpiscaling.exe"
@@ -2912,7 +2911,7 @@
 
 - macro: process_matches_dpnsvr
   list: [
-    dpnsvr.exe,
+    "dpnsvr.exe",
     "?:\\windows\\system32\\dpnsvr.exe",
     "?:\\windows\\syswow64\\dpnsvr.exe",
     "?:\\windows\\sysarm32\\dpnsvr.exe"
@@ -2920,7 +2919,7 @@
 
 - macro: process_matches_driverquery
   list: [
-    driverquery.exe,
+    "driverquery.exe",
     "?:\\windows\\system32\\driverquery.exe",
     "?:\\windows\\syswow64\\driverquery.exe",
     "?:\\windows\\sysarm32\\driverquery.exe"
@@ -2928,7 +2927,7 @@
 
 - macro: process_matches_drvinst
   list: [
-    drvinst.exe,
+    "drvinst.exe",
     "?:\\windows\\system32\\drvinst.exe",
     "?:\\windows\\syswow64\\drvinst.exe",
     "?:\\windows\\sysarm32\\drvinst.exe"
@@ -2936,7 +2935,7 @@
 
 - macro: process_matches_dsmusertask
   list: [
-    dsmusertask.exe,
+    "dsmusertask.exe",
     "?:\\windows\\system32\\dsmusertask.exe",
     "?:\\windows\\syswow64\\dsmusertask.exe",
     "?:\\windows\\sysarm32\\dsmusertask.exe"
@@ -2944,7 +2943,7 @@
 
 - macro: process_matches_dsregcmd
   list: [
-    dsregcmd.exe,
+    "dsregcmd.exe",
     "?:\\windows\\system32\\dsregcmd.exe",
     "?:\\windows\\syswow64\\dsregcmd.exe",
     "?:\\windows\\sysarm32\\dsregcmd.exe"
@@ -2952,7 +2951,7 @@
 
 - macro: process_matches_dstokenclean
   list: [
-    dstokenclean.exe,
+    "dstokenclean.exe",
     "?:\\windows\\system32\\dstokenclean.exe",
     "?:\\windows\\syswow64\\dstokenclean.exe",
     "?:\\windows\\sysarm32\\dstokenclean.exe"
@@ -2960,7 +2959,7 @@
 
 - macro: process_matches_dtuhandler
   list: [
-    dtuhandler.exe,
+    "dtuhandler.exe",
     "?:\\windows\\system32\\dtuhandler.exe",
     "?:\\windows\\syswow64\\dtuhandler.exe",
     "?:\\windows\\sysarm32\\dtuhandler.exe"
@@ -2968,7 +2967,7 @@
 
 - macro: process_matches_dusmtask
   list: [
-    dusmtask.exe,
+    "dusmtask.exe",
     "?:\\windows\\system32\\dusmtask.exe",
     "?:\\windows\\syswow64\\dusmtask.exe",
     "?:\\windows\\sysarm32\\dusmtask.exe"
@@ -2976,7 +2975,7 @@
 
 - macro: process_matches_dvdplay
   list: [
-    dvdplay.exe,
+    "dvdplay.exe",
     "?:\\windows\\system32\\dvdplay.exe",
     "?:\\windows\\syswow64\\dvdplay.exe",
     "?:\\windows\\sysarm32\\dvdplay.exe"
@@ -2984,7 +2983,7 @@
 
 - macro: process_matches_dwwin
   list: [
-    dwwin.exe,
+    "dwwin.exe",
     "?:\\windows\\system32\\dwwin.exe",
     "?:\\windows\\syswow64\\dwwin.exe",
     "?:\\windows\\sysarm32\\dwwin.exe",
@@ -2993,7 +2992,7 @@
 
 - macro: process_matches_dxdiag
   list: [
-    dxdiag.exe,
+    "dxdiag.exe",
     "?:\\windows\\system32\\dxdiag.exe",
     "?:\\windows\\syswow64\\dxdiag.exe",
     "?:\\windows\\sysarm32\\dxdiag.exe"
@@ -3001,7 +3000,7 @@
 
 - macro: process_matches_dxpserver
   list: [
-    dxpserver.exe,
+    "dxpserver.exe",
     "?:\\windows\\system32\\dxpserver.exe",
     "?:\\windows\\syswow64\\dxpserver.exe",
     "?:\\windows\\sysarm32\\dxpserver.exe"
@@ -3009,7 +3008,7 @@
 
 - macro: process_matches_easeofaccessdialog
   list: [
-    easeofaccessdialog.exe,
+    "easeofaccessdialog.exe",
     "?:\\windows\\system32\\easeofaccessdialog.exe",
     "?:\\windows\\syswow64\\easeofaccessdialog.exe",
     "?:\\windows\\sysarm32\\easeofaccessdialog.exe"
@@ -3017,7 +3016,7 @@
 
 - macro: process_matches_easinvoker
   list: [
-    easinvoker.exe,
+    "easinvoker.exe",
     "?:\\windows\\system32\\easinvoker.exe",
     "?:\\windows\\syswow64\\easinvoker.exe",
     "?:\\windows\\sysarm32\\easinvoker.exe"
@@ -3025,7 +3024,7 @@
 
 - macro: process_matches_easpolicymanagerbrokerhost
   list: [
-    easpolicymanagerbrokerhost.exe,
+    "easpolicymanagerbrokerhost.exe",
     "?:\\windows\\system32\\easpolicymanagerbrokerhost.exe",
     "?:\\windows\\syswow64\\easpolicymanagerbrokerhost.exe",
     "?:\\windows\\sysarm32\\easpolicymanagerbrokerhost.exe"
@@ -3033,7 +3032,7 @@
 
 - macro: process_matches_edpcleanup
   list: [
-    edpcleanup.exe,
+    "edpcleanup.exe",
     "?:\\windows\\system32\\edpcleanup.exe",
     "?:\\windows\\syswow64\\edpcleanup.exe",
     "?:\\windows\\sysarm32\\edpcleanup.exe"
@@ -3041,7 +3040,7 @@
 
 - macro: process_matches_edpnotify
   list: [
-    edpnotify.exe,
+    "edpnotify.exe",
     "?:\\windows\\system32\\edpnotify.exe",
     "?:\\windows\\syswow64\\edpnotify.exe",
     "?:\\windows\\sysarm32\\edpnotify.exe"
@@ -3049,7 +3048,7 @@
 
 - macro: process_matches_eduprintprov
   list: [
-    eduprintprov.exe,
+    "eduprintprov.exe",
     "?:\\windows\\system32\\eduprintprov.exe",
     "?:\\windows\\syswow64\\eduprintprov.exe",
     "?:\\windows\\sysarm32\\eduprintprov.exe"
@@ -3057,7 +3056,7 @@
 
 - macro: process_matches_efsui
   list: [
-    efsui.exe,
+    "efsui.exe",
     "?:\\windows\\system32\\efsui.exe",
     "?:\\windows\\syswow64\\efsui.exe",
     "?:\\windows\\sysarm32\\efsui.exe"
@@ -3065,7 +3064,7 @@
 
 - macro: process_matches_eventcreate
   list: [
-    eventcreate.exe,
+    "eventcreate.exe",
     "?:\\windows\\system32\\eventcreate.exe",
     "?:\\windows\\syswow64\\eventcreate.exe",
     "?:\\windows\\sysarm32\\eventcreate.exe",
@@ -3074,7 +3073,7 @@
 
 - macro: process_matches_eventvwr
   list: [
-    eventvwr.exe,
+    "eventvwr.exe",
     "?:\\windows\\system32\\eventvwr.exe",
     "?:\\windows\\syswow64\\eventvwr.exe",
     "?:\\windows\\sysarm32\\eventvwr.exe",
@@ -3084,7 +3083,7 @@
 
 - macro: process_matches_fc
   list: [
-    fc.exe,
+    "fc.exe",
     "?:\\windows\\system32\\fc.exe",
     "?:\\windows\\syswow64\\fc.exe",
     "?:\\windows\\sysarm32\\fc.exe"
@@ -3092,7 +3091,7 @@
 
 - macro: process_matches_fhmanagew
   list: [
-    fhmanagew.exe,
+    "fhmanagew.exe",
     "?:\\windows\\system32\\fhmanagew.exe",
     "?:\\windows\\syswow64\\fhmanagew.exe",
     "?:\\windows\\sysarm32\\fhmanagew.exe"
@@ -3100,12 +3099,12 @@
 
 - macro: process_matches_filecoauth
   list: [
-    filecoauth.exe
+    "filecoauth.exe"
     ]
 
 - macro: process_matches_find
   list: [
-    find.exe,
+    "find.exe",
     "?:\\windows\\system32\\find.exe",
     "?:\\windows\\syswow64\\find.exe",
     "?:\\windows\\sysarm32\\find.exe"
@@ -3113,7 +3112,7 @@
 
 - macro: process_matches_finger
   list: [
-    finger.exe,
+    "finger.exe",
     "?:\\windows\\system32\\finger.exe",
     "?:\\windows\\syswow64\\finger.exe",
     "?:\\windows\\sysarm32\\finger.exe"
@@ -3121,8 +3120,8 @@
 
 - macro: process_matches_fixmapi
   list: [
-    fixmapi.exe,
-    fixmapix64.exe,
+    "fixmapi.exe",
+    "fixmapix64.exe",
     "?:\\windows\\system32\\fixmapi.exe",
     "?:\\windows\\syswow64\\fixmapi.exe",
     "?:\\windows\\sysarm32\\fixmapi.exe",
@@ -3131,7 +3130,7 @@
 
 - macro: process_matches_fodhelper
   list: [
-    fodhelper.exe,
+    "fodhelper.exe",
     "?:\\windows\\system32\\fodhelper.exe",
     "?:\\windows\\syswow64\\fodhelper.exe",
     "?:\\windows\\sysarm32\\fodhelper.exe"
@@ -3139,7 +3138,7 @@
 
 - macro: process_matches_fondue
   list: [
-    fondue.exe,
+    "fondue.exe",
     "?:\\windows\\system32\\fondue.exe",
     "?:\\windows\\syswow64\\fondue.exe",
     "?:\\windows\\sysarm32\\fondue.exe"
@@ -3147,7 +3146,7 @@
 
 - macro: process_matches_fontdrvhost
   list: [
-    fontdrvhost.exe,
+    "fontdrvhost.exe",
     "?:\\windows\\system32\\fontdrvhost.exe",
     "?:\\windows\\syswow64\\fontdrvhost.exe",
     "?:\\windows\\sysarm32\\fontdrvhost.exe"
@@ -3155,7 +3154,7 @@
 
 - macro: process_matches_fontview
   list: [
-    fontview.exe,
+    "fontview.exe",
     "?:\\windows\\system32\\fontview.exe",
     "?:\\windows\\syswow64\\fontview.exe",
     "?:\\windows\\sysarm32\\fontview.exe"
@@ -3163,7 +3162,7 @@
 
 - macro: process_matches_fsavailux
   list: [
-    fsavailux.exe,
+    "fsavailux.exe",
     "?:\\windows\\system32\\fsavailux.exe",
     "?:\\windows\\syswow64\\fsavailux.exe",
     "?:\\windows\\sysarm32\\fsavailux.exe"
@@ -3171,7 +3170,7 @@
 
 - macro: process_matches_fsiso
   list: [
-    fsiso.exe,
+    "fsiso.exe",
     "?:\\windows\\system32\\fsiso.exe",
     "?:\\windows\\syswow64\\fsiso.exe",
     "?:\\windows\\sysarm32\\fsiso.exe"
@@ -3179,7 +3178,7 @@
 
 - macro: process_matches_fsquirt
   list: [
-    fsquirt.exe,
+    "fsquirt.exe",
     "?:\\windows\\system32\\fsquirt.exe",
     "?:\\windows\\syswow64\\fsquirt.exe",
     "?:\\windows\\sysarm32\\fsquirt.exe"
@@ -3187,7 +3186,7 @@
 
 - macro: process_matches_fsutil
   list: [
-    fsutil.exe,
+    "fsutil.exe",
     "?:\\windows\\system32\\fsutil.exe",
     "?:\\windows\\syswow64\\fsutil.exe",
     "?:\\windows\\sysarm32\\fsutil.exe"
@@ -3195,7 +3194,7 @@
 
 - macro: process_matches_ftp
   list: [
-    ftp.exe,
+    "ftp.exe",
     "?:\\windows\\system32\\ftp.exe",
     "?:\\windows\\syswow64\\ftp.exe",
     "?:\\windows\\sysarm32\\ftp.exe"
@@ -3203,7 +3202,7 @@
 
 - macro: process_matches_fvenotify
   list: [
-    fvenotify.exe,
+    "fvenotify.exe",
     "?:\\windows\\system32\\fvenotify.exe",
     "?:\\windows\\syswow64\\fvenotify.exe",
     "?:\\windows\\sysarm32\\fvenotify.exe"
@@ -3211,7 +3210,7 @@
 
 - macro: process_matches_fveprompt
   list: [
-    fveprompt.exe,
+    "fveprompt.exe",
     "?:\\windows\\system32\\fveprompt.exe",
     "?:\\windows\\syswow64\\fveprompt.exe",
     "?:\\windows\\sysarm32\\fveprompt.exe"
@@ -3219,7 +3218,7 @@
 
 - macro: process_matches_fxssvc
   list: [
-    fxssvc.exe,
+    "fxssvc.exe",
     "?:\\windows\\system32\\fxssvc.exe",
     "?:\\windows\\syswow64\\fxssvc.exe",
     "?:\\windows\\sysarm32\\fxssvc.exe",
@@ -3228,7 +3227,7 @@
 
 - macro: process_matches_fxsunatd
   list: [
-    fxsunatd.exe,
+    "fxsunatd.exe",
     "?:\\windows\\system32\\fxsunatd.exe",
     "?:\\windows\\syswow64\\fxsunatd.exe",
     "?:\\windows\\sysarm32\\fxsunatd.exe"
@@ -3236,7 +3235,7 @@
 
 - macro: process_matches_gamebarpresencewriter
   list: [
-    gamebarpresencewriter.exe,
+    "gamebarpresencewriter.exe",
     "?:\\windows\\system32\\gamebarpresencewriter.exe",
     "?:\\windows\\syswow64\\gamebarpresencewriter.exe",
     "?:\\windows\\sysarm32\\gamebarpresencewriter.exe"
@@ -3244,7 +3243,7 @@
 
 - macro: process_matches_gamepanel
   list: [
-    gamepanel.exe,
+    "gamepanel.exe",
     "?:\\windows\\system32\\gamepanel.exe",
     "?:\\windows\\syswow64\\gamepanel.exe",
     "?:\\windows\\sysarm32\\gamepanel.exe"
@@ -3252,7 +3251,7 @@
 
 - macro: process_matches_getmac
   list: [
-    getmac.exe,
+    "getmac.exe",
     "?:\\windows\\system32\\getmac.exe",
     "?:\\windows\\syswow64\\getmac.exe",
     "?:\\windows\\sysarm32\\getmac.exe"
@@ -3260,7 +3259,7 @@
 
 - macro: process_matches_gpresult
   list: [
-    gpresult.exe,
+    "gpresult.exe",
     "?:\\windows\\system32\\gpresult.exe",
     "?:\\windows\\syswow64\\gpresult.exe",
     "?:\\windows\\sysarm32\\gpresult.exe"
@@ -3268,7 +3267,7 @@
 
 - macro: process_matches_gpscript
   list: [
-    gpscript.exe,
+    "gpscript.exe",
     "?:\\windows\\system32\\gpscript.exe",
     "?:\\windows\\syswow64\\gpscript.exe",
     "?:\\windows\\sysarm32\\gpscript.exe"
@@ -3276,7 +3275,7 @@
 
 - macro: process_matches_grpconv
   list: [
-    grpconv.exe,
+    "grpconv.exe",
     "?:\\windows\\system32\\grpconv.exe",
     "?:\\windows\\syswow64\\grpconv.exe",
     "?:\\windows\\sysarm32\\grpconv.exe",
@@ -3285,7 +3284,7 @@
 
 - macro: process_matches_hcsdiag
   list: [
-    hcsdiag.exe,
+    "hcsdiag.exe",
     "?:\\windows\\system32\\hcsdiag.exe",
     "?:\\windows\\syswow64\\hcsdiag.exe",
     "?:\\windows\\sysarm32\\hcsdiag.exe"
@@ -3293,7 +3292,7 @@
 
 - macro: process_matches_hdwwiz
   list: [
-    hdwwiz.exe,
+    "hdwwiz.exe",
     "?:\\windows\\system32\\hdwwiz.exe",
     "?:\\windows\\syswow64\\hdwwiz.exe",
     "?:\\windows\\sysarm32\\hdwwiz.exe"
@@ -3301,7 +3300,7 @@
 
 - macro: process_matches_help
   list: [
-    help.exe,
+    "help.exe",
     "?:\\windows\\system32\\help.exe",
     "?:\\windows\\syswow64\\help.exe",
     "?:\\windows\\sysarm32\\help.exe"
@@ -3309,7 +3308,7 @@
 
 - macro: process_matches_hnsdiag
   list: [
-    hnsdiag.exe,
+    "hnsdiag.exe",
     "?:\\windows\\system32\\hnsdiag.exe",
     "?:\\windows\\syswow64\\hnsdiag.exe",
     "?:\\windows\\sysarm32\\hnsdiag.exe"
@@ -3317,7 +3316,7 @@
 
 - macro: process_matches_hostname
   list: [
-    hostname.exe,
+    "hostname.exe",
     "?:\\windows\\system32\\hostname.exe",
     "?:\\windows\\syswow64\\hostname.exe",
     "?:\\windows\\sysarm32\\hostname.exe"
@@ -3325,7 +3324,7 @@
 
 - macro: process_matches_hvax64
   list: [
-    hvax64.exe,
+    "hvax64.exe",
     "?:\\windows\\system32\\hvax64.exe",
     "?:\\windows\\syswow64\\hvax64.exe",
     "?:\\windows\\sysarm32\\hvax64.exe"
@@ -3333,7 +3332,7 @@
 
 - macro: process_matches_hvix64
   list: [
-    hvix64.exe,
+    "hvix64.exe",
     "?:\\windows\\system32\\hvix64.exe",
     "?:\\windows\\syswow64\\hvix64.exe",
     "?:\\windows\\sysarm32\\hvix64.exe"
@@ -3341,7 +3340,7 @@
 
 - macro: process_matches_hvsievaluator
   list: [
-    hvsievaluator.exe,
+    "hvsievaluator.exe",
     "?:\\windows\\system32\\hvsievaluator.exe",
     "?:\\windows\\syswow64\\hvsievaluator.exe",
     "?:\\windows\\sysarm32\\hvsievaluator.exe"
@@ -3349,7 +3348,7 @@
 
 - macro: process_matches_icacls
   list: [
-    icacls.exe,
+    "icacls.exe",
     "?:\\windows\\system32\\icacls.exe",
     "?:\\windows\\syswow64\\icacls.exe",
     "?:\\windows\\sysarm32\\icacls.exe"
@@ -3357,7 +3356,7 @@
 
 - macro: process_matches_icsentitlementhost
   list: [
-    icsentitlementhost.exe,
+    "icsentitlementhost.exe",
     "?:\\windows\\system32\\icsentitlementhost.exe",
     "?:\\windows\\syswow64\\icsentitlementhost.exe",
     "?:\\windows\\sysarm32\\icsentitlementhost.exe"
@@ -3365,7 +3364,7 @@
 
 - macro: process_matches_icsunattend
   list: [
-    icsunattend.exe,
+    "icsunattend.exe",
     "?:\\windows\\system32\\icsunattend.exe",
     "?:\\windows\\syswow64\\icsunattend.exe",
     "?:\\windows\\sysarm32\\icsunattend.exe"
@@ -3373,7 +3372,7 @@
 
 - macro: process_matches_ie4ushowie
   list: [
-    ie4ushowie.exe,
+    "ie4ushowie.exe",
     "?:\\windows\\system32\\ie4ushowie.exe",
     "?:\\windows\\syswow64\\ie4ushowie.exe",
     "?:\\windows\\sysarm32\\ie4ushowie.exe"
@@ -3381,7 +3380,7 @@
 
 - macro: process_matches_iesettingsync
   list: [
-    iesettingsync.exe,
+    "iesettingsync.exe",
     "?:\\windows\\system32\\iesettingsync.exe",
     "?:\\windows\\syswow64\\iesettingsync.exe",
     "?:\\windows\\sysarm32\\iesettingsync.exe"
@@ -3389,7 +3388,7 @@
 
 - macro: process_matches_ieunatt
   list: [
-    ieunatt.exe,
+    "ieunatt.exe",
     "?:\\windows\\system32\\ieunatt.exe",
     "?:\\windows\\syswow64\\ieunatt.exe",
     "?:\\windows\\sysarm32\\ieunatt.exe"
@@ -3397,12 +3396,12 @@
 
 - macro: process_matches_imecmnt
   list: [
-    imecmnt.exe
+    "imecmnt.exe"
     ]
 
 - macro: process_matches_iexpress
   list: [
-    iexpress.exe,
+    "iexpress.exe",
     "?:\\windows\\system32\\iexpress.exe",
     "?:\\windows\\syswow64\\iexpress.exe",
     "?:\\windows\\sysarm32\\iexpress.exe"
@@ -3410,7 +3409,7 @@
 
 - macro: process_matches_immersivetpmvscmgrsvr
   list: [
-    immersivetpmvscmgrsvr.exe,
+    "immersivetpmvscmgrsvr.exe",
     "?:\\windows\\system32\\immersivetpmvscmgrsvr.exe",
     "?:\\windows\\syswow64\\immersivetpmvscmgrsvr.exe",
     "?:\\windows\\sysarm32\\immersivetpmvscmgrsvr.exe"
@@ -3418,7 +3417,7 @@
 
 - macro: process_matches_inputswitchtoasthandler
   list: [
-    inputswitchtoasthandler.exe,
+    "inputswitchtoasthandler.exe",
     "?:\\windows\\system32\\inputswitchtoasthandler.exe",
     "?:\\windows\\syswow64\\inputswitchtoasthandler.exe",
     "?:\\windows\\sysarm32\\inputswitchtoasthandler.exe"
@@ -3426,7 +3425,7 @@
 
 - macro: process_matches_iotstartup
   list: [
-    iotstartup.exe,
+    "iotstartup.exe",
     "?:\\windows\\system32\\iotstartup.exe",
     "?:\\windows\\syswow64\\iotstartup.exe",
     "?:\\windows\\sysarm32\\iotstartup.exe"
@@ -3434,7 +3433,7 @@
 
 - macro: process_matches_ipconfig
   list: [
-    ipconfig.exe,
+    "ipconfig.exe",
     "?:\\windows\\system32\\ipconfig.exe",
     "?:\\windows\\syswow64\\ipconfig.exe",
     "?:\\windows\\sysarm32\\ipconfig.exe",
@@ -3443,7 +3442,7 @@
 
 - macro: process_matches_iscsicli
   list: [
-    iscsicli.exe,
+    "iscsicli.exe",
     "?:\\windows\\system32\\iscsicli.exe",
     "?:\\windows\\syswow64\\iscsicli.exe",
     "?:\\windows\\sysarm32\\iscsicli.exe"
@@ -3451,7 +3450,7 @@
 
 - macro: process_matches_iscsicpl
   list: [
-    iscsicpl.exe,
+    "iscsicpl.exe",
     "?:\\windows\\system32\\iscsicpl.exe",
     "?:\\windows\\syswow64\\iscsicpl.exe",
     "?:\\windows\\sysarm32\\iscsicpl.exe"
@@ -3459,7 +3458,7 @@
 
 - macro: process_matches_ksetup
   list: [
-    ksetup.exe,
+    "ksetup.exe",
     "?:\\windows\\system32\\ksetup.exe",
     "?:\\windows\\syswow64\\ksetup.exe",
     "?:\\windows\\sysarm32\\ksetup.exe"
@@ -3467,7 +3466,7 @@
 
 - macro: process_matches_ktmutil
   list: [
-    ktmutil.exe,
+    "ktmutil.exe",
     "?:\\windows\\system32\\ktmutil.exe",
     "?:\\windows\\syswow64\\ktmutil.exe",
     "?:\\windows\\sysarm32\\ktmutil.exe"
@@ -3475,7 +3474,7 @@
 
 - macro: process_matches_label
   list: [
-    label.exe,
+    "label.exe",
     "?:\\windows\\system32\\label.exe",
     "?:\\windows\\syswow64\\label.exe",
     "?:\\windows\\sysarm32\\label.exe"
@@ -3483,7 +3482,7 @@
 
 - macro: process_matches_languagecomponentsinstallercomhandler
   list: [
-    languagecomponentsinstallercomhandler.exe,
+    "languagecomponentsinstallercomhandler.exe",
     "?:\\windows\\system32\\languagecomponentsinstallercomhandler.exe",
     "?:\\windows\\syswow64\\languagecomponentsinstallercomhandler.exe",
     "?:\\windows\\sysarm32\\languagecomponentsinstallercomhandler.exe"
@@ -3491,7 +3490,7 @@
 
 - macro: process_matches_launchtm
   list: [
-    launchtm.exe,
+    "launchtm.exe",
     "?:\\windows\\system32\\launchtm.exe",
     "?:\\windows\\syswow64\\launchtm.exe",
     "?:\\windows\\sysarm32\\launchtm.exe"
@@ -3499,7 +3498,7 @@
 
 - macro: process_matches_launchwinapp
   list: [
-    launchwinapp.exe,
+    "launchwinapp.exe",
     "?:\\windows\\system32\\launchwinapp.exe",
     "?:\\windows\\syswow64\\launchwinapp.exe",
     "?:\\windows\\sysarm32\\launchwinapp.exe"
@@ -3507,7 +3506,7 @@
 
 - macro: process_matches_legacynetuxhost
   list: [
-    legacynetuxhost.exe,
+    "legacynetuxhost.exe",
     "?:\\windows\\system32\\legacynetuxhost.exe",
     "?:\\windows\\syswow64\\legacynetuxhost.exe",
     "?:\\windows\\sysarm32\\legacynetuxhost.exe"
@@ -3515,7 +3514,7 @@
 
 - macro: process_matches_licensemanagershellext
   list: [
-    licensemanagershellext.exe,
+    "licensemanagershellext.exe",
     "?:\\windows\\system32\\licensemanagershellext.exe",
     "?:\\windows\\syswow64\\licensemanagershellext.exe",
     "?:\\windows\\sysarm32\\licensemanagershellext.exe"
@@ -3523,7 +3522,7 @@
 
 - macro: process_matches_licensingdiag
   list: [
-    licensingdiag.exe,
+    "licensingdiag.exe",
     "?:\\windows\\system32\\licensingdiag.exe",
     "?:\\windows\\syswow64\\licensingdiag.exe",
     "?:\\windows\\sysarm32\\licensingdiag.exe"
@@ -3531,7 +3530,7 @@
 
 - macro: process_matches_licensingui
   list: [
-    licensingui.exe,
+    "licensingui.exe",
     "?:\\windows\\system32\\licensingui.exe",
     "?:\\windows\\syswow64\\licensingui.exe",
     "?:\\windows\\sysarm32\\licensingui.exe"
@@ -3539,7 +3538,7 @@
 
 - macro: process_matches_locationnotificationwindows
   list: [
-    locationnotificationwindows.exe,
+    "locationnotificationwindows.exe",
     "?:\\windows\\system32\\locationnotificationwindows.exe",
     "?:\\windows\\syswow64\\locationnotificationwindows.exe",
     "?:\\windows\\sysarm32\\locationnotificationwindows.exe"
@@ -3547,7 +3546,7 @@
 
 - macro: process_matches_locator
   list: [
-    locator.exe,
+    "locator.exe",
     "?:\\windows\\system32\\locator.exe",
     "?:\\windows\\syswow64\\locator.exe",
     "?:\\windows\\sysarm32\\locator.exe",
@@ -3556,7 +3555,7 @@
 
 - macro: process_matches_lockapphost
   list: [
-    lockapphost.exe,
+    "lockapphost.exe",
     "?:\\windows\\system32\\lockapphost.exe",
     "?:\\windows\\syswow64\\lockapphost.exe",
     "?:\\windows\\sysarm32\\lockapphost.exe"
@@ -3564,7 +3563,7 @@
 
 - macro: process_matches_lodctr
   list: [
-    lodctr.exe,
+    "lodctr.exe",
     "?:\\windows\\system32\\lodctr.exe",
     "?:\\windows\\syswow64\\lodctr.exe",
     "?:\\windows\\sysarm32\\lodctr.exe",
@@ -3573,7 +3572,7 @@
 
 - macro: process_matches_logagent
   list: [
-    logagent.exe,
+    "logagent.exe",
     "?:\\windows\\system32\\logagent.exe",
     "?:\\windows\\syswow64\\logagent.exe",
     "?:\\windows\\sysarm32\\logagent.exe",
@@ -3583,7 +3582,7 @@
 
 - macro: process_matches_logman
   list: [
-    logman.exe,
+    "logman.exe",
     "?:\\windows\\system32\\logman.exe",
     "?:\\windows\\syswow64\\logman.exe",
     "?:\\windows\\sysarm32\\logman.exe",
@@ -3593,7 +3592,7 @@
 
 - macro: process_matches_logoff
   list: [
-    logoff.exe,
+    "logoff.exe",
     "?:\\windows\\system32\\logoff.exe",
     "?:\\windows\\syswow64\\logoff.exe",
     "?:\\windows\\sysarm32\\logoff.exe",
@@ -3602,7 +3601,7 @@
 
 - macro: process_matches_logonui
   list: [
-    logonui.exe,
+    "logonui.exe",
     "?:\\windows\\system32\\logonui.exe",
     "?:\\windows\\syswow64\\logonui.exe",
     "?:\\windows\\sysarm32\\logonui.exe",
@@ -3611,7 +3610,7 @@
 
 - macro: process_matches_lpkinstall
   list: [
-    lpkinstall.exe,
+    "lpkinstall.exe",
     "?:\\windows\\system32\\lpkinstall.exe",
     "?:\\windows\\syswow64\\lpkinstall.exe",
     "?:\\windows\\sysarm32\\lpkinstall.exe"
@@ -3619,7 +3618,7 @@
 
 - macro: process_matches_lpksetup
   list: [
-    lpksetup.exe,
+    "lpksetup.exe",
     "?:\\windows\\system32\\lpksetup.exe",
     "?:\\windows\\syswow64\\lpksetup.exe",
     "?:\\windows\\sysarm32\\lpksetup.exe"
@@ -3627,7 +3626,7 @@
 
 - macro: process_matches_lpremove
   list: [
-    lpremove.exe,
+    "lpremove.exe",
     "?:\\windows\\system32\\lpremove.exe",
     "?:\\windows\\syswow64\\lpremove.exe",
     "?:\\windows\\sysarm32\\lpremove.exe"
@@ -3635,8 +3634,8 @@
 
 - macro: process_matches_bde
   list: [
-    bde.exe,
-    repair-bde.exe,
+    "bde.exe",
+    "repair-bde.exe",
     "?:\\windows\\system32\\bde.exe",
     "?:\\windows\\syswow64\\bde.exe",
     "?:\\windows\\sysarm32\\bde.exe"
@@ -3644,7 +3643,7 @@
 
 - macro: process_matches_mbaeparsertask
   list: [
-    mbaeparsertask.exe,
+    "mbaeparsertask.exe",
     "?:\\windows\\system32\\mbaeparsertask.exe",
     "?:\\windows\\syswow64\\mbaeparsertask.exe",
     "?:\\windows\\sysarm32\\mbaeparsertask.exe"
@@ -3652,7 +3651,7 @@
 
 - macro: process_matches_mcbuilder
   list: [
-    mcbuilder.exe,
+    "mcbuilder.exe",
     "?:\\windows\\system32\\mcbuilder.exe",
     "?:\\windows\\syswow64\\mcbuilder.exe",
     "?:\\windows\\sysarm32\\mcbuilder.exe"
@@ -3660,7 +3659,7 @@
 
 - macro: process_matches_mdeserver
   list: [
-    mdeserver.exe,
+    "mdeserver.exe",
     "?:\\windows\\system32\\mdeserver.exe",
     "?:\\windows\\syswow64\\mdeserver.exe",
     "?:\\windows\\sysarm32\\mdeserver.exe"
@@ -3668,7 +3667,7 @@
 
 - macro: process_matches_mdmagent
   list: [
-    mdmagent.exe,
+    "mdmagent.exe",
     "?:\\windows\\system32\\mdmagent.exe",
     "?:\\windows\\syswow64\\mdmagent.exe",
     "?:\\windows\\sysarm32\\mdmagent.exe"
@@ -3676,7 +3675,7 @@
 
 - macro: process_matches_mdmdiagnosticstool
   list: [
-    mdmdiagnosticstool.exe,
+    "mdmdiagnosticstool.exe",
     "?:\\windows\\system32\\mdmdiagnosticstool.exe",
     "?:\\windows\\syswow64\\mdmdiagnosticstool.exe",
     "?:\\windows\\sysarm32\\mdmdiagnosticstool.exe"
@@ -3684,7 +3683,7 @@
 
 - macro: process_matches_mdres
   list: [
-    mdres.exe,
+    "mdres.exe",
     "?:\\windows\\system32\\mdres.exe",
     "?:\\windows\\syswow64\\mdres.exe",
     "?:\\windows\\sysarm32\\mdres.exe"
@@ -3692,7 +3691,7 @@
 
 - macro: process_matches_mdsched
   list: [
-    mdsched.exe,
+    "mdsched.exe",
     "?:\\windows\\system32\\mdsched.exe",
     "?:\\windows\\syswow64\\mdsched.exe",
     "?:\\windows\\sysarm32\\mdsched.exe"
@@ -3700,7 +3699,7 @@
 
 - macro: process_matches_mfpmp
   list: [
-    mfpmp.exe,
+    "mfpmp.exe",
     "?:\\windows\\system32\\mfpmp.exe",
     "?:\\windows\\syswow64\\mfpmp.exe",
     "?:\\windows\\sysarm32\\mfpmp.exe"
@@ -3708,8 +3707,8 @@
 
 - macro: process_matches_cscunpintool
   list: [
-    cscunpintool.exe,
-    microsoft.uev.cscunpintool.exe,
+    "cscunpintool.exe",
+    "microsoft.uev.cscunpintool.exe",
     "?:\\windows\\system32\\cscunpintool.exe",
     "?:\\windows\\system32\\microsoft.uev.cscunpintool.exe",
     "?:\\windows\\syswow64\\cscunpintool.exe",
@@ -3720,7 +3719,7 @@
 
 - macro: process_matches_synccontroller
   list: [
-    synccontroller.exe,
+    "synccontroller.exe",
     "?:\\windows\\system32\\synccontroller.exe",
     "?:\\windows\\syswow64\\synccontroller.exe",
     "?:\\windows\\sysarm32\\synccontroller.exe"
@@ -3728,7 +3727,7 @@
 
 - macro: process_matches_microsoftedgebchost
   list: [
-    microsoftedgebchost.exe,
+    "microsoftedgebchost.exe",
     "?:\\windows\\system32\\microsoftedgebchost.exe",
     "?:\\windows\\syswow64\\microsoftedgebchost.exe",
     "?:\\windows\\sysarm32\\microsoftedgebchost.exe"
@@ -3736,7 +3735,7 @@
 
 - macro: process_matches_microsoftedgecp
   list: [
-    microsoftedgecp.exe,
+    "microsoftedgecp.exe",
     "?:\\windows\\system32\\microsoftedgecp.exe",
     "?:\\windows\\syswow64\\microsoftedgecp.exe",
     "?:\\windows\\sysarm32\\microsoftedgecp.exe"
@@ -3744,7 +3743,7 @@
 
 - macro: process_matches_microsoftedgedevtools
   list: [
-    microsoftedgedevtools.exe,
+    "microsoftedgedevtools.exe",
     "?:\\windows\\system32\\microsoftedgedevtools.exe",
     "?:\\windows\\syswow64\\microsoftedgedevtools.exe",
     "?:\\windows\\sysarm32\\microsoftedgedevtools.exe"
@@ -3752,7 +3751,7 @@
 
 - macro: process_matches_microsoftedgesh
   list: [
-    microsoftedgesh.exe,
+    "microsoftedgesh.exe",
     "?:\\windows\\system32\\microsoftedgesh.exe",
     "?:\\windows\\syswow64\\microsoftedgesh.exe",
     "?:\\windows\\sysarm32\\microsoftedgesh.exe"
@@ -3760,7 +3759,7 @@
 
 - macro: process_matches_mmgaserver
   list: [
-    mmgaserver.exe,
+    "mmgaserver.exe",
     "?:\\windows\\system32\\mmgaserver.exe",
     "?:\\windows\\syswow64\\mmgaserver.exe",
     "?:\\windows\\sysarm32\\mmgaserver.exe"
@@ -3768,7 +3767,7 @@
 
 - macro: process_matches_mobsync
   list: [
-    mobsync.exe,
+    "mobsync.exe",
     "?:\\windows\\system32\\mobsync.exe",
     "?:\\windows\\syswow64\\mobsync.exe",
     "?:\\windows\\sysarm32\\mobsync.exe",
@@ -3777,7 +3776,7 @@
 
 - macro: process_matches_mountvol
   list: [
-    mountvol.exe,
+    "mountvol.exe",
     "?:\\windows\\system32\\mountvol.exe",
     "?:\\windows\\syswow64\\mountvol.exe",
     "?:\\windows\\sysarm32\\mountvol.exe",
@@ -3786,7 +3785,7 @@
 
 - macro: process_matches_mousocoreworker
   list: [
-    mousocoreworker.exe,
+    "mousocoreworker.exe",
     "?:\\windows\\system32\\mousocoreworker.exe",
     "?:\\windows\\system32\\uus\\mousocoreworker.exe",
     "?:\\windows\\uus\\amd64\\mousocoreworker.exe",
@@ -3799,7 +3798,7 @@
 
 - macro: process_matches_mpnotify
   list: [
-    mpnotify.exe,
+    "mpnotify.exe",
     "?:\\windows\\system32\\mpnotify.exe",
     "?:\\windows\\syswow64\\mpnotify.exe",
     "?:\\windows\\sysarm32\\mpnotify.exe",
@@ -3808,7 +3807,7 @@
 
 - macro: process_matches_mpsigstub
   list: [
-    mpsigstub.exe,
+    "mpsigstub.exe",
     "?:\\windows\\system32\\mpsigstub.exe",
     "?:\\windows\\syswow64\\mpsigstub.exe",
     "?:\\windows\\sysarm32\\mpsigstub.exe"
@@ -3816,7 +3815,7 @@
 
 - macro: process_matches_mrinfo
   list: [
-    mrinfo.exe,
+    "mrinfo.exe",
     "?:\\windows\\system32\\mrinfo.exe",
     "?:\\windows\\syswow64\\mrinfo.exe",
     "?:\\windows\\sysarm32\\mrinfo.exe"
@@ -3824,7 +3823,7 @@
 
 - macro: process_matches_mrt
   list: [
-    mrt.exe,
+    "mrt.exe",
     "?:\\windows\\system32\\mrt.exe",
     "?:\\windows\\syswow64\\mrt.exe",
     "?:\\windows\\sysarm32\\mrt.exe",
@@ -3833,7 +3832,7 @@
 
 - macro: process_matches_mschedexe
   list: [
-    mschedexe.exe,
+    "mschedexe.exe",
     "?:\\windows\\system32\\mschedexe.exe",
     "?:\\windows\\syswow64\\mschedexe.exe",
     "?:\\windows\\sysarm32\\mschedexe.exe"
@@ -3841,7 +3840,7 @@
 
 - macro: process_matches_msconfig
   list: [
-    msconfig.exe,
+    "msconfig.exe",
     "?:\\windows\\system32\\msconfig.exe",
     "?:\\windows\\syswow64\\msconfig.exe",
     "?:\\windows\\sysarm32\\msconfig.exe"
@@ -3849,7 +3848,7 @@
 
 - macro: process_matches_msdt
   list: [
-    msdt.exe,
+    "msdt.exe",
     "?:\\windows\\system32\\msdt.exe",
     "?:\\windows\\syswow64\\msdt.exe",
     "?:\\windows\\sysarm32\\msdt.exe"
@@ -3857,7 +3856,7 @@
 
 - macro: process_matches_msdtc
   list: [
-    msdtc.exe,
+    "msdtc.exe",
     "?:\\windows\\system32\\msdtc.exe",
     "?:\\windows\\syswow64\\msdtc.exe",
     "?:\\windows\\sysarm32\\msdtc.exe",
@@ -3866,7 +3865,7 @@
 
 - macro: process_matches_msfeedssync
   list: [
-    msfeedssync.exe,
+    "msfeedssync.exe",
     "?:\\windows\\system32\\msfeedssync.exe",
     "?:\\windows\\syswow64\\msfeedssync.exe",
     "?:\\windows\\sysarm32\\msfeedssync.exe",
@@ -3875,7 +3874,7 @@
 
 - macro: process_matches_msg
   list: [
-    msg.exe,
+    "msg.exe",
     "?:\\windows\\system32\\msg.exe",
     "?:\\windows\\syswow64\\msg.exe",
     "?:\\windows\\sysarm32\\msg.exe"
@@ -3883,7 +3882,7 @@
 
 - macro: process_matches_msinfo32
   list: [
-    msinfo32.exe,
+    "msinfo32.exe",
     "?:\\windows\\system32\\msinfo32.exe",
     "?:\\windows\\syswow64\\msinfo32.exe",
     "?:\\windows\\sysarm32\\msinfo32.exe"
@@ -3891,7 +3890,7 @@
 
 - macro: process_matches_mspaint
   list: [
-    mspaint.exe,
+    "mspaint.exe",
     "?:\\windows\\system32\\mspaint.exe",
     "?:\\windows\\syswow64\\mspaint.exe",
     "?:\\windows\\sysarm32\\mspaint.exe"
@@ -3899,7 +3898,7 @@
 
 - macro: process_matches_msra
   list: [
-    msra.exe,
+    "msra.exe",
     "?:\\windows\\system32\\msra.exe",
     "?:\\windows\\syswow64\\msra.exe",
     "?:\\windows\\sysarm32\\msra.exe"
@@ -3907,7 +3906,7 @@
 
 - macro: process_matches_msspellcheckinghost
   list: [
-    msspellcheckinghost.exe,
+    "msspellcheckinghost.exe",
     "?:\\windows\\system32\\msspellcheckinghost.exe",
     "?:\\windows\\syswow64\\msspellcheckinghost.exe",
     "?:\\windows\\sysarm32\\msspellcheckinghost.exe"
@@ -3915,7 +3914,7 @@
 
 - macro: process_matches_mtstocom
   list: [
-    mtstocom.exe,
+    "mtstocom.exe",
     "?:\\windows\\system32\\mtstocom.exe",
     "?:\\windows\\syswow64\\mtstocom.exe",
     "?:\\windows\\sysarm32\\mtstocom.exe"
@@ -3923,7 +3922,7 @@
 
 - macro: process_matches_muiunattend
   list: [
-    muiunattend.exe,
+    "muiunattend.exe",
     "?:\\windows\\system32\\muiunattend.exe",
     "?:\\windows\\syswow64\\muiunattend.exe",
     "?:\\windows\\sysarm32\\muiunattend.exe"
@@ -3931,7 +3930,7 @@
 
 - macro: process_matches_multidigimon
   list: [
-    multidigimon.exe,
+    "multidigimon.exe",
     "?:\\windows\\system32\\multidigimon.exe",
     "?:\\windows\\syswow64\\multidigimon.exe",
     "?:\\windows\\sysarm32\\multidigimon.exe"
@@ -3939,7 +3938,7 @@
 
 - macro: process_matches_musnotification
   list: [
-    musnotification.exe,
+    "musnotification.exe",
     "?:\\windows\\system32\\musnotification.exe",
     "?:\\windows\\syswow64\\musnotification.exe",
     "?:\\windows\\sysarm32\\musnotification.exe"
@@ -3947,7 +3946,7 @@
 
 - macro: process_matches_musnotificationux
   list: [
-    musnotificationux.exe,
+    "musnotificationux.exe",
     "?:\\windows\\system32\\musnotificationux.exe",
     "?:\\windows\\syswow64\\musnotificationux.exe",
     "?:\\windows\\sysarm32\\musnotificationux.exe"
@@ -3955,7 +3954,7 @@
 
 - macro: process_matches_nbtstat
   list: [
-    nbtstat.exe,
+    "nbtstat.exe",
     "?:\\windows\\system32\\nbtstat.exe",
     "?:\\windows\\syswow64\\nbtstat.exe",
     "?:\\windows\\sysarm32\\nbtstat.exe",
@@ -3964,7 +3963,7 @@
 
 - macro: process_matches_ndadmin
   list: [
-    ndadmin.exe,
+    "ndadmin.exe",
     "?:\\windows\\system32\\ndadmin.exe",
     "?:\\windows\\syswow64\\ndadmin.exe",
     "?:\\windows\\sysarm32\\ndadmin.exe"
@@ -3972,7 +3971,7 @@
 
 - macro: process_matches_ndkping
   list: [
-    ndkping.exe,
+    "ndkping.exe",
     "?:\\windows\\system32\\ndkping.exe",
     "?:\\windows\\syswow64\\ndkping.exe",
     "?:\\windows\\sysarm32\\ndkping.exe"
@@ -3980,7 +3979,7 @@
 
 - macro: process_matches_net1
   list: [
-    net1.exe,
+    "net1.exe",
     "?:\\windows\\system32\\net1.exe",
     "?:\\windows\\syswow64\\net1.exe",
     "?:\\windows\\sysarm32\\net1.exe"
@@ -3988,7 +3987,7 @@
 
 - macro: process_matches_netbtugc
   list: [
-    netbtugc.exe,
+    "netbtugc.exe",
     "?:\\windows\\system32\\netbtugc.exe",
     "?:\\windows\\syswow64\\netbtugc.exe",
     "?:\\windows\\sysarm32\\netbtugc.exe"
@@ -3996,7 +3995,7 @@
 
 - macro: process_matches_netcfg
   list: [
-    netcfg.exe,
+    "netcfg.exe",
     "?:\\windows\\system32\\netcfg.exe",
     "?:\\windows\\syswow64\\netcfg.exe",
     "?:\\windows\\sysarm32\\netcfg.exe"
@@ -4004,7 +4003,7 @@
 
 - macro: process_matches_netcfgnotifyobjecthost
   list: [
-    netcfgnotifyobjecthost.exe,
+    "netcfgnotifyobjecthost.exe",
     "?:\\windows\\system32\\netcfgnotifyobjecthost.exe",
     "?:\\windows\\syswow64\\netcfgnotifyobjecthost.exe",
     "?:\\windows\\sysarm32\\netcfgnotifyobjecthost.exe"
@@ -4012,7 +4011,7 @@
 
 - macro: process_matches_netevtfwdr
   list: [
-    netevtfwdr.exe,
+    "netevtfwdr.exe",
     "?:\\windows\\system32\\netevtfwdr.exe",
     "?:\\windows\\syswow64\\netevtfwdr.exe",
     "?:\\windows\\sysarm32\\netevtfwdr.exe",
@@ -4021,7 +4020,7 @@
 
 - macro: process_matches_nethost
   list: [
-    nethost.exe,
+    "nethost.exe",
     "?:\\windows\\system32\\nethost.exe",
     "?:\\windows\\syswow64\\nethost.exe",
     "?:\\windows\\sysarm32\\nethost.exe"
@@ -4029,7 +4028,7 @@
 
 - macro: process_matches_netiougc
   list: [
-    netiougc.exe,
+    "netiougc.exe",
     "?:\\windows\\system32\\netiougc.exe",
     "?:\\windows\\syswow64\\netiougc.exe",
     "?:\\windows\\sysarm32\\netiougc.exe"
@@ -4037,7 +4036,7 @@
 
 - macro: process_matches_netplwiz
   list: [
-    netplwiz.exe,
+    "netplwiz.exe",
     "?:\\windows\\system32\\netplwiz.exe",
     "?:\\windows\\syswow64\\netplwiz.exe",
     "?:\\windows\\sysarm32\\netplwiz.exe"
@@ -4045,7 +4044,7 @@
 
 - macro: process_matches_netsh
   list: [
-    netsh.exe,
+    "netsh.exe",
     "?:\\windows\\system32\\netsh.exe",
     "?:\\windows\\syswow64\\netsh.exe",
     "?:\\windows\\sysarm32\\netsh.exe",
@@ -4056,18 +4055,18 @@
 
 - macro: process_matches_netsupport
   list: [
-    client32.exe
+    "client32.exe"
     ]
 
 - macro: process_matches_meshagent
   list: [
-    meshagent.exe,
-    meshagent64-
+    "meshagent.exe",
+    "meshagent64-"
     ]
 
 - macro: process_matches_netstat
   list: [
-    netstat.exe,
+    "netstat.exe",
     "?:\\windows\\system32\\netstat.exe",
     "?:\\windows\\syswow64\\netstat.exe",
     "?:\\windows\\sysarm32\\netstat.exe",
@@ -4077,7 +4076,7 @@
 
 - macro: process_matches_newdev
   list: [
-    newdev.exe,
+    "newdev.exe",
     "?:\\windows\\system32\\newdev.exe",
     "?:\\windows\\syswow64\\newdev.exe",
     "?:\\windows\\sysarm32\\newdev.exe"
@@ -4085,7 +4084,7 @@
 
 - macro: process_matches_ngciso
   list: [
-    ngciso.exe,
+    "ngciso.exe",
     "?:\\windows\\system32\\ngciso.exe",
     "?:\\windows\\syswow64\\ngciso.exe",
     "?:\\windows\\sysarm32\\ngciso.exe"
@@ -4093,7 +4092,7 @@
 
 - macro: process_matches_nltest
   list: [
-    nltest.exe,
+    "nltest.exe",
     "?:\\windows\\system32\\nltest.exe",
     "?:\\windows\\syswow64\\nltest.exe",
     "?:\\windows\\sysarm32\\nltest.exe"
@@ -4101,7 +4100,7 @@
 
 - macro: process_matches_nmbind
   list: [
-    nmbind.exe,
+    "nmbind.exe",
     "?:\\windows\\system32\\nmbind.exe",
     "?:\\windows\\syswow64\\nmbind.exe",
     "?:\\windows\\sysarm32\\nmbind.exe"
@@ -4109,7 +4108,7 @@
 
 - macro: process_matches_nslookup
   list: [
-    nslookup.exe,
+    "nslookup.exe",
     "?:\\windows\\system32\\nslookup.exe",
     "?:\\windows\\syswow64\\nslookup.exe",
     "?:\\windows\\sysarm32\\nslookup.exe"
@@ -4117,7 +4116,7 @@
 
 - macro: process_matches_ntprint
   list: [
-    ntprint.exe,
+    "ntprint.exe",
     "?:\\windows\\system32\\ntprint.exe",
     "?:\\windows\\syswow64\\ntprint.exe",
     "?:\\windows\\sysarm32\\ntprint.exe"
@@ -4125,7 +4124,7 @@
 
 - macro: process_matches_nvspinfo
   list: [
-    nvspinfo.exe,
+    "nvspinfo.exe",
     "?:\\windows\\system32\\nvspinfo.exe",
     "?:\\windows\\syswow64\\nvspinfo.exe",
     "?:\\windows\\sysarm32\\nvspinfo.exe"
@@ -4133,7 +4132,7 @@
 
 - macro: process_matches_odbcad32
   list: [
-    odbcad32.exe,
+    "odbcad32.exe",
     "?:\\windows\\system32\\odbcad32.exe",
     "?:\\windows\\syswow64\\odbcad32.exe",
     "?:\\windows\\sysarm32\\odbcad32.exe",
@@ -4142,7 +4141,7 @@
 
 - macro: process_matches_ofdeploy
   list: [
-    ofdeploy.exe,
+    "ofdeploy.exe",
     "?:\\windows\\system32\\ofdeploy.exe",
     "?:\\windows\\syswow64\\ofdeploy.exe",
     "?:\\windows\\sysarm32\\ofdeploy.exe"
@@ -4150,7 +4149,7 @@
 
 - macro: process_matches_omadmclient
   list: [
-    omadmclient.exe,
+    "omadmclient.exe",
     "?:\\windows\\system32\\omadmclient.exe",
     "?:\\windows\\syswow64\\omadmclient.exe",
     "?:\\windows\\sysarm32\\omadmclient.exe"
@@ -4158,7 +4157,7 @@
 
 - macro: process_matches_omadmprc
   list: [
-    omadmprc.exe,
+    "omadmprc.exe",
     "?:\\windows\\system32\\omadmprc.exe",
     "?:\\windows\\syswow64\\omadmprc.exe",
     "?:\\windows\\sysarm32\\omadmprc.exe"
@@ -4166,7 +4165,7 @@
 
 - macro: process_matches_openfiles
   list: [
-    openfiles.exe,
+    "openfiles.exe",
     "?:\\windows\\system32\\openfiles.exe",
     "?:\\windows\\syswow64\\openfiles.exe",
     "?:\\windows\\sysarm32\\openfiles.exe"
@@ -4174,7 +4173,7 @@
 
 - macro: process_matches_optionalfeatures
   list: [
-    optionalfeatures.exe,
+    "optionalfeatures.exe",
     "?:\\windows\\system32\\optionalfeatures.exe",
     "?:\\windows\\syswow64\\optionalfeatures.exe",
     "?:\\windows\\sysarm32\\optionalfeatures.exe"
@@ -4182,7 +4181,7 @@
 
 - macro: process_matches_pacjsworker
   list: [
-    pacjsworker.exe,
+    "pacjsworker.exe",
     "?:\\windows\\system32\\pacjsworker.exe",
     "?:\\windows\\syswow64\\pacjsworker.exe",
     "?:\\windows\\sysarm32\\pacjsworker.exe"
@@ -4190,7 +4189,7 @@
 
 - macro: process_matches_packagedcwalauncher
   list: [
-    packagedcwalauncher.exe,
+    "packagedcwalauncher.exe",
     "?:\\windows\\system32\\packagedcwalauncher.exe",
     "?:\\windows\\syswow64\\packagedcwalauncher.exe",
     "?:\\windows\\sysarm32\\packagedcwalauncher.exe"
@@ -4198,7 +4197,7 @@
 
 - macro: process_matches_packageinspector
   list: [
-    packageinspector.exe,
+    "packageinspector.exe",
     "?:\\windows\\system32\\packageinspector.exe",
     "?:\\windows\\syswow64\\packageinspector.exe",
     "?:\\windows\\sysarm32\\packageinspector.exe"
@@ -4206,7 +4205,7 @@
 
 - macro: process_matches_passwordonwakesettingflyout
   list: [
-    passwordonwakesettingflyout.exe,
+    "passwordonwakesettingflyout.exe",
     "?:\\windows\\system32\\passwordonwakesettingflyout.exe",
     "?:\\windows\\syswow64\\passwordonwakesettingflyout.exe",
     "?:\\windows\\sysarm32\\passwordonwakesettingflyout.exe"
@@ -4214,7 +4213,7 @@
 
 - macro: process_matches_pathping
   list: [
-    pathping.exe,
+    "pathping.exe",
     "?:\\windows\\system32\\pathping.exe",
     "?:\\windows\\syswow64\\pathping.exe",
     "?:\\windows\\sysarm32\\pathping.exe"
@@ -4222,7 +4221,7 @@
 
 - macro: process_matches_pcaui
   list: [
-    pcaui.exe,
+    "pcaui.exe",
     "?:\\windows\\system32\\pcaui.exe",
     "?:\\windows\\syswow64\\pcaui.exe",
     "?:\\windows\\sysarm32\\pcaui.exe"
@@ -4230,7 +4229,7 @@
 
 - macro: process_matches_pcwrun
   list: [
-    pcwrun.exe,
+    "pcwrun.exe",
     "?:\\windows\\system32\\pcwrun.exe",
     "?:\\windows\\syswow64\\pcwrun.exe",
     "?:\\windows\\sysarm32\\pcwrun.exe"
@@ -4238,7 +4237,7 @@
 
 - macro: process_matches_perfmon
   list: [
-    perfmon.exe,
+    "perfmon.exe",
     "?:\\windows\\system32\\perfmon.exe",
     "?:\\windows\\syswow64\\perfmon.exe",
     "?:\\windows\\sysarm32\\perfmon.exe",
@@ -4247,7 +4246,7 @@
 
 - macro: process_matches_pinenrollmentbroker
   list: [
-    pinenrollmentbroker.exe,
+    "pinenrollmentbroker.exe",
     "?:\\windows\\system32\\pinenrollmentbroker.exe",
     "?:\\windows\\syswow64\\pinenrollmentbroker.exe",
     "?:\\windows\\sysarm32\\pinenrollmentbroker.exe"
@@ -4255,9 +4254,9 @@
 
 - macro: process_matches_ping
   list: [
-    ping.exe,
-    ping,
-    ping6,
+    "ping.exe",
+    "ping",
+    "ping6",
     "?:\\windows\\system32\\ping.exe",
     "?:\\windows\\syswow64\\ping.exe",
     "?:\\windows\\sysarm32\\ping.exe"
@@ -4265,7 +4264,7 @@
 
 - macro: process_matches_pktmon
   list: [
-    pktmon.exe,
+    "pktmon.exe",
     "?:\\windows\\system32\\pktmon.exe",
     "?:\\windows\\syswow64\\pktmon.exe",
     "?:\\windows\\sysarm32\\pktmon.exe"
@@ -4273,7 +4272,7 @@
 
 - macro: process_matches_plasrv
   list: [
-    plasrv.exe,
+    "plasrv.exe",
     "?:\\windows\\system32\\plasrv.exe",
     "?:\\windows\\syswow64\\plasrv.exe",
     "?:\\windows\\sysarm32\\plasrv.exe"
@@ -4281,7 +4280,7 @@
 
 - macro: process_matches_pnputil
   list: [
-    pnputil.exe,
+    "pnputil.exe",
     "?:\\windows\\system32\\pnputil.exe",
     "?:\\windows\\syswow64\\pnputil.exe",
     "?:\\windows\\sysarm32\\pnputil.exe"
@@ -4289,7 +4288,7 @@
 
 - macro: process_matches_poqexec
   list: [
-    poqexec.exe,
+    "poqexec.exe",
     "?:\\windows\\system32\\poqexec.exe",
     "?:\\windows\\syswow64\\poqexec.exe",
     "?:\\windows\\sysarm32\\poqexec.exe"
@@ -4297,7 +4296,7 @@
 
 - macro: process_matches_powercfg
   list: [
-    powercfg.exe,
+    "powercfg.exe",
     "?:\\windows\\system32\\powercfg.exe",
     "?:\\windows\\syswow64\\powercfg.exe",
     "?:\\windows\\sysarm32\\powercfg.exe",
@@ -4307,7 +4306,7 @@
 
 - macro: process_matches_prevhost
   list: [
-    prevhost.exe,
+    "prevhost.exe",
     "?:\\windows\\system32\\prevhost.exe",
     "?:\\windows\\syswow64\\prevhost.exe",
     "?:\\windows\\sysarm32\\prevhost.exe"
@@ -4315,7 +4314,7 @@
 
 - macro: process_matches_print
   list: [
-    print.exe,
+    "print.exe",
     "?:\\windows\\system32\\print.exe",
     "?:\\windows\\syswow64\\print.exe",
     "?:\\windows\\sysarm32\\print.exe"
@@ -4323,7 +4322,7 @@
 
 - macro: process_matches_printbrmui
   list: [
-    printbrmui.exe,
+    "printbrmui.exe",
     "?:\\windows\\system32\\printbrmui.exe",
     "?:\\windows\\syswow64\\printbrmui.exe",
     "?:\\windows\\sysarm32\\printbrmui.exe"
@@ -4331,7 +4330,7 @@
 
 - macro: process_matches_printisolationhost
   list: [
-    printisolationhost.exe,
+    "printisolationhost.exe",
     "?:\\windows\\system32\\printisolationhost.exe",
     "?:\\windows\\syswow64\\printisolationhost.exe",
     "?:\\windows\\sysarm32\\printisolationhost.exe"
@@ -4339,7 +4338,7 @@
 
 - macro: process_matches_printui
   list: [
-    printui.exe,
+    "printui.exe",
     "?:\\windows\\system32\\printui.exe",
     "?:\\windows\\syswow64\\printui.exe",
     "?:\\windows\\sysarm32\\printui.exe"
@@ -4347,7 +4346,7 @@
 
 - macro: process_matches_proquota
   list: [
-    proquota.exe,
+    "proquota.exe",
     "?:\\windows\\system32\\proquota.exe",
     "?:\\windows\\syswow64\\proquota.exe",
     "?:\\windows\\sysarm32\\proquota.exe"
@@ -4355,7 +4354,7 @@
 
 - macro: process_matches_provlaunch
   list: [
-    provlaunch.exe,
+    "provlaunch.exe",
     "?:\\windows\\system32\\provlaunch.exe",
     "?:\\windows\\syswow64\\provlaunch.exe",
     "?:\\windows\\sysarm32\\provlaunch.exe"
@@ -4363,7 +4362,7 @@
 
 - macro: process_matches_provtool
   list: [
-    provtool.exe,
+    "provtool.exe",
     "?:\\windows\\system32\\provtool.exe",
     "?:\\windows\\syswow64\\provtool.exe",
     "?:\\windows\\sysarm32\\provtool.exe"
@@ -4371,7 +4370,7 @@
 
 - macro: process_matches_proximityuxhost
   list: [
-    proximityuxhost.exe,
+    "proximityuxhost.exe",
     "?:\\windows\\system32\\proximityuxhost.exe",
     "?:\\windows\\syswow64\\proximityuxhost.exe",
     "?:\\windows\\sysarm32\\proximityuxhost.exe"
@@ -4379,7 +4378,7 @@
 
 - macro: process_matches_prproc
   list: [
-    prproc.exe,
+    "prproc.exe",
     "?:\\windows\\system32\\prproc.exe",
     "?:\\windows\\syswow64\\prproc.exe",
     "?:\\windows\\sysarm32\\prproc.exe"
@@ -4387,7 +4386,7 @@
 
 - macro: process_matches_psr
   list: [
-    psr.exe,
+    "psr.exe",
     "?:\\windows\\system32\\psr.exe",
     "?:\\windows\\syswow64\\psr.exe",
     "?:\\windows\\sysarm32\\psr.exe"
@@ -4395,7 +4394,7 @@
 
 - macro: process_matches_pwlauncher
   list: [
-    pwlauncher.exe,
+    "pwlauncher.exe",
     "?:\\windows\\system32\\pwlauncher.exe",
     "?:\\windows\\syswow64\\pwlauncher.exe",
     "?:\\windows\\sysarm32\\pwlauncher.exe"
@@ -4403,7 +4402,7 @@
 
 - macro: process_matches_qappsrv
   list: [
-    qappsrv.exe,
+    "qappsrv.exe",
     "?:\\windows\\system32\\qappsrv.exe",
     "?:\\windows\\syswow64\\qappsrv.exe",
     "?:\\windows\\sysarm32\\qappsrv.exe"
@@ -4411,7 +4410,7 @@
 
 - macro: process_matches_qprocess
   list: [
-    qprocess.exe,
+    "qprocess.exe",
     "?:\\windows\\system32\\qprocess.exe",
     "?:\\windows\\syswow64\\qprocess.exe",
     "?:\\windows\\sysarm32\\qprocess.exe"
@@ -4419,7 +4418,7 @@
 
 - macro: process_matches_query
   list: [
-    query.exe,
+    "query.exe",
     "?:\\windows\\system32\\query.exe",
     "?:\\windows\\syswow64\\query.exe",
     "?:\\windows\\sysarm32\\query.exe"
@@ -4427,7 +4426,7 @@
 
 - macro: process_matches_quickassist
   list: [
-    quickassist.exe,
+    "quickassist.exe",
     "?:\\windows\\system32\\quickassist.exe",
     "?:\\windows\\syswow64\\quickassist.exe",
     "?:\\windows\\sysarm32\\quickassist.exe"
@@ -4435,7 +4434,7 @@
 
 - macro: process_matches_quser
   list: [
-    quser.exe,
+    "quser.exe",
     "?:\\windows\\system32\\quser.exe",
     "?:\\windows\\syswow64\\quser.exe",
     "?:\\windows\\sysarm32\\quser.exe"
@@ -4443,7 +4442,7 @@
 
 - macro: process_matches_qwinsta
   list: [
-    qwinsta.exe,
+    "qwinsta.exe",
     "?:\\windows\\system32\\qwinsta.exe",
     "?:\\windows\\syswow64\\qwinsta.exe",
     "?:\\windows\\sysarm32\\qwinsta.exe",
@@ -4452,7 +4451,7 @@
 
 - macro: process_matches_rasdial
   list: [
-    rasdial.exe,
+    "rasdial.exe",
     "?:\\windows\\system32\\rasdial.exe",
     "?:\\windows\\syswow64\\rasdial.exe",
     "?:\\windows\\sysarm32\\rasdial.exe"
@@ -4460,7 +4459,7 @@
 
 - macro: process_matches_raserver
   list: [
-    raserver.exe,
+    "raserver.exe",
     "?:\\windows\\system32\\raserver.exe",
     "?:\\windows\\syswow64\\raserver.exe",
     "?:\\windows\\sysarm32\\raserver.exe"
@@ -4468,7 +4467,7 @@
 
 - macro: process_matches_rasphone
   list: [
-    rasphone.exe,
+    "rasphone.exe",
     "?:\\windows\\system32\\rasphone.exe",
     "?:\\windows\\syswow64\\rasphone.exe",
     "?:\\windows\\sysarm32\\rasphone.exe"
@@ -4476,7 +4475,7 @@
 
 - macro: process_matches_rdpinit
   list: [
-    rdpinit.exe,
+    "rdpinit.exe",
     "?:\\windows\\system32\\rdpinit.exe",
     "?:\\windows\\syswow64\\rdpinit.exe",
     "?:\\windows\\sysarm32\\rdpinit.exe"
@@ -4484,7 +4483,7 @@
 
 - macro: process_matches_rdpinput
   list: [
-    rdpinput.exe,
+    "rdpinput.exe",
     "?:\\windows\\system32\\rdpinput.exe",
     "?:\\windows\\syswow64\\rdpinput.exe",
     "?:\\windows\\sysarm32\\rdpinput.exe"
@@ -4492,7 +4491,7 @@
 
 - macro: process_matches_rdpsa
   list: [
-    rdpsa.exe,
+    "rdpsa.exe",
     "?:\\windows\\system32\\rdpsa.exe",
     "?:\\windows\\syswow64\\rdpsa.exe",
     "?:\\windows\\sysarm32\\rdpsa.exe"
@@ -4500,7 +4499,7 @@
 
 - macro: process_matches_rdpsaproxy
   list: [
-    rdpsaproxy.exe,
+    "rdpsaproxy.exe",
     "?:\\windows\\system32\\rdpsaproxy.exe",
     "?:\\windows\\syswow64\\rdpsaproxy.exe",
     "?:\\windows\\sysarm32\\rdpsaproxy.exe"
@@ -4508,7 +4507,7 @@
 
 - macro: process_matches_rdpsauachelper
   list: [
-    rdpsauachelper.exe,
+    "rdpsauachelper.exe",
     "?:\\windows\\system32\\rdpsauachelper.exe",
     "?:\\windows\\syswow64\\rdpsauachelper.exe",
     "?:\\windows\\sysarm32\\rdpsauachelper.exe"
@@ -4516,7 +4515,7 @@
 
 - macro: process_matches_rdpshell
   list: [
-    rdpshell.exe,
+    "rdpshell.exe",
     "?:\\windows\\system32\\rdpshell.exe",
     "?:\\windows\\syswow64\\rdpshell.exe",
     "?:\\windows\\sysarm32\\rdpshell.exe"
@@ -4524,7 +4523,7 @@
 
 - macro: process_matches_rdpsign
   list: [
-    rdpsign.exe,
+    "rdpsign.exe",
     "?:\\windows\\system32\\rdpsign.exe",
     "?:\\windows\\syswow64\\rdpsign.exe",
     "?:\\windows\\sysarm32\\rdpsign.exe"
@@ -4532,7 +4531,7 @@
 
 - macro: process_matches_reagentc
   list: [
-    reagentc.exe,
+    "reagentc.exe",
     "?:\\windows\\system32\\reagentc.exe",
     "?:\\windows\\syswow64\\reagentc.exe",
     "?:\\windows\\sysarm32\\reagentc.exe"
@@ -4540,7 +4539,7 @@
 
 - macro: process_matches_recover
   list: [
-    recover.exe,
+    "recover.exe",
     "?:\\windows\\system32\\recover.exe",
     "?:\\windows\\syswow64\\recover.exe",
     "?:\\windows\\sysarm32\\recover.exe",
@@ -4549,7 +4548,7 @@
 
 - macro: process_matches_recoverydrive
   list: [
-    recoverydrive.exe,
+    "recoverydrive.exe",
     "?:\\windows\\system32\\recoverydrive.exe",
     "?:\\windows\\syswow64\\recoverydrive.exe",
     "?:\\windows\\sysarm32\\recoverydrive.exe"
@@ -4557,7 +4556,7 @@
 
 - macro: process_matches_refsutil
   list: [
-    refsutil.exe,
+    "refsutil.exe",
     "?:\\windows\\system32\\refsutil.exe",
     "?:\\windows\\syswow64\\refsutil.exe",
     "?:\\windows\\sysarm32\\refsutil.exe"
@@ -4565,7 +4564,7 @@
 
 - macro: process_matches_regedt32
   list: [
-    regedt32.exe,
+    "regedt32.exe",
     "?:\\windows\\system32\\regedt32.exe",
     "?:\\windows\\syswow64\\regedt32.exe",
     "?:\\windows\\sysarm32\\regedt32.exe",
@@ -4574,7 +4573,7 @@
 
 - macro: process_matches_regini
   list: [
-    regini.exe,
+    "regini.exe",
     "?:\\windows\\system32\\regini.exe",
     "?:\\windows\\syswow64\\regini.exe",
     "?:\\windows\\sysarm32\\regini.exe"
@@ -4582,7 +4581,7 @@
 
 - macro: process_matches_register-cimprovider
   list: [
-    register-cimprovider.exe,
+    "register-cimprovider.exe",
     "?:\\windows\\system32\\register-cimprovider.exe",
     "?:\\windows\\syswow64\\register-cimprovider.exe",
     "?:\\windows\\sysarm32\\register-cimprovider.exe"
@@ -4590,7 +4589,7 @@
 
 - macro: process_matches_rekeywiz
   list: [
-    rekeywiz.exe,
+    "rekeywiz.exe",
     "?:\\windows\\system32\\rekeywiz.exe",
     "?:\\windows\\syswow64\\rekeywiz.exe",
     "?:\\windows\\sysarm32\\rekeywiz.exe"
@@ -4598,7 +4597,7 @@
 
 - macro: process_matches_relog
   list: [
-    relog.exe,
+    "relog.exe",
     "?:\\windows\\system32\\relog.exe",
     "?:\\windows\\syswow64\\relog.exe",
     "?:\\windows\\sysarm32\\relog.exe"
@@ -4606,7 +4605,7 @@
 
 - macro: process_matches_relpost
   list: [
-    relpost.exe,
+    "relpost.exe",
     "?:\\windows\\system32\\relpost.exe",
     "?:\\windows\\syswow64\\relpost.exe",
     "?:\\windows\\sysarm32\\relpost.exe"
@@ -4614,7 +4613,7 @@
 
 - macro: process_matches_remoteapplifetimemanager
   list: [
-    remoteapplifetimemanager.exe,
+    "remoteapplifetimemanager.exe",
     "?:\\windows\\system32\\remoteapplifetimemanager.exe",
     "?:\\windows\\syswow64\\remoteapplifetimemanager.exe",
     "?:\\windows\\sysarm32\\remoteapplifetimemanager.exe"
@@ -4622,13 +4621,13 @@
 
 - macro: process_matches_remotefxvgpudisablement
   list: [
-    remotefxvgpudisablement.exe,
+    "remotefxvgpudisablement.exe",
     "?:\\windows\\system32\\remotefxvgpudisablement.exe"
     ]
 
 - macro: process_matches_remoteposworker
   list: [
-    remoteposworker.exe,
+    "remoteposworker.exe",
     "?:\\windows\\system32\\remoteposworker.exe",
     "?:\\windows\\syswow64\\remoteposworker.exe",
     "?:\\windows\\sysarm32\\remoteposworker.exe"
@@ -4636,7 +4635,7 @@
 
 - macro: process_matches_replace
   list: [
-    replace.exe,
+    "replace.exe",
     "?:\\windows\\system32\\replace.exe",
     "?:\\windows\\syswow64\\replace.exe",
     "?:\\windows\\sysarm32\\replace.exe",
@@ -4646,7 +4645,7 @@
 
 - macro: process_matches_reset
   list: [
-    reset.exe,
+    "reset.exe",
     "?:\\windows\\system32\\reset.exe",
     "?:\\windows\\syswow64\\reset.exe",
     "?:\\windows\\sysarm32\\reset.exe"
@@ -4654,7 +4653,7 @@
 
 - macro: process_matches_resetengine
   list: [
-    resetengine.exe,
+    "resetengine.exe",
     "?:\\windows\\system32\\resetengine.exe",
     "?:\\windows\\syswow64\\resetengine.exe",
     "?:\\windows\\sysarm32\\resetengine.exe"
@@ -4662,7 +4661,7 @@
 
 - macro: process_matches_resmon
   list: [
-    resmon.exe,
+    "resmon.exe",
     "?:\\windows\\system32\\resmon.exe",
     "?:\\windows\\syswow64\\resmon.exe",
     "?:\\windows\\sysarm32\\resmon.exe",
@@ -4671,7 +4670,7 @@
 
 - macro: process_matches_rmactivate
   list: [
-    rmactivate.exe,
+    "rmactivate.exe",
     "?:\\windows\\system32\\rmactivate.exe",
     "?:\\windows\\syswow64\\rmactivate.exe",
     "?:\\windows\\sysarm32\\rmactivate.exe"
@@ -4679,7 +4678,7 @@
 
 - macro: process_matches_rmactivate_isv
   list: [
-    rmactivate_isv.exe,
+    "rmactivate_isv.exe",
     "?:\\windows\\system32\\rmactivate_isv.exe",
     "?:\\windows\\syswow64\\rmactivate_isv.exe",
     "?:\\windows\\sysarm32\\rmactivate_isv.exe"
@@ -4687,7 +4686,7 @@
 
 - macro: process_matches_rmactivate_ssp
   list: [
-    rmactivate_ssp.exe,
+    "rmactivate_ssp.exe",
     "?:\\windows\\system32\\rmactivate_ssp.exe",
     "?:\\windows\\syswow64\\rmactivate_ssp.exe",
     "?:\\windows\\sysarm32\\rmactivate_ssp.exe"
@@ -4695,7 +4694,7 @@
 
 - macro: process_matches_rmactivate_ssp_isv
   list: [
-    rmactivate_ssp_isv.exe,
+    "rmactivate_ssp_isv.exe",
     "?:\\windows\\system32\\rmactivate_ssp_isv.exe",
     "?:\\windows\\syswow64\\rmactivate_ssp_isv.exe",
     "?:\\windows\\sysarm32\\rmactivate_ssp_isv.exe"
@@ -4703,7 +4702,7 @@
 
 - macro: process_matches_rmclient
   list: [
-    rmclient.exe,
+    "rmclient.exe",
     "?:\\windows\\system32\\rmclient.exe",
     "?:\\windows\\syswow64\\rmclient.exe",
     "?:\\windows\\sysarm32\\rmclient.exe",
@@ -4712,7 +4711,7 @@
 
 - macro: process_matches_rmttpmvscmgrsvr
   list: [
-    rmttpmvscmgrsvr.exe,
+    "rmttpmvscmgrsvr.exe",
     "?:\\windows\\system32\\rmttpmvscmgrsvr.exe",
     "?:\\windows\\syswow64\\rmttpmvscmgrsvr.exe",
     "?:\\windows\\sysarm32\\rmttpmvscmgrsvr.exe"
@@ -4720,7 +4719,7 @@
 
 - macro: process_matches_route
   list: [
-    route.exe,
+    "route.exe",
     "?:\\windows\\system32\\route.exe",
     "?:\\windows\\syswow64\\route.exe",
     "?:\\windows\\sysarm32\\route.exe",
@@ -4729,7 +4728,7 @@
 
 - macro: process_matches_rpcping
   list: [
-    rpcping.exe,
+    "rpcping.exe",
     "?:\\windows\\system32\\rpcping.exe",
     "?:\\windows\\syswow64\\rpcping.exe",
     "?:\\windows\\sysarm32\\rpcping.exe"
@@ -4737,7 +4736,7 @@
 
 - macro: process_matches_rrinstaller
   list: [
-    rrinstaller.exe,
+    "rrinstaller.exe",
     "?:\\windows\\system32\\rrinstaller.exe",
     "?:\\windows\\syswow64\\rrinstaller.exe",
     "?:\\windows\\sysarm32\\rrinstaller.exe"
@@ -4745,7 +4744,7 @@
 
 - macro: process_matches_rstrui
   list: [
-    rstrui.exe,
+    "rstrui.exe",
     "?:\\windows\\system32\\rstrui.exe",
     "?:\\windows\\syswow64\\rstrui.exe",
     "?:\\windows\\sysarm32\\rstrui.exe",
@@ -4754,7 +4753,7 @@
 
 - macro: process_matches_runlegacycplelevated
   list: [
-    runlegacycplelevated.exe,
+    "runlegacycplelevated.exe",
     "?:\\windows\\system32\\runlegacycplelevated.exe",
     "?:\\windows\\syswow64\\runlegacycplelevated.exe",
     "?:\\windows\\sysarm32\\runlegacycplelevated.exe"
@@ -4762,7 +4761,7 @@
 
 - macro: process_matches_runonce
   list: [
-    runonce.exe,
+    "runonce.exe",
     "?:\\windows\\system32\\runonce.exe",
     "?:\\windows\\syswow64\\runonce.exe",
     "?:\\windows\\sysarm32\\runonce.exe",
@@ -4772,7 +4771,7 @@
 
 - macro: process_matches_rwinsta
   list: [
-    rwinsta.exe,
+    "rwinsta.exe",
     "?:\\windows\\system32\\rwinsta.exe",
     "?:\\windows\\syswow64\\rwinsta.exe",
     "?:\\windows\\sysarm32\\rwinsta.exe"
@@ -4780,7 +4779,7 @@
 
 - macro: process_matches_sdbinst
   list: [
-    sdbinst.exe,
+    "sdbinst.exe",
     "?:\\windows\\system32\\sdbinst.exe",
     "?:\\windows\\syswow64\\sdbinst.exe",
     "?:\\windows\\sysarm32\\sdbinst.exe"
@@ -4788,7 +4787,7 @@
 
 - macro: process_matches_sdchange
   list: [
-    sdchange.exe,
+    "sdchange.exe",
     "?:\\windows\\system32\\sdchange.exe",
     "?:\\windows\\syswow64\\sdchange.exe",
     "?:\\windows\\sysarm32\\sdchange.exe"
@@ -4796,7 +4795,7 @@
 
 - macro: process_matches_sdiagnhost
   list: [
-    sdiagnhost.exe,
+    "sdiagnhost.exe",
     "?:\\windows\\system32\\sdiagnhost.exe",
     "?:\\windows\\syswow64\\sdiagnhost.exe",
     "?:\\windows\\sysarm32\\sdiagnhost.exe"
@@ -4804,7 +4803,7 @@
 
 - macro: process_matches_searchfilterhost
   list: [
-    searchfilterhost.exe,
+    "searchfilterhost.exe",
     "?:\\windows\\system32\\searchfilterhost.exe",
     "?:\\windows\\syswow64\\searchfilterhost.exe",
     "?:\\windows\\sysarm32\\searchfilterhost.exe",
@@ -4813,7 +4812,7 @@
 
 - macro: process_matches_searchindexer
   list: [
-    searchindexer.exe,
+    "searchindexer.exe",
     "?:\\windows\\system32\\searchindexer.exe",
     "?:\\windows\\syswow64\\searchindexer.exe",
     "?:\\windows\\sysarm32\\searchindexer.exe",
@@ -4823,7 +4822,7 @@
 
 - macro: process_matches_secedit
   list: [
-    secedit.exe,
+    "secedit.exe",
     "?:\\windows\\system32\\secedit.exe",
     "?:\\windows\\syswow64\\secedit.exe",
     "?:\\windows\\sysarm32\\secedit.exe",
@@ -4833,7 +4832,7 @@
 
 - macro: process_matches_secinit
   list: [
-    secinit.exe,
+    "secinit.exe",
     "?:\\windows\\system32\\secinit.exe",
     "?:\\windows\\syswow64\\secinit.exe",
     "?:\\windows\\sysarm32\\secinit.exe"
@@ -4841,7 +4840,7 @@
 
 - macro: process_matches_securekernel
   list: [
-    securekernel.exe,
+    "securekernel.exe",
     "?:\\windows\\system32\\securekernel.exe",
     "?:\\windows\\syswow64\\securekernel.exe",
     "?:\\windows\\sysarm32\\securekernel.exe"
@@ -4849,7 +4848,7 @@
 
 - macro: process_matches_securityhealthhost
   list: [
-    securityhealthhost.exe,
+    "securityhealthhost.exe",
     "?:\\windows\\system32\\securityhealthhost.exe",
     "?:\\windows\\syswow64\\securityhealthhost.exe",
     "?:\\windows\\sysarm32\\securityhealthhost.exe"
@@ -4857,7 +4856,7 @@
 
 - macro: process_matches_securityhealthservice
   list: [
-    securityhealthservice.exe,
+    "securityhealthservice.exe",
     "?:\\windows\\system32\\securityhealthservice.exe",
     "?:\\windows\\syswow64\\securityhealthservice.exe",
     "?:\\windows\\sysarm32\\securityhealthservice.exe"
@@ -4865,7 +4864,7 @@
 
 - macro: process_matches_securityhealthsystray
   list: [
-    securityhealthsystray.exe,
+    "securityhealthsystray.exe",
     "?:\\windows\\system32\\securityhealthsystray.exe",
     "?:\\windows\\syswow64\\securityhealthsystray.exe",
     "?:\\windows\\sysarm32\\securityhealthsystray.exe"
@@ -4873,7 +4872,7 @@
 
 - macro: process_matches_sensordataservice
   list: [
-    sensordataservice.exe,
+    "sensordataservice.exe",
     "?:\\windows\\system32\\sensordataservice.exe",
     "?:\\windows\\syswow64\\sensordataservice.exe",
     "?:\\windows\\sysarm32\\sensordataservice.exe"
@@ -4881,7 +4880,7 @@
 
 - macro: process_matches_sessionmsg
   list: [
-    sessionmsg.exe,
+    "sessionmsg.exe",
     "?:\\windows\\system32\\sessionmsg.exe",
     "?:\\windows\\syswow64\\sessionmsg.exe",
     "?:\\windows\\sysarm32\\sessionmsg.exe"
@@ -4889,7 +4888,7 @@
 
 - macro: process_matches_setspn
   list: [
-    setspn.exe,
+    "setspn.exe",
     "?:\\windows\\system32\\setspn.exe",
     "?:\\windows\\syswow64\\setspn.exe",
     "?:\\windows\\sysarm32\\setspn.exe"
@@ -4897,7 +4896,7 @@
 
 - macro: process_matches_settingsynchost
   list: [
-    settingsynchost.exe,
+    "settingsynchost.exe",
     "?:\\windows\\system32\\settingsynchost.exe",
     "?:\\windows\\syswow64\\settingsynchost.exe",
     "?:\\windows\\sysarm32\\settingsynchost.exe"
@@ -4905,7 +4904,7 @@
 
 - macro: process_matches_setupcl
   list: [
-    setupcl.exe,
+    "setupcl.exe",
     "?:\\windows\\system32\\setupcl.exe",
     "?:\\windows\\syswow64\\setupcl.exe",
     "?:\\windows\\sysarm32\\setupcl.exe"
@@ -4913,7 +4912,7 @@
 
 - macro: process_matches_setupugc
   list: [
-    setupugc.exe,
+    "setupugc.exe",
     "?:\\windows\\system32\\setupugc.exe",
     "?:\\windows\\syswow64\\setupugc.exe",
     "?:\\windows\\sysarm32\\setupugc.exe"
@@ -4921,7 +4920,7 @@
 
 - macro: process_matches_setx
   list: [
-    setx.exe,
+    "setx.exe",
     "?:\\windows\\system32\\setx.exe",
     "?:\\windows\\syswow64\\setx.exe",
     "?:\\windows\\sysarm32\\setx.exe"
@@ -4929,7 +4928,7 @@
 
 - macro: process_matches_sfc
   list: [
-    sfc.exe,
+    "sfc.exe",
     "?:\\windows\\system32\\sfc.exe",
     "?:\\windows\\syswow64\\sfc.exe",
     "?:\\windows\\sysarm32\\sfc.exe"
@@ -4937,7 +4936,7 @@
 
 - macro: process_matches_sgrmbroker
   list: [
-    sgrmbroker.exe,
+    "sgrmbroker.exe",
     "?:\\windows\\system32\\sgrmbroker.exe",
     "?:\\windows\\system32\\sgrm\\sgrmbroker.exe",
     "?:\\windows\\syswow64\\sgrmbroker.exe",
@@ -4946,7 +4945,7 @@
 
 - macro: process_matches_sgrmlpac
   list: [
-    sgrmlpac.exe,
+    "sgrmlpac.exe",
     "?:\\windows\\system32\\sgrmlpac.exe",
     "?:\\windows\\syswow64\\sgrmlpac.exe",
     "?:\\windows\\sysarm32\\sgrmlpac.exe"
@@ -4954,7 +4953,7 @@
 
 - macro: process_matches_shutdown
   list: [
-    shutdown.exe,
+    "shutdown.exe",
     "?:\\windows\\system32\\shutdown.exe",
     "?:\\windows\\syswow64\\shutdown.exe",
     "?:\\windows\\sysarm32\\shutdown.exe"
@@ -4962,7 +4961,7 @@
 
 - macro: process_matches_sihclient
   list: [
-    sihclient.exe,
+    "sihclient.exe",
     "?:\\windows\\system32\\sihclient.exe",
     "?:\\windows\\syswow64\\sihclient.exe",
     "?:\\windows\\sysarm32\\sihclient.exe"
@@ -4970,7 +4969,7 @@
 
 - macro: process_matches_sihost
   list: [
-    sihost.exe,
+    "sihost.exe",
     "?:\\windows\\system32\\sihost.exe",
     "?:\\windows\\syswow64\\sihost.exe",
     "?:\\windows\\sysarm32\\sihost.exe"
@@ -4978,7 +4977,7 @@
 
 - macro: process_matches_slidetoshutdown
   list: [
-    slidetoshutdown.exe,
+    "slidetoshutdown.exe",
     "?:\\windows\\system32\\slidetoshutdown.exe",
     "?:\\windows\\syswow64\\slidetoshutdown.exe",
     "?:\\windows\\sysarm32\\slidetoshutdown.exe"
@@ -4986,7 +4985,7 @@
 
 - macro: process_matches_smartscreen
   list: [
-    smartscreen.exe,
+    "smartscreen.exe",
     "?:\\windows\\system32\\smartscreen.exe",
     "?:\\windows\\syswow64\\smartscreen.exe",
     "?:\\windows\\sysarm32\\smartscreen.exe"
@@ -4994,7 +4993,7 @@
 
 - macro: process_matches_snippingtool
   list: [
-    snippingtool.exe,
+    "snippingtool.exe",
     "?:\\windows\\system32\\snippingtool.exe",
     "?:\\windows\\syswow64\\snippingtool.exe",
     "?:\\windows\\sysarm32\\snippingtool.exe"
@@ -5002,7 +5001,7 @@
 
 - macro: process_matches_snmptrap
   list: [
-    snmptrap.exe,
+    "snmptrap.exe",
     "?:\\windows\\system32\\snmptrap.exe",
     "?:\\windows\\syswow64\\snmptrap.exe",
     "?:\\windows\\sysarm32\\snmptrap.exe",
@@ -5015,7 +5014,7 @@
 
 - macro: process_matches_sort
   list: [
-    sort.exe,
+    "sort.exe",
     "?:\\windows\\system32\\sort.exe",
     "?:\\windows\\syswow64\\sort.exe",
     "?:\\windows\\sysarm32\\sort.exe"
@@ -5023,7 +5022,7 @@
 
 - macro: process_matches_spaceagent
   list: [
-    spaceagent.exe,
+    "spaceagent.exe",
     "?:\\windows\\system32\\spaceagent.exe",
     "?:\\windows\\syswow64\\spaceagent.exe",
     "?:\\windows\\sysarm32\\spaceagent.exe"
@@ -5031,7 +5030,7 @@
 
 - macro: process_matches_spaceman
   list: [
-    spaceman.exe,
+    "spaceman.exe",
     "?:\\windows\\system32\\spaceman.exe",
     "?:\\windows\\syswow64\\spaceman.exe",
     "?:\\windows\\sysarm32\\spaceman.exe",
@@ -5040,7 +5039,7 @@
 
 - macro: process_matches_spatialaudiolicensesrv
   list: [
-    spatialaudiolicensesrv.exe,
+    "spatialaudiolicensesrv.exe",
     "?:\\windows\\system32\\spatialaudiolicensesrv.exe",
     "?:\\windows\\syswow64\\spatialaudiolicensesrv.exe",
     "?:\\windows\\sysarm32\\spatialaudiolicensesrv.exe"
@@ -5048,7 +5047,7 @@
 
 - macro: process_matches_spectrum
   list: [
-    spectrum.exe,
+    "spectrum.exe",
     "?:\\windows\\system32\\spectrum.exe",
     "?:\\windows\\syswow64\\spectrum.exe",
     "?:\\windows\\sysarm32\\spectrum.exe"
@@ -5056,7 +5055,7 @@
 
 - macro: process_matches_sppextcomobj
   list: [
-    sppextcomobj.exe,
+    "sppextcomobj.exe",
     "?:\\windows\\system32\\sppextcomobj.exe",
     "?:\\windows\\syswow64\\sppextcomobj.exe",
     "?:\\windows\\sysarm32\\sppextcomobj.exe"
@@ -5064,7 +5063,7 @@
 
 - macro: process_matches_sppsvc
   list: [
-    sppsvc.exe,
+    "sppsvc.exe",
     "?:\\windows\\system32\\sppsvc.exe",
     "?:\\windows\\syswow64\\sppsvc.exe",
     "?:\\windows\\sysarm32\\sppsvc.exe"
@@ -5072,7 +5071,7 @@
 
 - macro: process_matches_srdelayed
   list: [
-    srdelayed.exe,
+    "srdelayed.exe",
     "?:\\windows\\system32\\srdelayed.exe",
     "?:\\windows\\syswow64\\srdelayed.exe",
     "?:\\windows\\sysarm32\\srdelayed.exe"
@@ -5080,7 +5079,7 @@
 
 - macro: process_matches_srtasks
   list: [
-    srtasks.exe,
+    "srtasks.exe",
     "?:\\windows\\system32\\srtasks.exe",
     "?:\\windows\\syswow64\\srtasks.exe",
     "?:\\windows\\sysarm32\\srtasks.exe"
@@ -5088,7 +5087,7 @@
 
 - macro: process_matches_subst
   list: [
-    subst.exe,
+    "subst.exe",
     "?:\\windows\\system32\\subst.exe",
     "?:\\windows\\syswow64\\subst.exe",
     "?:\\windows\\sysarm32\\subst.exe",
@@ -5097,7 +5096,7 @@
 
 - macro: process_matches_sxstrace
   list: [
-    sxstrace.exe,
+    "sxstrace.exe",
     "?:\\windows\\system32\\sxstrace.exe",
     "?:\\windows\\syswow64\\sxstrace.exe",
     "?:\\windows\\sysarm32\\sxstrace.exe"
@@ -5105,7 +5104,7 @@
 
 - macro: process_matches_synchost
   list: [
-    synchost.exe,
+    "synchost.exe",
     "?:\\windows\\system32\\synchost.exe",
     "?:\\windows\\syswow64\\synchost.exe",
     "?:\\windows\\sysarm32\\synchost.exe"
@@ -5113,7 +5112,7 @@
 
 - macro: process_matches_sysreseterr
   list: [
-    sysreseterr.exe,
+    "sysreseterr.exe",
     "?:\\windows\\system32\\sysreseterr.exe",
     "?:\\windows\\syswow64\\sysreseterr.exe",
     "?:\\windows\\sysarm32\\sysreseterr.exe"
@@ -5121,7 +5120,7 @@
 
 - macro: process_matches_systeminfo
   list: [
-    systeminfo.exe,
+    "systeminfo.exe",
     "?:\\windows\\system32\\systeminfo.exe",
     "?:\\windows\\syswow64\\systeminfo.exe",
     "?:\\windows\\sysarm32\\systeminfo.exe",
@@ -5130,7 +5129,7 @@
 
 - macro: process_matches_systempropertiesadvanced
   list: [
-    systempropertiesadvanced.exe,
+    "systempropertiesadvanced.exe",
     "?:\\windows\\system32\\systempropertiesadvanced.exe",
     "?:\\windows\\syswow64\\systempropertiesadvanced.exe",
     "?:\\windows\\sysarm32\\systempropertiesadvanced.exe"
@@ -5138,7 +5137,7 @@
 
 - macro: process_matches_systempropertiescomputername
   list: [
-    systempropertiescomputername.exe,
+    "systempropertiescomputername.exe",
     "?:\\windows\\system32\\systempropertiescomputername.exe",
     "?:\\windows\\syswow64\\systempropertiescomputername.exe",
     "?:\\windows\\sysarm32\\systempropertiescomputername.exe"
@@ -5146,7 +5145,7 @@
 
 - macro: process_matches_systempropertiesdataexecutionprevention
   list: [
-    systempropertiesdataexecutionprevention.exe,
+    "systempropertiesdataexecutionprevention.exe",
     "?:\\windows\\system32\\systempropertiesdataexecutionprevention.exe",
     "?:\\windows\\syswow64\\systempropertiesdataexecutionprevention.exe",
     "?:\\windows\\sysarm32\\systempropertiesdataexecutionprevention.exe"
@@ -5154,7 +5153,7 @@
 
 - macro: process_matches_systempropertieshardware
   list: [
-    systempropertieshardware.exe,
+    "systempropertieshardware.exe",
     "?:\\windows\\system32\\systempropertieshardware.exe",
     "?:\\windows\\syswow64\\systempropertieshardware.exe",
     "?:\\windows\\sysarm32\\systempropertieshardware.exe"
@@ -5162,7 +5161,7 @@
 
 - macro: process_matches_systempropertiesperformance
   list: [
-    systempropertiesperformance.exe,
+    "systempropertiesperformance.exe",
     "?:\\windows\\system32\\systempropertiesperformance.exe",
     "?:\\windows\\syswow64\\systempropertiesperformance.exe",
     "?:\\windows\\sysarm32\\systempropertiesperformance.exe"
@@ -5170,7 +5169,7 @@
 
 - macro: process_matches_systempropertiesprotection
   list: [
-    systempropertiesprotection.exe,
+    "systempropertiesprotection.exe",
     "?:\\windows\\system32\\systempropertiesprotection.exe",
     "?:\\windows\\syswow64\\systempropertiesprotection.exe",
     "?:\\windows\\sysarm32\\systempropertiesprotection.exe"
@@ -5178,7 +5177,7 @@
 
 - macro: process_matches_systempropertiesremote
   list: [
-    systempropertiesremote.exe,
+    "systempropertiesremote.exe",
     "?:\\windows\\system32\\systempropertiesremote.exe",
     "?:\\windows\\syswow64\\systempropertiesremote.exe",
     "?:\\windows\\sysarm32\\systempropertiesremote.exe"
@@ -5186,7 +5185,7 @@
 
 - macro: process_matches_systemreset
   list: [
-    systemreset.exe,
+    "systemreset.exe",
     "?:\\windows\\system32\\systemreset.exe",
     "?:\\windows\\syswow64\\systemreset.exe",
     "?:\\windows\\sysarm32\\systemreset.exe"
@@ -5194,7 +5193,7 @@
 
 - macro: process_matches_systemsettingsbroker
   list: [
-    systemsettingsbroker.exe,
+    "systemsettingsbroker.exe",
     "?:\\windows\\system32\\systemsettingsbroker.exe",
     "?:\\windows\\syswow64\\systemsettingsbroker.exe",
     "?:\\windows\\sysarm32\\systemsettingsbroker.exe"
@@ -5202,7 +5201,7 @@
 
 - macro: process_matches_systemsettingsremovedevice
   list: [
-    systemsettingsremovedevice.exe,
+    "systemsettingsremovedevice.exe",
     "?:\\windows\\system32\\systemsettingsremovedevice.exe",
     "?:\\windows\\syswow64\\systemsettingsremovedevice.exe",
     "?:\\windows\\sysarm32\\systemsettingsremovedevice.exe"
@@ -5210,7 +5209,7 @@
 
 - macro: process_matches_systemuwplauncher
   list: [
-    systemuwplauncher.exe,
+    "systemuwplauncher.exe",
     "?:\\windows\\system32\\systemuwplauncher.exe",
     "?:\\windows\\syswow64\\systemuwplauncher.exe",
     "?:\\windows\\sysarm32\\systemuwplauncher.exe"
@@ -5218,7 +5217,7 @@
 
 - macro: process_matches_systray
   list: [
-    systray.exe,
+    "systray.exe",
     "?:\\windows\\system32\\systray.exe",
     "?:\\windows\\syswow64\\systray.exe",
     "?:\\windows\\sysarm32\\systray.exe"
@@ -5226,7 +5225,7 @@
 
 - macro: process_matches_tabcal
   list: [
-    tabcal.exe,
+    "tabcal.exe",
     "?:\\windows\\system32\\tabcal.exe",
     "?:\\windows\\syswow64\\tabcal.exe",
     "?:\\windows\\sysarm32\\tabcal.exe"
@@ -5234,7 +5233,7 @@
 
 - macro: process_matches_takeown
   list: [
-    takeown.exe,
+    "takeown.exe",
     "?:\\windows\\system32\\takeown.exe",
     "?:\\windows\\syswow64\\takeown.exe",
     "?:\\windows\\sysarm32\\takeown.exe",
@@ -5243,7 +5242,7 @@
 
 - macro: process_matches_tapiunattend
   list: [
-    tapiunattend.exe,
+    "tapiunattend.exe",
     "?:\\windows\\system32\\tapiunattend.exe",
     "?:\\windows\\syswow64\\tapiunattend.exe",
     "?:\\windows\\sysarm32\\tapiunattend.exe"
@@ -5251,7 +5250,7 @@
 
 - macro: process_matches_taskkill
   list: [
-    taskkill.exe,
+    "taskkill.exe",
     "?:\\windows\\system32\\taskkill.exe",
     "?:\\windows\\syswow64\\taskkill.exe",
     "?:\\windows\\sysarm32\\taskkill.exe",
@@ -5260,7 +5259,7 @@
 
 - macro: process_matches_tcblaunch
   list: [
-    tcblaunch.exe,
+    "tcblaunch.exe",
     "?:\\windows\\system32\\tcblaunch.exe",
     "?:\\windows\\syswow64\\tcblaunch.exe",
     "?:\\windows\\sysarm32\\tcblaunch.exe"
@@ -5268,7 +5267,7 @@
 
 - macro: process_matches_tcpsvcs
   list: [
-    tcpsvcs.exe,
+    "tcpsvcs.exe",
     "?:\\windows\\system32\\tcpsvcs.exe",
     "?:\\windows\\syswow64\\tcpsvcs.exe",
     "?:\\windows\\sysarm32\\tcpsvcs.exe",
@@ -5277,7 +5276,7 @@
 
 - macro: process_matches_thumbnailextractionhost
   list: [
-    thumbnailextractionhost.exe,
+    "thumbnailextractionhost.exe",
     "?:\\windows\\system32\\thumbnailextractionhost.exe",
     "?:\\windows\\syswow64\\thumbnailextractionhost.exe",
     "?:\\windows\\sysarm32\\thumbnailextractionhost.exe"
@@ -5285,7 +5284,7 @@
 
 - macro: process_matches_tieringengineservice
   list: [
-    tieringengineservice.exe,
+    "tieringengineservice.exe",
     "?:\\windows\\system32\\tieringengineservice.exe",
     "?:\\windows\\syswow64\\tieringengineservice.exe",
     "?:\\windows\\sysarm32\\tieringengineservice.exe"
@@ -5293,7 +5292,7 @@
 
 - macro: process_matches_timeout
   list: [
-    timeout.exe,
+    "timeout.exe",
     "?:\\windows\\system32\\timeout.exe",
     "?:\\windows\\syswow64\\timeout.exe",
     "?:\\windows\\sysarm32\\timeout.exe"
@@ -5301,7 +5300,7 @@
 
 - macro: process_matches_tokenbrokercookies
   list: [
-    tokenbrokercookies.exe,
+    "tokenbrokercookies.exe",
     "?:\\windows\\system32\\tokenbrokercookies.exe",
     "?:\\windows\\syswow64\\tokenbrokercookies.exe",
     "?:\\windows\\sysarm32\\tokenbrokercookies.exe"
@@ -5309,7 +5308,7 @@
 
 - macro: process_matches_tpminit
   list: [
-    tpminit.exe,
+    "tpminit.exe",
     "?:\\windows\\system32\\tpminit.exe",
     "?:\\windows\\syswow64\\tpminit.exe",
     "?:\\windows\\sysarm32\\tpminit.exe"
@@ -5317,7 +5316,7 @@
 
 - macro: process_matches_tpmvscmgr
   list: [
-    tpmvscmgr.exe,
+    "tpmvscmgr.exe",
     "?:\\windows\\system32\\tpmvscmgr.exe",
     "?:\\windows\\syswow64\\tpmvscmgr.exe",
     "?:\\windows\\sysarm32\\tpmvscmgr.exe"
@@ -5325,7 +5324,7 @@
 
 - macro: process_matches_tpmvscmgrsvr
   list: [
-    tpmvscmgrsvr.exe,
+    "tpmvscmgrsvr.exe",
     "?:\\windows\\system32\\tpmvscmgrsvr.exe",
     "?:\\windows\\syswow64\\tpmvscmgrsvr.exe",
     "?:\\windows\\sysarm32\\tpmvscmgrsvr.exe"
@@ -5333,7 +5332,7 @@
 
 - macro: process_matches_tracerpt
   list: [
-    tracerpt.exe,
+    "tracerpt.exe",
     "?:\\windows\\system32\\tracerpt.exe",
     "?:\\windows\\syswow64\\tracerpt.exe",
     "?:\\windows\\sysarm32\\tracerpt.exe",
@@ -5342,7 +5341,7 @@
 
 - macro: process_matches_tracert
   list: [
-    tracert.exe,
+    "tracert.exe",
     "?:\\windows\\system32\\tracert.exe",
     "?:\\windows\\syswow64\\tracert.exe",
     "?:\\windows\\sysarm32\\tracert.exe",
@@ -5351,7 +5350,7 @@
 
 - macro: process_matches_tscon
   list: [
-    tscon.exe,
+    "tscon.exe",
     "?:\\windows\\system32\\tscon.exe",
     "?:\\windows\\syswow64\\tscon.exe",
     "?:\\windows\\sysarm32\\tscon.exe"
@@ -5359,7 +5358,7 @@
 
 - macro: process_matches_tsdiscon
   list: [
-    tsdiscon.exe,
+    "tsdiscon.exe",
     "?:\\windows\\system32\\tsdiscon.exe",
     "?:\\windows\\syswow64\\tsdiscon.exe",
     "?:\\windows\\sysarm32\\tsdiscon.exe"
@@ -5367,7 +5366,7 @@
 
 - macro: process_matches_tskill
   list: [
-    tskill.exe,
+    "tskill.exe",
     "?:\\windows\\system32\\tskill.exe",
     "?:\\windows\\syswow64\\tskill.exe",
     "?:\\windows\\sysarm32\\tskill.exe"
@@ -5375,7 +5374,7 @@
 
 - macro: process_matches_tstheme
   list: [
-    tstheme.exe,
+    "tstheme.exe",
     "?:\\windows\\system32\\tstheme.exe",
     "?:\\windows\\syswow64\\tstheme.exe",
     "?:\\windows\\sysarm32\\tstheme.exe"
@@ -5383,7 +5382,7 @@
 
 - macro: process_matches_tswbprxy
   list: [
-    tswbprxy.exe,
+    "tswbprxy.exe",
     "?:\\windows\\system32\\tswbprxy.exe",
     "?:\\windows\\syswow64\\tswbprxy.exe",
     "?:\\windows\\sysarm32\\tswbprxy.exe"
@@ -5391,7 +5390,7 @@
 
 - macro: process_matches_ttdinject
   list: [
-    ttdinject.exe,
+    "ttdinject.exe",
     "?:\\windows\\system32\\ttdinject.exe",
     "?:\\windows\\syswow64\\ttdinject.exe",
     "?:\\windows\\sysarm32\\ttdinject.exe"
@@ -5399,7 +5398,7 @@
 
 - macro: process_matches_tttracer
   list: [
-    tttracer.exe,
+    "tttracer.exe",
     "?:\\windows\\system32\\tttracer.exe",
     "?:\\windows\\syswow64\\tttracer.exe",
     "?:\\windows\\sysarm32\\tttracer.exe"
@@ -5407,7 +5406,7 @@
 
 - macro: process_matches_typeperf
   list: [
-    typeperf.exe,
+    "typeperf.exe",
     "?:\\windows\\system32\\typeperf.exe",
     "?:\\windows\\syswow64\\typeperf.exe",
     "?:\\windows\\sysarm32\\typeperf.exe"
@@ -5415,7 +5414,7 @@
 
 - macro: process_matches_tzutil
   list: [
-    tzutil.exe,
+    "tzutil.exe",
     "?:\\windows\\system32\\tzutil.exe",
     "?:\\windows\\syswow64\\tzutil.exe",
     "?:\\windows\\sysarm32\\tzutil.exe"
@@ -5423,7 +5422,7 @@
 
 - macro: process_matches_ucsvc
   list: [
-    ucsvc.exe,
+    "ucsvc.exe",
     "?:\\windows\\system32\\ucsvc.exe",
     "?:\\windows\\syswow64\\ucsvc.exe",
     "?:\\windows\\sysarm32\\ucsvc.exe",
@@ -5432,7 +5431,7 @@
 
 - macro: process_matches_uimgrbroker
   list: [
-    uimgrbroker.exe,
+    "uimgrbroker.exe",
     "?:\\windows\\system32\\uimgrbroker.exe",
     "?:\\windows\\syswow64\\uimgrbroker.exe",
     "?:\\windows\\sysarm32\\uimgrbroker.exe"
@@ -5440,7 +5439,7 @@
 
 - macro: process_matches_unlodctr
   list: [
-    unlodctr.exe,
+    "unlodctr.exe",
     "?:\\windows\\system32\\unlodctr.exe",
     "?:\\windows\\syswow64\\unlodctr.exe",
     "?:\\windows\\sysarm32\\unlodctr.exe",
@@ -5449,12 +5448,12 @@
 
 - macro: process_matches_upd
   list: [
-    upd.exe
+    "upd.exe"
     ]
 
 - macro: process_matches_upfc
   list: [
-    upfc.exe,
+    "upfc.exe",
     "?:\\windows\\system32\\upfc.exe",
     "?:\\windows\\syswow64\\upfc.exe",
     "?:\\windows\\sysarm32\\upfc.exe"
@@ -5462,7 +5461,7 @@
 
 - macro: process_matches_upgraderesultsui
   list: [
-    upgraderesultsui.exe,
+    "upgraderesultsui.exe",
     "?:\\windows\\system32\\upgraderesultsui.exe",
     "?:\\windows\\syswow64\\upgraderesultsui.exe",
     "?:\\windows\\sysarm32\\upgraderesultsui.exe"
@@ -5470,7 +5469,7 @@
 
 - macro: process_matches_upnpcont
   list: [
-    upnpcont.exe,
+    "upnpcont.exe",
     "?:\\windows\\system32\\upnpcont.exe",
     "?:\\windows\\syswow64\\upnpcont.exe",
     "?:\\windows\\sysarm32\\upnpcont.exe"
@@ -5478,7 +5477,7 @@
 
 - macro: process_matches_useraccountbroker
   list: [
-    useraccountbroker.exe,
+    "useraccountbroker.exe",
     "?:\\windows\\system32\\useraccountbroker.exe",
     "?:\\windows\\syswow64\\useraccountbroker.exe",
     "?:\\windows\\sysarm32\\useraccountbroker.exe"
@@ -5486,7 +5485,7 @@
 
 - macro: process_matches_useraccountcontrolsettings
   list: [
-    useraccountcontrolsettings.exe,
+    "useraccountcontrolsettings.exe",
     "?:\\windows\\system32\\useraccountcontrolsettings.exe",
     "?:\\windows\\syswow64\\useraccountcontrolsettings.exe",
     "?:\\windows\\sysarm32\\useraccountcontrolsettings.exe"
@@ -5494,7 +5493,7 @@
 
 - macro: process_matches_usoclient
   list: [
-    usoclient.exe,
+    "usoclient.exe",
     "?:\\windows\\system32\\usoclient.exe",
     "?:\\windows\\syswow64\\usoclient.exe",
     "?:\\windows\\sysarm32\\usoclient.exe"
@@ -5502,7 +5501,7 @@
 
 - macro: process_matches_usocoreworker
   list: [
-    usocoreworker.exe,
+    "usocoreworker.exe",
     "?:\\windows\\system32\\usocoreworker.exe",
     "?:\\windows\\syswow64\\usocoreworker.exe",
     "?:\\windows\\sysarm32\\usocoreworker.exe"
@@ -5510,7 +5509,7 @@
 
 - macro: process_matches_utcdecoderhost
   list: [
-    utcdecoderhost.exe,
+    "utcdecoderhost.exe",
     "?:\\windows\\system32\\utcdecoderhost.exe",
     "?:\\windows\\syswow64\\utcdecoderhost.exe",
     "?:\\windows\\sysarm32\\utcdecoderhost.exe"
@@ -5518,7 +5517,7 @@
 
 - macro: process_matches_vaultcmd
   list: [
-    vaultcmd.exe,
+    "vaultcmd.exe",
     "?:\\windows\\system32\\vaultcmd.exe",
     "?:\\windows\\syswow64\\vaultcmd.exe",
     "?:\\windows\\sysarm32\\vaultcmd.exe"
@@ -5526,7 +5525,7 @@
 
 - macro: process_matches_vds
   list: [
-    vds.exe,
+    "vds.exe",
     "?:\\windows\\system32\\vds.exe",
     "?:\\windows\\syswow64\\vds.exe",
     "?:\\windows\\sysarm32\\vds.exe",
@@ -5536,7 +5535,7 @@
 
 - macro: process_matches_vdsldr
   list: [
-    vdsldr.exe,
+    "vdsldr.exe",
     "?:\\windows\\system32\\vdsldr.exe",
     "?:\\windows\\syswow64\\vdsldr.exe",
     "?:\\windows\\sysarm32\\vdsldr.exe"
@@ -5544,7 +5543,7 @@
 
 - macro: process_matches_verclsid
   list: [
-    verclsid.exe,
+    "verclsid.exe",
     "?:\\windows\\system32\\verclsid.exe",
     "?:\\windows\\syswow64\\verclsid.exe",
     "?:\\windows\\sysarm32\\verclsid.exe",
@@ -5554,7 +5553,7 @@
 
 - macro: process_matches_verifier
   list: [
-    verifier.exe,
+    "verifier.exe",
     "?:\\windows\\system32\\verifier.exe",
     "?:\\windows\\syswow64\\verifier.exe",
     "?:\\windows\\sysarm32\\verifier.exe",
@@ -5563,7 +5562,7 @@
 
 - macro: process_matches_verifiergui
   list: [
-    verifiergui.exe,
+    "verifiergui.exe",
     "?:\\windows\\system32\\verifiergui.exe",
     "?:\\windows\\syswow64\\verifiergui.exe",
     "?:\\windows\\sysarm32\\verifiergui.exe"
@@ -5571,7 +5570,7 @@
 
 - macro: process_matches_vfpctrl
   list: [
-    vfpctrl.exe,
+    "vfpctrl.exe",
     "?:\\windows\\system32\\vfpctrl.exe",
     "?:\\windows\\syswow64\\vfpctrl.exe",
     "?:\\windows\\sysarm32\\vfpctrl.exe"
@@ -5579,7 +5578,7 @@
 
 - macro: process_matches_vmcompute
   list: [
-    vmcompute.exe,
+    "vmcompute.exe",
     "?:\\windows\\system32\\vmcompute.exe",
     "?:\\windows\\syswow64\\vmcompute.exe",
     "?:\\windows\\sysarm32\\vmcompute.exe"
@@ -5587,7 +5586,7 @@
 
 - macro: process_matches_vssvc
   list: [
-    vssvc.exe,
+    "vssvc.exe",
     "?:\\windows\\system32\\vssvc.exe",
     "?:\\windows\\syswow64\\vssvc.exe",
     "?:\\windows\\sysarm32\\vssvc.exe",
@@ -5596,7 +5595,7 @@
 
 - macro: process_matches_w32tm
   list: [
-    w32tm.exe,
+    "w32tm.exe",
     "?:\\windows\\system32\\w32tm.exe",
     "?:\\windows\\syswow64\\w32tm.exe",
     "?:\\windows\\sysarm32\\w32tm.exe",
@@ -5605,7 +5604,7 @@
 
 - macro: process_matches_waasmedicagent
   list: [
-    waasmedicagent.exe,
+    "waasmedicagent.exe",
     "?:\\windows\\system32\\waasmedicagent.exe",
     "?:\\windows\\syswow64\\waasmedicagent.exe",
     "?:\\windows\\sysarm32\\waasmedicagent.exe",
@@ -5615,7 +5614,7 @@
 
 - macro: process_matches_waitfor
   list: [
-    waitfor.exe,
+    "waitfor.exe",
     "?:\\windows\\system32\\waitfor.exe",
     "?:\\windows\\syswow64\\waitfor.exe",
     "?:\\windows\\sysarm32\\waitfor.exe"
@@ -5623,7 +5622,7 @@
 
 - macro: process_matches_wallpaperhost
   list: [
-    wallpaperhost.exe,
+    "wallpaperhost.exe",
     "?:\\windows\\system32\\wallpaperhost.exe",
     "?:\\windows\\syswow64\\wallpaperhost.exe",
     "?:\\windows\\sysarm32\\wallpaperhost.exe"
@@ -5631,7 +5630,7 @@
 
 - macro: process_matches_wbadmin
   list: [
-    wbadmin.exe,
+    "wbadmin.exe",
     "?:\\windows\\system32\\wbadmin.exe",
     "?:\\windows\\syswow64\\wbadmin.exe",
     "?:\\windows\\sysarm32\\wbadmin.exe"
@@ -5639,7 +5638,7 @@
 
 - macro: process_matches_wecutil
   list: [
-    wecutil.exe,
+    "wecutil.exe",
     "?:\\windows\\system32\\wecutil.exe",
     "?:\\windows\\syswow64\\wecutil.exe",
     "?:\\windows\\sysarm32\\wecutil.exe"
@@ -5647,7 +5646,7 @@
 
 - macro: process_matches_wfs
   list: [
-    wfs.exe,
+    "wfs.exe",
     "?:\\windows\\system32\\wfs.exe",
     "?:\\windows\\syswow64\\wfs.exe",
     "?:\\windows\\sysarm32\\wfs.exe"
@@ -5655,7 +5654,7 @@
 
 - macro: process_matches_where
   list: [
-    where.exe,
+    "where.exe",
     "?:\\windows\\system32\\where.exe",
     "?:\\windows\\syswow64\\where.exe",
     "?:\\windows\\sysarm32\\where.exe"
@@ -5663,7 +5662,7 @@
 
 - macro: process_matches_whoami
   list: [
-    whoami.exe,
+    "whoami.exe",
     "?:\\windows\\system32\\whoami.exe",
     "?:\\windows\\syswow64\\whoami.exe",
     "?:\\windows\\sysarm32\\whoami.exe"
@@ -5671,7 +5670,7 @@
 
 - macro: process_matches_wiaacmgr
   list: [
-    wiaacmgr.exe,
+    "wiaacmgr.exe",
     "?:\\windows\\system32\\wiaacmgr.exe",
     "?:\\windows\\syswow64\\wiaacmgr.exe",
     "?:\\windows\\sysarm32\\wiaacmgr.exe"
@@ -5679,7 +5678,7 @@
 
 - macro: process_matches_wiawow64
   list: [
-    wiawow64.exe,
+    "wiawow64.exe",
     "?:\\windows\\system32\\wiawow64.exe",
     "?:\\windows\\syswow64\\wiawow64.exe",
     "?:\\windows\\sysarm32\\wiawow64.exe"
@@ -5687,7 +5686,7 @@
 
 - macro: process_matches_wifitask
   list: [
-    wifitask.exe,
+    "wifitask.exe",
     "?:\\windows\\system32\\wifitask.exe",
     "?:\\windows\\syswow64\\wifitask.exe",
     "?:\\windows\\sysarm32\\wifitask.exe"
@@ -5695,7 +5694,7 @@
 
 - macro: process_matches_wimserv
   list: [
-    wimserv.exe,
+    "wimserv.exe",
     "?:\\windows\\system32\\wimserv.exe",
     "?:\\windows\\syswow64\\wimserv.exe",
     "?:\\windows\\sysarm32\\wimserv.exe"
@@ -5703,7 +5702,7 @@
 
 - macro: process_matches_winbiodatamodeloobe
   list: [
-    winbiodatamodeloobe.exe,
+    "winbiodatamodeloobe.exe",
     "?:\\windows\\system32\\winbiodatamodeloobe.exe",
     "?:\\windows\\syswow64\\winbiodatamodeloobe.exe",
     "?:\\windows\\sysarm32\\winbiodatamodeloobe.exe"
@@ -5711,7 +5710,7 @@
 
 - macro: process_matches_backgroundplayback
   list: [
-    backgroundplayback.exe,
+    "backgroundplayback.exe",
     "?:\\windows\\system32\\backgroundplayback.exe",
     "?:\\windows\\syswow64\\backgroundplayback.exe",
     "?:\\windows\\sysarm32\\backgroundplayback.exe",
@@ -5722,7 +5721,7 @@
 
 - macro: process_matches_windowsupdateelevatedinstaller
   list: [
-    windowsupdateelevatedinstaller.exe,
+    "windowsupdateelevatedinstaller.exe",
     "?:\\windows\\system32\\windowsupdateelevatedinstaller.exe",
     "?:\\windows\\syswow64\\windowsupdateelevatedinstaller.exe",
     "?:\\windows\\sysarm32\\windowsupdateelevatedinstaller.exe"
@@ -5730,7 +5729,7 @@
 
 - macro: process_matches_winload
   list: [
-    winload.exe,
+    "winload.exe",
     "?:\\windows\\system32\\winload.exe",
     "?:\\windows\\syswow64\\winload.exe",
     "?:\\windows\\sysarm32\\winload.exe"
@@ -5738,7 +5737,7 @@
 
 - macro: process_matches_winresume
   list: [
-    winresume.exe,
+    "winresume.exe",
     "?:\\windows\\system32\\winresume.exe",
     "?:\\windows\\syswow64\\winresume.exe",
     "?:\\windows\\sysarm32\\winresume.exe",
@@ -5747,7 +5746,7 @@
 
 - macro: process_matches_winrs
   list: [
-    winrs.exe,
+    "winrs.exe",
     "?:\\windows\\system32\\winrs.exe",
     "?:\\windows\\syswow64\\winrs.exe",
     "?:\\windows\\sysarm32\\winrs.exe"
@@ -5755,7 +5754,7 @@
 
 - macro: process_matches_winrshost
   list: [
-    winrshost.exe,
+    "winrshost.exe",
     "?:\\windows\\system32\\winrshost.exe",
     "?:\\windows\\syswow64\\winrshost.exe",
     "?:\\windows\\sysarm32\\winrshost.exe"
@@ -5763,7 +5762,7 @@
 
 - macro: process_matches_winrtnetmuahostserver
   list: [
-    winrtnetmuahostserver.exe,
+    "winrtnetmuahostserver.exe",
     "?:\\windows\\system32\\winrtnetmuahostserver.exe",
     "?:\\windows\\syswow64\\winrtnetmuahostserver.exe",
     "?:\\windows\\sysarm32\\winrtnetmuahostserver.exe"
@@ -5771,7 +5770,7 @@
 
 - macro: process_matches_winver
   list: [
-    winver.exe,
+    "winver.exe",
     "?:\\windows\\system32\\winver.exe",
     "?:\\windows\\syswow64\\winver.exe",
     "?:\\windows\\sysarm32\\winver.exe",
@@ -5780,7 +5779,7 @@
 
 - macro: process_matches_wkspbroker
   list: [
-    wkspbroker.exe,
+    "wkspbroker.exe",
     "?:\\windows\\system32\\wkspbroker.exe",
     "?:\\windows\\syswow64\\wkspbroker.exe",
     "?:\\windows\\sysarm32\\wkspbroker.exe"
@@ -5788,7 +5787,7 @@
 
 - macro: process_matches_wksprt
   list: [
-    wksprt.exe,
+    "wksprt.exe",
     "?:\\windows\\system32\\wksprt.exe",
     "?:\\windows\\syswow64\\wksprt.exe",
     "?:\\windows\\sysarm32\\wksprt.exe"
@@ -5796,7 +5795,7 @@
 
 - macro: process_matches_wlanext
   list: [
-    wlanext.exe,
+    "wlanext.exe",
     "?:\\windows\\system32\\wlanext.exe",
     "?:\\windows\\syswow64\\wlanext.exe",
     "?:\\windows\\sysarm32\\wlanext.exe"
@@ -5804,7 +5803,7 @@
 
 - macro: process_matches_wlrmdr
   list: [
-    wlrmdr.exe,
+    "wlrmdr.exe",
     "?:\\windows\\system32\\wlrmdr.exe",
     "?:\\windows\\syswow64\\wlrmdr.exe",
     "?:\\windows\\sysarm32\\wlrmdr.exe"
@@ -5812,7 +5811,7 @@
 
 - macro: process_matches_wmpdmc
   list: [
-    wmpdmc.exe,
+    "wmpdmc.exe",
     "?:\\Program Files\\Windows Media Player\\WMPDMC.exe",
     "?:\\windows\\system32\\wmpdmc.exe",
     "?:\\windows\\syswow64\\wmpdmc.exe",
@@ -5821,7 +5820,7 @@
 
 - macro: process_matches_workfolders
   list: [
-    workfolders.exe,
+    "workfolders.exe",
     "?:\\windows\\system32\\workfolders.exe",
     "?:\\windows\\syswow64\\workfolders.exe",
     "?:\\windows\\sysarm32\\workfolders.exe",
@@ -5830,7 +5829,7 @@
 
 - macro: process_matches_wowreg32
   list: [
-    wowreg32.exe,
+    "wowreg32.exe",
     "?:\\windows\\system32\\wowreg32.exe",
     "?:\\windows\\syswow64\\wowreg32.exe",
     "?:\\windows\\sysarm32\\wowreg32.exe"
@@ -5838,7 +5837,7 @@
 
 - macro: process_matches_wpcmon
   list: [
-    wpcmon.exe,
+    "wpcmon.exe",
     "?:\\windows\\system32\\wpcmon.exe",
     "?:\\windows\\syswow64\\wpcmon.exe",
     "?:\\windows\\sysarm32\\wpcmon.exe"
@@ -5846,7 +5845,7 @@
 
 - macro: process_matches_wpctok
   list: [
-    wpctok.exe,
+    "wpctok.exe",
     "?:\\windows\\system32\\wpctok.exe",
     "?:\\windows\\syswow64\\wpctok.exe",
     "?:\\windows\\sysarm32\\wpctok.exe"
@@ -5854,7 +5853,7 @@
 
 - macro: process_matches_wpdshextautoplay
   list: [
-    wpdshextautoplay.exe,
+    "wpdshextautoplay.exe",
     "?:\\windows\\system32\\wpdshextautoplay.exe",
     "?:\\windows\\syswow64\\wpdshextautoplay.exe",
     "?:\\windows\\sysarm32\\wpdshextautoplay.exe"
@@ -5862,7 +5861,7 @@
 
 - macro: process_matches_wpnpinst
   list: [
-    wpnpinst.exe,
+    "wpnpinst.exe",
     "?:\\windows\\system32\\wpnpinst.exe",
     "?:\\windows\\syswow64\\wpnpinst.exe",
     "?:\\windows\\sysarm32\\wpnpinst.exe"
@@ -5870,7 +5869,7 @@
 
 - macro: process_matches_wpr
   list: [
-    wpr.exe,
+    "wpr.exe",
     "?:\\windows\\system32\\wpr.exe",
     "?:\\windows\\syswow64\\wpr.exe",
     "?:\\windows\\sysarm32\\wpr.exe",
@@ -5879,7 +5878,7 @@
 
 - macro: process_matches_write
   list: [
-    write.exe,
+    "write.exe",
     "?:\\windows\\system32\\write.exe",
     "?:\\windows\\syswow64\\write.exe",
     "?:\\windows\\sysarm32\\write.exe",
@@ -5888,7 +5887,7 @@
 
 - macro: process_matches_wscadminui
   list: [
-    wscadminui.exe,
+    "wscadminui.exe",
     "?:\\windows\\system32\\wscadminui.exe",
     "?:\\windows\\syswow64\\wscadminui.exe",
     "?:\\windows\\sysarm32\\wscadminui.exe"
@@ -5896,7 +5895,7 @@
 
 - macro: process_matches_wscollect
   list: [
-    wscollect.exe,
+    "wscollect.exe",
     "?:\\windows\\system32\\wscollect.exe",
     "?:\\windows\\syswow64\\wscollect.exe",
     "?:\\windows\\sysarm32\\wscollect.exe"
@@ -5904,7 +5903,7 @@
 
 - macro: process_matches_wsl
   list: [
-    wsl.exe,
+    "wsl.exe",
     "?:\\windows\\system32\\wsl.exe",
     "?:\\windows\\syswow64\\wsl.exe",
     "?:\\windows\\sysarm32\\wsl.exe"
@@ -5912,7 +5911,7 @@
 
 - macro: process_matches_wslconfig
   list: [
-    wslconfig.exe,
+    "wslconfig.exe",
     "?:\\windows\\system32\\wslconfig.exe",
     "?:\\windows\\syswow64\\wslconfig.exe",
     "?:\\windows\\sysarm32\\wslconfig.exe"
@@ -5920,14 +5919,14 @@
 
 - macro: process_matches_wslhost
   list: [
-    wslhost.exe,
+    "wslhost.exe",
     "?:\\windows\\system32\\lxss\\wslhost.exe",
     "?:\\program files\\wsl\\wslhost.exe"
     ]
 
 - macro: process_matches_wsmanhttpconfig
   list: [
-    wsmanhttpconfig.exe,
+    "wsmanhttpconfig.exe",
     "?:\\windows\\system32\\wsmanhttpconfig.exe",
     "?:\\windows\\syswow64\\wsmanhttpconfig.exe",
     "?:\\windows\\sysarm32\\wsmanhttpconfig.exe"
@@ -5935,7 +5934,7 @@
 
 - macro: process_matches_wsmprovhost
   list: [
-    wsmprovhost.exe,
+    "wsmprovhost.exe",
     "?:\\windows\\system32\\wsmprovhost.exe",
     "?:\\windows\\syswow64\\wsmprovhost.exe",
     "?:\\windows\\sysarm32\\wsmprovhost.exe"
@@ -5943,7 +5942,7 @@
 
 - macro: process_matches_wsreset
   list: [
-    wsreset.exe,
+    "wsreset.exe",
     "?:\\windows\\system32\\wsreset.exe",
     "?:\\windows\\syswow64\\wsreset.exe",
     "?:\\windows\\sysarm32\\wsreset.exe"
@@ -5951,7 +5950,7 @@
 
 - macro: process_matches_wuapihost
   list: [
-    wuapihost.exe,
+    "wuapihost.exe",
     "?:\\windows\\system32\\wuapihost.exe",
     "?:\\windows\\syswow64\\wuapihost.exe",
     "?:\\windows\\sysarm32\\wuapihost.exe"
@@ -5959,7 +5958,7 @@
 
 - macro: process_matches_wuauclt
   list: [
-    wuauclt.exe,
+    "wuauclt.exe",
     "?:\\windows\\system32\\wuauclt.exe",
     "?:\\windows\\syswow64\\wuauclt.exe",
     "?:\\windows\\sysarm32\\wuauclt.exe",
@@ -5970,7 +5969,7 @@
 
 - macro: process_matches_wudfcompanionhost
   list: [
-    wudfcompanionhost.exe,
+    "wudfcompanionhost.exe",
     "?:\\windows\\system32\\wudfcompanionhost.exe",
     "?:\\windows\\syswow64\\wudfcompanionhost.exe",
     "?:\\windows\\sysarm32\\wudfcompanionhost.exe"
@@ -5978,7 +5977,7 @@
 
 - macro: process_matches_wudfhost
   list: [
-    wudfhost.exe,
+    "wudfhost.exe",
     "?:\\windows\\system32\\wudfhost.exe",
     "?:\\windows\\syswow64\\wudfhost.exe",
     "?:\\windows\\sysarm32\\wudfhost.exe",
@@ -5987,7 +5986,7 @@
 
 - macro: process_matches_wwahost
   list: [
-    wwahost.exe,
+    "wwahost.exe",
     "?:\\windows\\system32\\wwahost.exe",
     "?:\\windows\\syswow64\\wwahost.exe",
     "?:\\windows\\sysarm32\\wwahost.exe"
@@ -5995,7 +5994,7 @@
 
 - macro: process_matches_xblgamesavetask
   list: [
-    xblgamesavetask.exe,
+    "xblgamesavetask.exe",
     "?:\\windows\\system32\\xblgamesavetask.exe",
     "?:\\windows\\syswow64\\xblgamesavetask.exe",
     "?:\\windows\\sysarm32\\xblgamesavetask.exe"
@@ -6003,7 +6002,7 @@
 
 - macro: process_matches_xwizard
   list: [
-    xwizard.exe,
+    "xwizard.exe",
     "?:\\windows\\system32\\xwizard.exe",
     "?:\\windows\\syswow64\\xwizard.exe",
     "?:\\windows\\sysarm32\\xwizard.exe"
@@ -6011,375 +6010,381 @@
 
 - macro: process_matches_gfxdownloadwrapper
   list: [
-    gfxdownloadwrapper.exe,
+    "gfxdownloadwrapper.exe",
     "?:\\windows\\system32\\gfxv4_0.exe"
     ]
 
 - macro: process_matches_grep
   list: [
-    grep,
-    fgrep,
-    egrep,
-    bzegrep,
-    bzfgrep,
-    bzgrep,
-    pgrep,
-    ptargrep,
-    zegrep,
-    zfgrep,
-    zgrep,
-    zipgrep
+    "grep",
+    "fgrep",
+    "egrep",
+    "bzegrep",
+    "bzfgrep",
+    "bzgrep",
+    "pgrep",
+    "ptargrep",
+    "zegrep",
+    "zfgrep",
+    "zgrep",
+    "zipgrep"
     ]
 
 - macro: process_matches_node
   list: [
-    node.exe
+    "node.exe"
     ]
 
 - macro: process_matches_lbtwiz
   list: [
-    lbtwiz.exe,
+    "lbtwiz.exe",
     "?:\\program files\\logitech\\setpointp\\lbtwiz.exe"
     ]
 
 - macro: process_matches_imagingdevices
   list: [
-    ImagingDevices.exe,
+    "ImagingDevices.exe",
     "?:\\windows photo viewer\\imagingdevices.exe"
     ]
 
 - macro: process_matches_wsdl
   list: [
-    wsdl.exe
+    "wsdl.exe"
     ]
 
 - macro: process_matches_wsddebughost
   list: [
-    wsddebug_host.exe
+    "wsddebug_host.exe"
     ]
 
 - macro: process_matches_freefilesync
   list: [
-    freefilesync.exe,
-    freefilesync,
-    FreeFileSyncPortable.exe
+    "freefilesync.exe",
+    "freefilesync",
+    "FreeFileSyncPortable.exe"
     ]
 
 - macro: process_matches_rclone
   list: [
-    rclone.exe
+    "rclone.exe"
     ]
 
 - macro: process_matches_winscp
   list: [
-    winscp.exe,
+    "winscp.exe",
     "?:\\program files (x86)\\winscp\\winscp.exe",
     "?:\\appdata\\local\\programs\\winscp\\winscp.exe"
     ]
 
 - macro: process_matches_anydesk
   list: [
-    anydesk.exe,
+    "anydesk.exe",
     "?:\\program files (x86)\\anydesk\\anydesk.exe"
     ]
 
 - macro: process_matches_ammyy admin
   list: [
-    ammyy,
-    AA.exe,
-    AA_v
+    "ammyy",
+    "AA.exe",
+    "AA_v"
     ]
 
 - macro: process_matches_iecookiesview
   list: [
-    iecookiesview.exe
+    "iecookiesview.exe"
     ]
 
 - macro: process_matches_credentialsfileview
   list: [
-    credentialsfileview.exe
+    "credentialsfileview.exe"
     ]
 
 - macro: process_matches_mzcookiesview
   list: [
-    mzcookiesview.exe
+    "mzcookiesview.exe"
     ]
 
 - macro: process_matches_megasync
   list: [
-    megasync.exe,
-    megasyncsetup64.exe,
-    megasyncsetup32.exe
+    "megasync.exe",
+    "megasyncsetup64.exe",
+    "megasyncsetup32.exe"
     ]
 
 - macro: process_matches_chromeframehelper
   list: [
-    chrome_frame_helper.exe,
+    "chrome_frame_helper.exe",
     "?:\\Workday\\Workday OpenFrame\\chrome_launcher.exe"
     ]
 
 - macro: process_matches_runhelp
   list: [
-    runhelp.exe
+    "runhelp.exe"
     ]
 
 - macro: process_matches_hpcustparticui
   list: [
-    hpcustparticui.exe
+    "hpcustparticui.exe"
     ]
 
 - macro: process_matches_symerr
   list: [
-    symerr.exe
+    "symerr.exe"
     ]
 
 - macro: process_matches_symstore
   list: [
-    symstore.exe
+    "symstore.exe"
     ]
 
 - macro: process_matches_rc
   list: [
-    rc.exe
+    "rc.exe"
     ]
 
 - macro: process_matches_mobpopup
   list: [
-    mobpopup.exe
+    "mobpopup.exe"
     ]
 
 - macro: process_matches_silverlightconfig
   list: [
-    silverlight.configuration.exe
+    "silverlight.configuration.exe"
     ]
 
 - macro: process_matches_ciscovpndownloader
   list: [
-    vpndownloader.exe
+    "vpndownloader.exe"
     ]
 
 - macro: process_matches_tmaswlmmon
   list: [
-    TMAS_WLMMon.exe
+    "TMAS_WLMMon.exe"
     ]
 
 - macro: process_matches_pplive
   list: [
-    PPAP.exe,
+    "PPAP.exe",
     "?:\\program files (x86)\\common files\\pplivenetwork\\ppap.exe"
     ]
 
 - macro: process_matches_navw32
   list: [
-    navw32.exe
+    "navw32.exe"
     ]
 
 - macro: process_matches_mcoemcpy
   list: [
-    mcoemcpy.exe
+    "mcoemcpy.exe"
     ]
 
 - macro: process_matches_fmtoptions
   list: [
-    fmtoptions.exe
+    "fmtoptions.exe"
     ]
 
 - macro: process_matches_zlh
   list: [
-    zlh.exe
+    "zlh.exe"
     ]
 
 - macro: process_matches_plink
   list: [
-    plink.exe,
-    plink64.exe,
-    gplink.exe,
-    plink_64.exe,
-    acs_ssh.exe,
-    ab_sshplink.exe,
-    starlink.exe
+    "plink.exe",
+    "plink64.exe",
+    "gplink.exe",
+    "plink_64.exe",
+    "acs_ssh.exe",
+    "ab_sshplink.exe",
+    "starlink.exe"
     ]
 
 - macro: process_matches_processhacker
   list: [
-    processhacker.exe,
+    "processhacker.exe",
     "?:\\x64\\processhacker.exe",
     "?:\\processhacker\\processhacker.exe"
     ]
 
 - macro: process_matches_universalminer
   list: [
-    universalminer.exe
+    "universalminer.exe"
     ]
 
 - macro: process_matches_ateraagent
   list: [
-    ateraagent.exe
+    "ateraagent.exe"
     ]
 
 - macro: process_matches_nsudo
   list: [
-    nsudo.exe
+    "nsudo.exe"
     ]
 
 - macro: process_matches_certoc
   list: [
-    certoc.exe,
+    "certoc.exe",
     "?:\\windows\\system32\\certoc.exe"
     ]
 
 - macro: process_matches_rubeus
   list: [
-    rubeus.exe
+    "rubeus.exe"
     ]
 
 - macro: process_matches_vncpasswordrecovery
   list: [
-    vncpasswordrecovery.exe,
-    vncpasswordrecovery4.0.exe
+    "vncpasswordrecovery.exe",
+    "vncpasswordrecovery4.0.exe"
     ]
 
 - macro: process_matches_vboxtray
   list: [
-    vboxtray.exe,
+    "vboxtray.exe",
     "?:\\windows\\system32\\vboxtray.exe"
     ]
 
 - macro: process_matches_ilasm
   list: [
-    ilasm.exe
+    "ilasm.exe"
     ]
 
 - macro: process_matches_microsoftworkflowcompiler
   list: [
-    Microsoft.Workflow.Compiler.exe
+    "Microsoft.Workflow.Compiler.exe"
     ]
 
 - macro: process_matches_applaunch
   list: [
-    applaunch.exe
+    "applaunch.exe"
     ]
 
 - macro: process_matches_mscorsvw
   list: [
-    mscorsvw.exe
+    "mscorsvw.exe"
     ]
 
 - macro: process_matches_presentationfontcache
   list: [
-    presentationfontcache.exe
+    "presentationfontcache.exe"
     ]
 
 - macro: process_matches_docker
   list: [
-    docker
+    "docker"
     ]
 
 - macro: process_matches_advancedrun
   list: [
-    advancedrun.exe
+    "advancedrun.exe"
     ]
 
 - macro: process_matches_igfxcuiservice
   list: [
-    igfxcuiservice.exe
+    "igfxcuiservice.exe"
     ]
 
 - macro: process_matches_vncviewer
   list: [
-    vncviewer.exe,
-    winvnc.exe,
-    winvnc4.exe,
-    vnc viewer.exe,
-    vnc-viewer.exe,
-    ultravnc.exe
+    "vncviewer.exe",
+    "winvnc.exe",
+    "winvnc4.exe",
+    "vnc viewer.exe",
+    "vnc-viewer.exe",
+    "ultravnc.exe"
     ]
 
 - macro: process_matches_mpcmdrun
   list: [
-    mpcmdrun.exe,
+    "mpcmdrun.exe",
     "?:\\program files\\\\windows defender\\\\mpcmdrun.exe",
     "?:\\Program Files (x86)\\\\Windows Defender\\\\MpCmdRun.exe"
     ]
 
 - macro: process_matches_vsgraphicsremoteengine
   list: [
-    VsGraphicsRemoteEngine.exe,
-    "*\\Contents\\Common7\\IDE\\Remote Debugger x64\\VsGraphicsRemoteEngine.exe",
-    "*\\Contents\\Common7\\IDE\\Remote Debugger x86\\VsGraphicsRemoteEngine.exe",
+    "VsGraphicsRemoteEngine.exe",
+    "?:\\Contents\\Common7\\IDE\\Remote Debugger x64\\VsGraphicsRemoteEngine.exe",
+    "?:\\Contents\\Common7\\IDE\\Remote Debugger x86\\VsGraphicsRemoteEngine.exe",
     "?:\\windows\\system32\\vsgraphicsdesktopengine.exe"
     ]
 
 - macro: process_matches_vsgraphicsdesktopengine
   list: [
-    VsGraphicsdesktopengine.exe,
-    "*\\Contents\\Common7\\IDE\\Remote Debugger x64\\VsGraphicsdesktopengine.exe",
-    "*\\Contents\\Common7\\IDE\\Remote Debugger x86\\VsGraphicsdesktopengine.exe"
+    "VsGraphicsdesktopengine.exe",
+    "?:\\Contents\\Common7\\IDE\\Remote Debugger x64\\VsGraphicsdesktopengine.exe",
+    "?:\\Contents\\Common7\\IDE\\Remote Debugger x86\\VsGraphicsdesktopengine.exe"
     ]
 
 - macro: process_matches_httpd
   list: [
-    httpd.exe
+    "httpd.exe"
     ]
 
 - macro: process_matches_nginx
   list: [
-    nginx.exe
+    "nginx.exe"
     ]
 
 - macro: process_matches_taskeng
   list: [
-    taskeng.exe,
+    "taskeng.exe",
     "?:\\windows\\system32\\taskeng.exe"
     ]
 
 - macro: process_matches_java
   list: [
-    java.exe,
-    shimconsole.exe,
+    "java.exe",
+    "shimconsole.exe",
     "?:\\Program Files\\AdoptOpenJDK\\jre-8.0.265.01-hotspot\\bin\\java.exe",
     "?:\\Program Files\\Common Files\\Oracle\\Java\\javapath\\java.exe"
     ]
 
 - macro: process_matches_w3wp
   list: [
-    w3wp.exe,
+    "w3wp.exe",
     "?:\\Windows\\system32\\inetsrv\\w3wp.exe",
     "?:\\windows\\SysWOW64\\inetsrv\\w3wp.exe"
     ]
 
 - macro: process_matches_edgetransport
   list: [
-    edgetransport.exe,
+    "edgetransport.exe",
     "?:\\Program Files\\Microsoft\\Exchange Server\\V15\\Bin\\edgetransport.exe"
     ]
 
 - macro: process_matches_outlook
   list: [
-    outlook.exe
+    "outlook.exe"
     ]
 
 - macro: process_matches_chrome
   list: [
-    chrome.exe,
+    "chrome.exe",
     "?:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     "?:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
     ]
 
 - macro: process_matches_MonitoringHost
   list: [
-    MonitoringHost.exe,
+    "MonitoringHost.exe",
     "?:\\Program Files\\Microsoft Monitoring Agent\\Agent\\MonitoringHost.exe"
+    ]
+
+- macro: process_matches_powershell_ise
+  list: [
+    "powershell_ise.exe",
+    "?:\\Windows\\System32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe"
     ]
 
 - macro: process_matches_beasvc
   list: [
-    beasvc.exe
+    "beasvc.exe"
     ]
 
 - macro: process_matches_sqlservr
   list: [
-    sqlservr,
+    "sqlservr",
     "?:\\MSSQL2005\\MSSQL.1\\MSSQL\\Binn\\sqlservr.exe",
     "?:\\program files (x86)\\microsoft sql server\\mssql.1\\mssql\\binn\\sqlservr.exe",
     "?:\\Program Files (x86)\\Microsoft SQL Server\\MSSQL.2\\MSSQL\\Binn\\sqlservr.exe"
@@ -6387,52 +6392,52 @@
 
 - macro: process_matches_sqlagent
   list: [
-    sqlagent.exe,
+    "sqlagent.exe",
     "?:\\program files\\microsoft sql server\\mssql13.dev16a\\mssql\\binn\\sqlagent.exe",
     "?:\\program files\\microsoft sql server\\mssql13.sql2016\\mssql\\binn\\sqlagent.exe"
     ]
 
 - macro: process_matches_krbrelayup
   list: [
-    krbrelayup.exe
+    "krbrelayup.exe"
     ]
 
 - macro: process_matches_wab
   list: [
-    wab.exe,
+    "wab.exe",
     "?:\\program files\\windows mail\\wab.exe",
     "?:\\program files (x86)\\windows mail\\wab.exe"
     ]
 
 - macro: process_matches_wget
   list: [
-    wget.exe
+    "wget.exe"
     ]
 
 - macro: process_matches_wabmig
   list: [
-    wabmig.exe,
+    "wabmig.exe",
     "?:\\program files\\windows mail\\wabmig.exe",
     "?:\\program files (x86)\\windows mail\\wabmig.exe"
     ]
 
 - macro: process_matches_onedrive
   list: [
-    onedrive.exe,
-    OneDriveStandaloneUpdater.exe,
-    OneDriveUpdater.exe
+    "onedrive.exe",
+    "OneDriveStandaloneUpdater.exe",
+    "OneDriveUpdater.exe"
     ]
 
 - macro: process_matches_onedrive_standalone_updater
   list: [
-    OneDriveStandaloneUpdater.exe
+    "OneDriveStandaloneUpdater.exe"
     ]
 
 - macro: process_matches_vbsedit
   list: [
-    vbsedit.exe,
-    vbsedit_x86.exe,
-    vbsedit_x64.exe,
+    "vbsedit.exe",
+    "vbsedit_x86.exe",
+    "vbsedit_x64.exe",
     "?:\\AppData\\local\\Adersoft\\Vbsedit\\x64\\vbsedit.exe",
     "?:\\AppData\\local\\Adersoft\\Vbsedit\\x64\\vbsedit_x64.exe",
     "?:\\AppData\\local\\Adersoft\\Vbsedit\\x86\\vbsedit_x86.exe",
@@ -6443,27 +6448,27 @@
 
 - macro: process_matches_WCChromeNativeMessagingHost
   list: [
-    WCChromeNativeMessagingHost.exe
+    "WCChromeNativeMessagingHost.exe"
     ]
 
 - macro: process_matches_xferlogs
   list: [
-    xferlogs.exe,
-    VMwareXferlogs.exe,
+    "xferlogs.exe",
+    "VMwareXferlogs.exe",
     "?:\\program files (x86)\\vmware\\vmware tools\\vmwarexferlogs.exe",
     "?:\\program files\\vmware\\vmware tools\\vmwarexferlogs.exe"
     ]
 
 - macro: process_matches_nvwdmcpl
   list: [
-    nvwdmcpl.exe,
+    "nvwdmcpl.exe",
     "?:\\program files (x86)\\nvidia corporation\\nview\\nvwdmcpl.exe",
     "?:\\program files\\nvidia corporation\\nview\\nvwdmcpl.exe"
     ]
 
 - macro: process_matches_sllauncher
   list: [
-    sllauncher.exe,
+    "sllauncher.exe",
     "?:\\program files (x86)\\microsoft silverlight\\sllauncher.exe",
     "?:\\program files\\microsoft silverlight\\sllauncher.exe",
     "?:\\program files (x86)\\servicepro\\sllauncher.exe",
@@ -6472,37 +6477,37 @@
 
 - macro: process_matches_atltracetool
   list: [
-    atltracetool.exe,
-    atltracetool8.exe
+    "atltracetool.exe",
+    "atltracetool8.exe"
     ]
 
 - macro: process_matches_escndv
   list: [
-    escndv.exe,
+    "escndv.exe",
     "?:\\windows\\system32\\esdevapp.exe"
     ]
 
 - macro: process_matches_nircmd
   list: [
-    nircmd.exe,
-    nircmdc.exe
+    "nircmd.exe",
+    "nircmdc.exe"
     ]
 
 - macro: process_matches_ssh
   list: [
-    ssh.exe,
-    ssh,
+    "ssh.exe",
+    "ssh",
     "?:\\windows\\system32\\openssh\\ssh.exe"
     ]
 
 - macro: process_matches_sshpass
   list: [
-    sshpass
+    "sshpass"
     ]
 
 - macro: process_matches_xpsrchvw
   list: [
-    xpsrchvw.exe,
+    "xpsrchvw.exe",
     "?:\\windows\\system32\\xpsrchvw.exe",
     "?:\\windows\\syswow64\\xpsrchvw.exe",
     "?:\\windows\\sysarm32\\xpsrchvw.exe",
@@ -6511,119 +6516,125 @@
 
 - macro: process_matches_ielowutil
   list: [
-    ielowutil.exe,
+    "ielowutil.exe",
     "?:\\program files\\internet explorer\\ielowutil.exe",
     "?:\\program files (x86)\\internet explorer\\ielowutil.exe"
     ]
 
 - macro: process_matches_ieinstal
   list: [
-    ieinstal.exe,
+    "ieinstal.exe",
     "?:\\program files\\internet explorer\\ieinstal.exe",
     "?:\\program files (x86)\\internet explorer\\ieinstal.exe"
     ]
 
 - macro: process_matches_symantec
   list: [
-    ldvpreg.exe,
-    protectionutilsurrogate.exe,
-    rtvscan.exe,
-    doscan.exe,
-    savui.exe
+    "ldvpreg.exe",
+    "protectionutilsurrogate.exe",
+    "rtvscan.exe",
+    "doscan.exe",
+    "savui.exe"
     ]
 
 - macro: process_matches_vivaldi
   list: [
-    vivaldi.exe
+    "vivaldi.exe"
     ]
 
 - macro: process_matches_postonce
   list: [
-    PostOnce.exe
+    "PostOnce.exe"
     ]
 
 - macro: process_matches_pressanykey
   list: [
-    Microsoft.NodejsTools.PressAnyKey.exe
+    "Microsoft.NodejsTools.PressAnyKey.exe"
     ]
 
 - macro: process_matches_mergecap
   list: [
-    mergecap.exe
+    "mergecap.exe"
     ]
 
 - macro: process_matches_ccleaner
   list: [
-    ccleaner.exe
+    "ccleaner.exe"
     ]
 
 - macro: process_matches_sysmon
   list: [
-    sysmon.exe,
-    sysmon64.exe,
-    sysmon64a.exe
+    "sysmon.exe",
+    "sysmon64.exe",
+    "sysmon64a.exe"
     ]
 
 - macro: process_matches_iediagcmd
   list: [
-    iediagcmd.exe
+    "iediagcmd.exe"
     ]
 
 - macro: process_matches_werfaultsecure
   list: [
-    werfaultsecure.exe
+    "werfaultsecure.exe"
     ]
 
 - macro: process_matches_adplus
   list: [
-    adplus.exe
+    "adplus.exe"
     ]
 
 - macro: process_matches_dumpminitool
   list: [
-    dumpminitool.exe
+    "dumpminitool.exe"
     ]
 
 - macro: process_matches_sqldumper
   list: [
-    sqldumper.exe
+    "sqldumper.exe"
     ]
 
 - macro: process_matches_sharex
   list: [
-    sharex.exe
+    "sharex.exe"
     ]
 
 - macro: process_matches_microsoft_servicehub_controller
   list: [
-    microsoft.servicehub.controller.exe
+    "microsoft.servicehub.controller.exe"
     ]
 
 - macro: process_matches_browsercore
   list: [
-    browsercore.exe
+    "browsercore.exe"
     ]
 
 - macro: process_matches_cookieexporter
   list: [
-    cookie_exporter.exe
+    "cookie_exporter.exe"
     ]
 
 - macro: process_matches_deployer
   list: [
-    deployer.exe
+    "deployer.exe"
     ]
 
 - macro: process_matches_ehexthost
   list: [
-    ehexthost.exe
+    "ehexthost.exe"
     ]
 
 - macro: process_matches_screenconnect
   list: [
-    screenconnect.windowsclient.exe,
-    screenconnect.clientservice.exe,
-    screenconnect.clientsetup.exe,
-    screenconnect.client.exe,
-    connectwise.exe
+    "screenconnect.windowsclient.exe",
+    "screenconnect.clientservice.exe",
+    "screenconnect.clientsetup.exe",
+    "screenconnect.client.exe",
+    "connectwise.exe"
     ]
+
+- macro: process_matches_known_process_identifier
+  list: [
+    ]
+
+
