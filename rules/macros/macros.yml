@@ -567,12 +567,6 @@
     Contains container runtime executables that may be targeted by attackers
     for container escape or privilege escalation.
 
-- macro: osx_sip_protected_dirs
-  list: ["/Library/Application Support/com.apple.TCC/TCC.db", "/bin", "/usr", "/var", "/sbin"]
-  description: |
-    Contains macOS System Integrity Protection (SIP) protected directories
-    that may indicate bypass attempts when accessed by unusual processes.
-
 - macro: impacket_modules
   list: [
     "Get-GPPPassword", "GetADUsers", "GetNPUsers", "GetUserSPNs", "addcomputer", "atexec", "dcomexec", "dpapi", "exchanger", "findDelegation", "getArch", "getPac", "getST", "getTGT", "goldenPac", "karmaSMB", "keylistattack", "kintercept", "lookupsid", "machine_role", "mimikatz", "mqtt_check", "mssqlclient", "mssqlinstance", "netview", "nmapAnswerMachine", "ntfs-read", "ntlmrelayx", "psexec", "raiseChild", "rdp_check", "registry-read", "rpcdump", "rpcmap", "sambaPipe", "samrdump", "secretsdump", "smbclient", "smbexec", "smbpasswd", "smbrelayx", "smbserver", "sniff", "ticketConverter", "ticketer", "tstool", "wmipersist", "wmiquery"
@@ -604,3 +598,133 @@
   description: |
     Contains privileged Azure Active Directory roles commonly targeted
     by attackers for privilege escalation and persistence.
+
+- macro: process_matches_powershell
+  list: [
+    "?:\\windows\\system32\\windowspowershell\\v1.0\\powershell.exe",
+    "?:\\windows\\syswow64\\windowspowershell\\v1.0\\powershell.exe",
+    "?:\\windows\\sysarm32\\windowspowershell\\v1.0\\powershell.exe"
+    ]
+
+- macro: process_matches_cscript
+  list: [
+    "?:\\windows\\system32\\cscript.exe",
+    "?:\\windows\\syswow64\\cscript.exe",
+    "?:\\windows\\sysarm32\\cscript.exe"
+    ]
+
+- macro: process_matches_mshta
+  list: [
+    "?:\\windows\\system32\\mshta.exe",
+    "?:\\windows\\syswow64\\mshta.exe",
+    "?:\\windows\\sysarm32\\mshta.exe",
+    "?:\\winnt\\system32\\mshta.exe"
+    ]
+
+- macro: process_matches_wscript
+  list: [
+    "?:\\windows\\system32\\wscript.exe",
+    "?:\\windows\\syswow64\\wscript.exe",
+    "?:\\windows\\sysarm32\\wscript.exe",
+    "?:\\winnt\\system32\\wscript.exe"
+    ]
+
+- macro: process_matches_cmd
+  list: [
+    "?:\\windows\\system32\\cmd.exe",
+    "?:\\windows\\syswow64\\cmd.exe",
+    "?:\\windows\\sysarm32\\cmd.exe"
+    ]
+
+- macro: process_matches_net
+  list: [
+    "?:\\windows\\system32\\net.exe",
+    "?:\\windows\\syswow64\\net.exe",
+    "?:\\windows\\sysarm32\\net.exe"
+    ]
+
+- macro: process_matches_rundll32
+  list: [
+    "?:\\windows\\system32\\rundll32.exe",
+    "?:\\windows\\syswow64\\rundll32.exe",
+    "?:\\windows\\sysarm32\\rundll32.exe",
+    "?:\\winnt\\system32\\rundll32.exe",
+    "?:\\winnt\\syswow64\\rundll32.exe"
+    ]
+
+- macro: process_matches_regsvr32
+  list: [
+    "?:\\windows\\system32\\regsvr32.exe",
+    "?:\\windows\\syswow64\\regsvr32.exe",
+    "?:\\windows\\sysarm32\\regsvr32.exe"
+    ]
+
+- macro: process_matches_schtasks
+  list: [
+    "?:\\windows\\system32\\schtasks.exe",
+    "?:\\windows\\syswow64\\schtasks.exe",
+    "?:\\windows\\sysarm32\\schtasks.exe"
+    ]
+
+- macro: process_matches_wmic
+  list: [
+    "?:\\windows\\system32\\wbem\\wmic.exe",
+    "?:\\windows\\syswow64\\wbem\\wmic.exe",
+    "?:\\windows\\sysarm32\\wbem\\wmic.exe",
+    "?:\\winnt\\system32\\wbem\\wmic.exe"
+    ]
+
+- macro: process_matches_certutil
+  list: [
+    "?:\\windows\\system32\\certutil.exe",
+    "?:\\windows\\syswow64\\certutil.exe",
+    "?:\\windows\\sysarm32\\certutil.exe"
+    ]
+
+- macro: process_matches_bitsadmin
+  list: [
+    "?:\\windows\\system32\\bitsadmin.exe",
+    "?:\\windows\\syswow64\\bitsadmin.exe",
+    "?:\\windows\\sysarm32\\bitsadmin.exe"
+    ]
+
+- macro: process_matches_cmstp
+  list: [
+    "?:\\windows\\system32\\cmstp.exe",
+    "?:\\windows\\syswow64\\cmstp.exe",
+    "?:\\windows\\sysarm32\\cmstp.exe"
+    ]
+
+- macro: process_matches_runas
+  list: [
+    "?:\\windows\\system32\\runas.exe",
+    "?:\\windows\\syswow64\\runas.exe",
+    "?:\\windows\\sysarm32\\runas.exe"
+    ]
+
+- macro: process_matches_at
+  list: [
+    "?:\\windows\\system32\\at.exe"
+    ]
+
+- macro: process_matches_appcmd
+  list: [
+    "?:\\windows\\system32\\inetsrv\\appcmd.exe",
+    "?:\\windows\\syswow64\\inetsrv\\appcmd.exe",
+    "?:\\windows\\sysarm32\\inetsrv\\appcmd.exe",
+    "?:\\iis express\\appcmd.exe"
+    ]
+
+- macro: process_matches_explorer
+  list: [
+    "?:\\windows\\explorer.exe"
+    ]
+
+- macro: process_matches_svchost
+  list: [
+    "?:\\windows\\system32\\svchost.exe",
+    "?:\\windows\\syswow64\\svchost.exe",
+    "?:\\windows\\sysarm32\\svchost.exe",
+    "?:\\winnt\\system32\\svchost.exe",
+    "?:\\winnt\\syswow64\\svchost.exe"
+    ]
