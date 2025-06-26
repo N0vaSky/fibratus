@@ -598,23 +598,3 @@
   description: |
     Contains privileged Azure Active Directory roles commonly targeted
     by attackers for privilege escalation and persistence.
-
-- macro: process_matches_powershell
-  list: [
-    "?:\\windows\\system32\\windowspowershell\\v1.0\\powershell.exe",
-    "?:\\windows\\system32\\windowspowershell\\v1.0\\powershell_ise.exe",
-    "?:\\windows\\syswow64\\windowspowershell\\v1.0\\powershell.exe",
-    "?:\\windows\\syswow64\\windowspowershell\\v1.0\\powershell_ise.exe",
-    "?:\\windows\\system32\\pwsh.exe",
-    "?:\\windows\\syswow64\\pwsh.exe",
-    "?:\\program files\\powershell\\7\\pwsh.exe",
-    "?:\\program files (x86)\\powershell\\7\\pwsh.exe"
-    ]
-
-- macro: process_matches_python
-  list: [
-    "?:\\python*\\python.exe",
-    "?:\\python*\\pythonw.exe",
-    "?:\\program files\\python*\\python.exe",
-    "?:\\program files (x86)\\python*\\python.exe"
-    ]
